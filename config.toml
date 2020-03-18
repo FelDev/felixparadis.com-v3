@@ -1,0 +1,132 @@
+baseurl = "https://www.felixparadis.com"
+title = "Félix Paradis"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "blsfljksfiou"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "mesieu"
+
+[params]
+    author = "Félix Paradis"
+    info = "Nice to meet you."
+    description = "John Doe's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "Enter a text here."
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorscheme = "dark"
+
+    custom_css = ["css/custom.css"]
+    custom_js = []
+
+# [taxonomies]
+#   category = "categories"
+#   series = "series"
+#   tag = "tags"
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/FelDev/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/SirFelDev/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 3
+    url = "https://medium.com/@FelDev"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/felix-paradis/"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+        
+        # Menu links
+        [languages.en.menu]
+
+            # [[languages.en.menu.main]]
+            # name = "About"
+            # weight = 1
+            # url = "about/"
+
+            # [[languages.en.menu.main]]
+            # name = "Blog"
+            # weight = 2
+            # url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 3
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
+            weight = 5
+            url = "contact/"
+
+
+    [languages.fr-ca]
+        languagename = "Français"
+        title = "Félix Paradis"
+
+        [languages.fr-ca.params]
+            author = "Félix Paradis"
+            info = "Enchanté"
+            description = "Site personnel de Félix Paradis"
+            keywords = "blog,code,personnel"
+            footercontent = "Super nice."
+
+        # Menu links
+        [languages.fr-ca.menu]
+
+            # [[languages.fr-ca.menu.main]]
+            # name = "À propos"
+            # weight = 1
+            # url = "about/"
+
+            # [[languages.fr-ca.menu.main]]
+            # name = "Blog"
+            # weight = 2
+            # url = "posts/"
+
+            [[languages.fr-ca.menu.main]]
+            name = "Projets"
+            weight = 3
+            url = "projects/"
+
+            [[languages.fr-ca.menu.main]]
+            name = "Contact"
+            weight = 5
+            url = "contact/"
