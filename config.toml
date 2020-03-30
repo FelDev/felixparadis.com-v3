@@ -57,30 +57,30 @@ pygmentscodefencesguesssyntax = true
     weight = 1
     url = "https://github.com/FelDev/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/SirFelDev/"
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 2
+    url = "https://medium.com/@FelDev"
 [[params.social]]
     name = "CodePen"
     icon = "fab fa-codepen fa-2x"
     weight = 3
     url = "https://codepen.io/FelDev/"
 [[params.social]]
-    name = "CodePen"
-    icon = "fab fa-stack-exchange fa-2x"
-    weight = 3
-    url = "https://codepen.io/FelDev/"
-[[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
-    weight = 3
-    url = "https://medium.com/@FelDev"
-[[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/felix-paradis/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 5
+    url = "https://twitter.com/SirFelDev/"
+[[params.social]]
+    name = "Stack Exchange"
+    icon = "fab fa-stack-exchange fa-2x"
+    weight = 6
+    url = "https://stackexchange.com/users/7861276/feldev?tab=accounts"
 
 [languages]
     [languages.en]
