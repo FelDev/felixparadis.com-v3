@@ -1,4 +1,5 @@
-baseurl = "https://www.felixparadis.com"
+baseurl = "https://v1.felixparadis.com"
+#TODO: change baseurl
 title = "Félix Paradis"
 
 theme = "hugo-coder"
@@ -13,19 +14,21 @@ pygmentsstyle = "blsfljksfiou"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "mesieu"
+# disqusShortname = "mesieu"
 
 [params]
     author = "Félix Paradis"
-    info = "Nice to meet you."
+    hello = "Hello, I'm Félix Paradis 👋"
+    info = "You can find me online at various places:"
     description = "John Doe's personal website"
     keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+    # avatarurl = "images/avatar.jpg"
+    avatarurl = "images/profile.png"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Enter a text here."
+    footercontent = ""
 
     hidecredits = false
     hidecopyright = false
@@ -42,10 +45,10 @@ disqusShortname = "mesieu"
     custom_css = ["css/custom.css"]
     custom_js = []
 
-# [taxonomies]
-#   category = "categories"
-#   series = "series"
-#   tag = "tags"
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
 # Social links
 [[params.social]]
@@ -58,6 +61,16 @@ disqusShortname = "mesieu"
     icon = "fab fa-twitter fa-2x"
     weight = 3
     url = "https://twitter.com/SirFelDev/"
+[[params.social]]
+    name = "CodePen"
+    icon = "fab fa-codepen fa-2x"
+    weight = 3
+    url = "https://codepen.io/FelDev/"
+[[params.social]]
+    name = "CodePen"
+    icon = "fab fa-stack-exchange fa-2x"
+    weight = 3
+    url = "https://codepen.io/FelDev/"
 [[params.social]]
     name = "Medium"
     icon = "fab fa-medium"
@@ -81,52 +94,59 @@ disqusShortname = "mesieu"
             # weight = 1
             # url = "about/"
 
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 1
+            url = "posts/"
+
             # [[languages.en.menu.main]]
-            # name = "Blog"
+            # name = "Projects"
+            # weight = 3
+            # url = "projects/"
+            
+            #TODO: referral links, use data folder to iterate?
+            # [[languages.en.menu.main]]
+            # name = "Referral Links"
             # weight = 2
-            # url = "posts/"
+            # url = "referral-links/"
 
-            [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 3
-            url = "projects/"
-
-            [[languages.en.menu.main]]
-            name = "Contact me"
-            weight = 5
-            url = "contact/"
+            # #TODO: include netlify contact form
+            # [[languages.en.menu.main]]
+            # name = "Contact me"
+            # weight = 5
+            # url = "contact/"
 
 
-    [languages.fr-ca]
-        languagename = "Français"
-        title = "Félix Paradis"
+    # [languages.fr-ca]
+    #     languagename = "Français"
+    #     title = "Félix Paradis"
 
-        [languages.fr-ca.params]
-            author = "Félix Paradis"
-            info = "Enchanté"
-            description = "Site personnel de Félix Paradis"
-            keywords = "blog,code,personnel"
-            footercontent = "Super nice."
+    #     [languages.fr-ca.params]
+    #         author = "Félix Paradis"
+    #         info = "Enchanté"
+    #         description = "Site personnel de Félix Paradis"
+    #         keywords = "blog,code,personnel"
+    #         footercontent = "Super nice."
 
-        # Menu links
-        [languages.fr-ca.menu]
+    #     # Menu links
+    #     [languages.fr-ca.menu]
 
-            # [[languages.fr-ca.menu.main]]
-            # name = "À propos"
-            # weight = 1
-            # url = "about/"
+    #         # [[languages.fr-ca.menu.main]]
+    #         # name = "À propos"
+    #         # weight = 1
+    #         # url = "about/"
 
-            # [[languages.fr-ca.menu.main]]
-            # name = "Blog"
-            # weight = 2
-            # url = "posts/"
+    #         # [[languages.fr-ca.menu.main]]
+    #         # name = "Blog"
+    #         # weight = 2
+    #         # url = "posts/"
 
-            [[languages.fr-ca.menu.main]]
-            name = "Projets"
-            weight = 3
-            url = "projects/"
+    #         [[languages.fr-ca.menu.main]]
+    #         name = "Projets"
+    #         weight = 3
+    #         url = "projects/"
 
-            [[languages.fr-ca.menu.main]]
-            name = "Contact"
-            weight = 5
-            url = "contact/"
+    #         [[languages.fr-ca.menu.main]]
+    #         name = "Contact"
+    #         weight = 5
+    #         url = "contact/"
