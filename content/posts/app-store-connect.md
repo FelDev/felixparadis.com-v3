@@ -2,6 +2,7 @@
 title: "Authenticating to Apple’s App Store Connect API from Node.js using JWT"
 date: 2019-02-26T11:46:04-04:00
 tags: ["tech", "tutorial"]
+slug: "Authenticating-to-Apples-App-Store-Connect-API-from-Node.js-using-JWT"
 ---
 
 ![Node logo with Apple's logo](/images/posts/app_store_connect.jpeg)
