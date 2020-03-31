@@ -6,6 +6,8 @@
 
     {{ .Content }}
 
+    <!-- This is a bit silly because it should apply to every page, -->
+    <!-- But since there's only one page at the moment, I'll live with it. -->
     {{ range sort .Site.Data.referrals "order" }}
       <section class="ref-section">
 
