@@ -1,6 +1,6 @@
 ---
 title: "Solving design problems caused by i18n with pure CSS"
-date: 2020-03-31T13:57:04-04:00
+date: 2019-06-09T13:57:04-04:00
 slug: "solving-design-problems-caused-by-i18n-with-pure-css"
 tags: ["tech", "tutorial"]
 ---
