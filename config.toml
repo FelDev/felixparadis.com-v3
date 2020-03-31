@@ -1,5 +1,4 @@
-baseurl = "https://v1.felixparadis.com"
-#TODO: change baseurl
+baseurl = "https://www.felixparadis.com"
 title = "Félix Paradis"
 
 theme = "hugo-coder"
@@ -104,7 +103,6 @@ pygmentscodefencesguesssyntax = true
             # weight = 3
             # url = "projects/"
             
-            #TODO: referral links, use data folder to iterate?
             [[languages.en.menu.main]]
             name = "Referral Links"
             weight = 2
