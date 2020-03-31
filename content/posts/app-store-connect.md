@@ -5,7 +5,10 @@ tags: ["tech", "tutorial"]
 slug: "Authenticating-to-Apples-App-Store-Connect-API-from-Node.js-using-JWT"
 ---
 
-![Node logo with Apple's logo](/images/posts/app_store_connect.jpeg)
+{{< figure 
+    src="/images/posts/app_store_connect.jpeg" 
+    alt="Node logo with Apple's logo"
+>}}
 
 I had to connect to Apple’s new App Store Connect API at work and found exactly 0 tutorial and/or code example on how to achieve this from Node.js, which I use. (I did find [a good one for Ruby](https://shashikantjagtap.net/wwdc18-a-basic-guide-to-app-store-connect-api/), though, if that’s your thing.) 
 
