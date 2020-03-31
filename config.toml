@@ -105,10 +105,10 @@ pygmentscodefencesguesssyntax = true
             # url = "projects/"
             
             #TODO: referral links, use data folder to iterate?
-            # [[languages.en.menu.main]]
-            # name = "Referral Links"
-            # weight = 2
-            # url = "referral-links/"
+            [[languages.en.menu.main]]
+            name = "Referral Links"
+            weight = 2
+            url = "referral-links/"
 
             # #TODO: include netlify contact form
             # [[languages.en.menu.main]]

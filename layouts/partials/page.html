@@ -1,0 +1,26 @@
+<section class="container page">
+  <article id="referrals">
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    {{ .Content }}
+
+    {{ range sort .Site.Data.referrals "order" }}
+      <section class="ref-section">
+
+        {{ if .image }}
+          <a href="{{.link}}" class="container centered text-center center-text" target="_blank">
+            <img src="/images/{{.image}}" alt="{{.name}}" class="ref-image">
+          </a>
+          <a href="{{.link}}" class="ref-link" target="_blank">{{.linkDesc}}</a>
+          <p>{{.desc}}</p>
+        {{else}}
+          <!-- <a id="kofi" href="https://ko-fi.com/U7U317VL2" target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=2' alt='Buy Me a Coffee at ko-fi.com' /></a> -->
+          <a href="{{.link}}" class="ref-link" target="_blank">{{.linkDesc}}</a>
+        {{end}}
+      </section>
+
+    {{end}}
+  </article>
+</section>
