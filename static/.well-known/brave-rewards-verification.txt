@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: felixparadis.com
+Token: 7724957c9fb444cc1b988de83698959fe3cc6b2e4f770a73f564898f9743799e
