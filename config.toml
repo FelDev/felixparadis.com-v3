@@ -19,13 +19,12 @@ pygmentscodefencesguesssyntax = true
     author = "Félix Paradis"
     hello = "Hello, I'm Félix Paradis 👋"
     info = "You can find me online at various places:"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    # avatarurl = "images/avatar.jpg"
+    description = "Felix Paradis's personal blog and homepage"
+    keywords = "blog,developer,tech"
     avatarurl = "images/profile.png"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    # favicon_32 = "/img/favicon-32x32.png"
+    # favicon_16 = "/img/favicon-16x16.png"
 
     footercontent = ""
 
