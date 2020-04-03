@@ -1,6 +1,7 @@
 +++
 title = "Referral Links"
 slug = "referral-links"
+ui_component = "referrals.html"
 +++
 
 <!-- ## Thanks for stopping by 😌 -->

@@ -38,3 +38,31 @@
 figure img {
     max-height: 100vh;
 }
+
+
+form  {
+    p {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            max-width: 15em;
+        }
+
+        textarea {
+            max-width: 40em;
+            min-height: 8em;
+        }
+    }
+    button {
+        max-width: 10em;
+        align-self: center;
+        min-width: 8em;
+        padding: 0.25em 2em;
+    }
+
+    button, input, textarea {
+        border-radius: 0.33em;
+        border: 0.1em solid $link-color-dark;
+    }
+}

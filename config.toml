@@ -108,10 +108,10 @@ pygmentscodefencesguesssyntax = true
             url = "referral-links/"
 
             # #TODO: include netlify contact form
-            # [[languages.en.menu.main]]
-            # name = "Contact me"
-            # weight = 5
-            # url = "contact/"
+            [[languages.en.menu.main]]
+            name = "Contact"
+            weight = 5
+            url = "contact/"
 
 
     # [languages.fr-ca]
