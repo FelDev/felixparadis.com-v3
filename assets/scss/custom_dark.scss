@@ -1,0 +1,13 @@
+form  {
+    @media (prefers-color-scheme: dark) {
+        background: #1f1f1f;
+        padding: 1em;
+        border-color: #313131;
+        
+        &, button, input, textarea {
+            border: 0.1em solid $link-color-dark;
+            border: 0.1em solid #313131;
+        }
+      }
+
+}
