@@ -66,3 +66,29 @@ form  {
         border: 0.1em solid $link-color-dark;
     }
 }
+
+
+#social-links {
+    position: relative;
+    
+    span {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -2em;
+        transition: 0.2s;
+        opacity: 0;
+        white-space: nowrap;
+    }
+
+    li:hover span, a:focus + span {
+        opacity: 1;
+    }
+    
+    @media only screen and (max-width : 357px) {      
+        li:last-of-type {
+            padding-top: 2.5em;
+        }
+    }
+
+}
