@@ -62,7 +62,7 @@ pygmentscodefencesguesssyntax = true
 [[params.social]]
     name = "CodePen"
     icon = "fab fa-codepen fa-2x"
-    weight = 3
+    weight = 5
     url = "https://codepen.io/FelDev/"
 [[params.social]]
     name = "LinkedIn"
@@ -72,12 +72,12 @@ pygmentscodefencesguesssyntax = true
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 5
+    weight = 6
     url = "https://twitter.com/SirFelDev/"
 [[params.social]]
     name = "Stack Exchange"
     icon = "fab fa-stack-exchange fa-2x"
-    weight = 6
+    weight = 3
     url = "https://stackexchange.com/users/7861276/feldev?tab=accounts"
 
 [languages]
