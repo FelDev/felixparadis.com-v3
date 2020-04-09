@@ -22,6 +22,7 @@ pygmentscodefencesguesssyntax = true
     description = "Felix Paradis's personal blog and homepage"
     keywords = "blog,developer,tech"
     avatarurl = "images/profile.png"
+    images = ["images/profile.png"] # for og:image
 
     # favicon_32 = "/img/favicon-32x32.png"
     # favicon_16 = "/img/favicon-16x16.png"
