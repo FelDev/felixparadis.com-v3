@@ -15,6 +15,8 @@ pygmentscodefencesguesssyntax = true
 
 # disqusShortname = "mesieu"
 
+googleAnalytics = "UA-109396923-1"
+
 [params]
     author = "Félix Paradis"
     hello = "Hello, I'm Félix Paradis 👋"
