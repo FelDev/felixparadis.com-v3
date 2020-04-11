@@ -1,3 +1,8 @@
+*:focus {
+    outline-width: 0.5em;
+    outline-color: $link-color;
+}
+
 #referrals {
     h1 {
         text-align: center;
@@ -47,11 +52,13 @@ form  {
 
         input {
             max-width: 15em;
+            padding: 0.25em;
         }
-
+        
         textarea {
             max-width: 40em;
             min-height: 8em;
+            padding: 0.25em;
         }
     }
     button {
