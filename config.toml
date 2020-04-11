@@ -28,7 +28,8 @@ googleAnalytics = "UA-109396923-1"
     info = "You can find me online at various places:"
     description = "Felix Paradis's personal blog and homepage"
     keywords = "blog,developer,tech"
-    avatarurl = "images/profile.png"
+    avatarurl = "images/profile.webp"
+    avatarurlBackup = "images/profile.png"
     images = ["images/profile.png"] # for og:image
 
     # favicon_32 = "/img/favicon-32x32.png"
@@ -48,7 +49,7 @@ googleAnalytics = "UA-109396923-1"
     # "light" (light background, dark foreground) (default)
     colorscheme = "auto"
 
-    custom_css = ["css/custom.css"]
+    custom_css = []
     custom_js = []
 
 [taxonomies]
