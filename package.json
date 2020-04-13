@@ -1,0 +1,25 @@
+{
+  "name": "felixparadis.com-v3",
+  "version": "1.0.0",
+  "description": "A website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelDev/felixparadis.com-hugo.git"
+  },
+  "author": "Felix Paradis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FelDev/felixparadis.com-hugo/issues"
+  },
+  "homepage": "https://github.com/FelDev/felixparadis.com-hugo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0"
+  }
+}
