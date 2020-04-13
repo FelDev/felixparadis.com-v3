@@ -40,10 +40,7 @@ googleAnalytics = "UA-109396923-1"
     hidecredits = false
     hidecopyright = false
 
-    rtl = false
-
-    # Specify light/dark colorscheme
-    # Supported values:
+    # Specify colorscheme. Supported values:
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
