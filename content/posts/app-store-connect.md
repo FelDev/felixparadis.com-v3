@@ -16,7 +16,7 @@ It’s not very complex, but if you’ve never used JSON Web Tokens before, you 
 
 I’m using the [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) npm package, but you could use an alternative.
 
-Without further ado, the snippet you need to get going quickly.
+Without further ado, the snippet you need to get going quickly:
 
 {{< gist feldev 50d969fe7249da949ed966538929310b >}}
 
