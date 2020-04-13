@@ -1,3 +1,8 @@
+// Libraries
+@import "_normalize";
+@import "_font-awesome";
+
+// Base
 @import "variables";
 @import "base";
 @import "content";
@@ -5,6 +10,12 @@
 @import "pagination";
 @import "footer";
 
-@import "normalize";
-@import "font-awesome";
 @import "custom";
+
+// Dark
+@import "base_dark";
+@import "content_dark";
+@import "navigation_dark";
+@import "footer_dark";
+
+@import "custom_dark";
