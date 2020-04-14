@@ -2,7 +2,7 @@
 @import "_normalize";
 @import "_font-awesome";
 
-// Base
+// Theme Base
 @import "variables";
 @import "base";
 @import "content";
@@ -10,12 +10,12 @@
 @import "pagination";
 @import "footer";
 
-@import "custom";
-
-// Dark
+// Theme Dark
 @import "base_dark";
 @import "content_dark";
 @import "navigation_dark";
 @import "footer_dark";
 
+// Custom
+@import "custom";
 @import "custom_dark";

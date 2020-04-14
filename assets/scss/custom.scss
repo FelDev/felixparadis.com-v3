@@ -3,6 +3,17 @@
     outline-color: $link-color;
 }
 
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#social-links {
+    animation: fadeIn 1s linear;
+}
+
+
 #referrals {
     h1 {
         text-align: center;
