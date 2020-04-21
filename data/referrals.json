@@ -55,6 +55,14 @@
         "image": "referralLinks/binance.png",
         "order": 7
     },
+    "honey": {
+        "link":"https://joinhoney.com/ref/q3jta9j",
+        "linkDesc":"Get Honey Gold.",
+        "desc": "Honey automatically applies the best coupons when you shop online. With Honey Gold, you get points which can be traded for gift cards on top of that.",
+        "name": "Honey",
+        "image": "referralLinks/honey.png",
+        "order": 0
+    },
     "kofi": {
         "link":"https://ko-fi.com/feldev",
         "linkDesc":"Or just buy me a coffee 🙃",
