@@ -1,19 +1,11 @@
 {
-    "bullBitcoin": {
-        "link":"https://bylls.com/signup?referralcode=90be9bb29727fb55cbaa0827932506cc7178b5f34f",
-        "linkDesc":"Buy/sell BitCoin with Bylls/Bull Bitcoin.",
-        "desc": "Bylls and Bull Bitcoin specialize in making the buying and selling of BTC easy for Canadians. Use my referral to open an account and we both get a few Canadian bucks.",
-        "name": "Bull Bitcoin",
-        "image": "referralLinks/bullbitcoin.png",
-        "order": 4
-    },
-    "brave": {
-        "link":"https://brave.com/fr/?ref=fel197",
-        "linkDesc":"Try the Brave Browser.",
-        "desc": "Try a fast browser that defends your online privacy and I'll get 5$US worth of BAT in the process (if you use it for a minimum of 30 days).",
-        "name": "Brave",
-        "image": "referralLinks/brave.svg",
-        "order": 2
+    "honey": {
+        "link":"https://joinhoney.com/ref/q3jta9j",
+        "linkDesc":"Get Honey Gold.",
+        "desc": "Honey automatically applies the best coupons when you shop online. With Honey Gold, you get points which can be traded for gift cards on top of that.",
+        "name": "Honey",
+        "image": "referralLinks/honey.png",
+        "order": 0
     },
     "airBNB": {
         "link":"https://fr.airbnb.ca/host/homes?_set_bev_on_new_domain=1585663324_MDEyMDUyM2VmNTFm&code=felixp1051",
@@ -23,13 +15,21 @@
         "image": "referralLinks/airbnb.png",
         "order": 1
     },
-    "montessoriPreschool": {
-        "link":"https://montessori.edokiacademy.com/en/payment/?promo-code=thxFelix",
-        "linkDesc":"Gift your kids a great educational app.",
-        "desc": "Available on iOS and Android, Montessori Preschool is basically hundreds of mini-apps bundled into a fun, rich and constantly updated universe. Get 50% off any subscription with this link.",
-        "name": "Montessori Preschool",
-        "image": "referralLinks/mp.png",
-        "order": 5
+    "brave": {
+        "link":"https://brave.com/fr/?ref=fel197",
+        "linkDesc":"Try the Brave Browser.",
+        "desc": "Try a fast browser that defends your online privacy and I'll get 5$US worth of BAT in the process (if you use it for a minimum of 30 days).",
+        "name": "Brave",
+        "image": "referralLinks/brave.svg",
+        "order": 2
+    },
+    "emailOctopus": {
+        "link":"https://emailoctopus.com/?urli=lWf4V",
+        "linkDesc":"Send better newsletters with EmailOctopus.",
+        "desc": "What's better and cheaper than Mailchimp? EmailOctopus. Use this link and we both get 15$ of credit.",
+        "name": "EmailOctopus",
+        "image": "referralLinks/email_octopus.svg",
+        "order": 3
     },
     "pCloud": {
         "link":"https://www.pcloud.com/welcome-to-pcloud/?discountcode=2PaDx6IXc7pAepfiGGLMSSZV",
@@ -37,7 +37,15 @@
         "desc": "Cheap and reliable cloud storage is pCloud's business. It's great for encrypted backups. If you're satisfied and become a paying customer I'll get 5$US.",
         "name": "pCloud",
         "image": "referralLinks/pcloud.png",
-        "order": 3
+        "order": 4
+    },
+    "bullBitcoin": {
+        "link":"https://bylls.com/signup?referralcode=90be9bb29727fb55cbaa0827932506cc7178b5f34f",
+        "linkDesc":"Buy/sell BitCoin with Bylls/Bull Bitcoin.",
+        "desc": "Bylls and Bull Bitcoin specialize in making the buying and selling of BTC easy for Canadians. Use my referral to open an account and we both get a few Canadian bucks.",
+        "name": "Bull Bitcoin",
+        "image": "referralLinks/bullbitcoin.png",
+        "order": 5
     },
     "coinbase": {
         "link":"https://www.coinbase.com/join/paradi_1w",
@@ -55,19 +63,19 @@
         "image": "referralLinks/binance.png",
         "order": 7
     },
-    "honey": {
-        "link":"https://joinhoney.com/ref/q3jta9j",
-        "linkDesc":"Get Honey Gold.",
-        "desc": "Honey automatically applies the best coupons when you shop online. With Honey Gold, you get points which can be traded for gift cards on top of that.",
-        "name": "Honey",
-        "image": "referralLinks/honey.png",
-        "order": 0
+    "montessoriPreschool": {
+        "link":"https://montessori.edokiacademy.com/en/payment/?promo-code=thxFelix",
+        "linkDesc":"Gift your kids a great educational app.",
+        "desc": "Available on iOS and Android, Montessori Preschool is basically hundreds of mini-apps bundled into a fun, rich and constantly updated universe. Get 50% off any subscription with this link.",
+        "name": "Montessori Preschool",
+        "image": "referralLinks/mp.png",
+        "order": 99
     },
     "kofi": {
         "link":"https://ko-fi.com/feldev",
         "linkDesc":"Or just buy me a coffee 🙃",
         "desc": "",
         "name": "kofi",
-        "order": 8
+        "order": 999
     }
 }
