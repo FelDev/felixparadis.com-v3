@@ -1,5 +1,5 @@
 <section class="container centered">
-  <div class="about">  
+  <div class="about">
     {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
       <div class="avatar">
         <picture>
@@ -13,6 +13,12 @@
     {{ end }}
 
     <h1>{{ .Site.Params.hello }}</h1>
+    <p>
+      My famous paintings are over at <a href="https://boutique.felixparadis.com">boutique.felixparadis.com</a>[FR]
+    </p>
+    <p>
+      My awesome newsletter is over at <a href="https://weeklycartoon.news">weeklycartoon.news</a>
+    </p>
     <h2>{{ .Site.Params.info }}</h2>
 
     {{ with .Site.Params.social }}
