@@ -3,6 +3,7 @@ title: "My Recipe for a 0$/month e-commerce Website"
 date: 2020-05-19T11:05:39-04:00
 slug: "my-Recipe-for-a-0-dollar-per-month-e-commerce-website"
 tags: ["e-commerce", "tech"]
+images: ["https://res.cloudinary.com/felixparadis-com/image/upload/v1589901361/felixparadis.com/ecommerce_xjpn8n.jpg"]
 ---
 
 {{< figure 

@@ -1,5 +1,5 @@
 --- 
-date: "2020-04-16"
+date: "2020-05-16"
 title: "Quest for the Perfect Keyboard: Ergodox EZ vs. Dygma Raise"
 slug: "quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise" 
 tags: ["Product review"]
