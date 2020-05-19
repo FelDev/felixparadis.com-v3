@@ -61,7 +61,7 @@ I used it to sell my paintings over at [boutique.felixparadis.com](https://bouti
 
 ### One item was sold twice
 
-I thought the chances of that happening were so low that I could afford the risk. And then someone got to the checkout form before the another person got to the end of the process... Luckily it’s easy to issue a refund on Stripe, but this recipe definitely needs modifications if you’re going to use it for unique items.
+I thought the chances of that happening were so low that I could afford the risk. And then someone got to the checkout form before another person got to the end of the process... Luckily it’s easy to issue a refund on Stripe, but this recipe definitely needs modifications if you’re going to use it for unique items.
 
 ### Emails failed twice
 
