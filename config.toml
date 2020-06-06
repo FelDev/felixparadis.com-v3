@@ -108,10 +108,10 @@ googleAnalytics = "UA-109396923-1"
             # weight = 3
             # url = "projects/"
             
-            [[languages.en.menu.main]]
-            name = "Referral Links"
-            weight = 2
-            url = "referral-links/"
+            # [[languages.en.menu.main]]
+            # name = "Referral Links"
+            # weight = 2
+            # url = "referral-links/"
 
             # #TODO: include netlify contact form
             [[languages.en.menu.main]]
