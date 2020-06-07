@@ -178,7 +178,11 @@ body.colorscheme-light {
     }
     
     input[type="checkbox"] {
-        display: none;
+        // don't just display: none; for keyboard navigation
+        position: absolute;
+        width: 3.6em;
+        height: 2em;
+        border-radius: 1em;
         &:checked + label {
             &:before {
                 background-color: #FFF;
