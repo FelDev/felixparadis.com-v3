@@ -42,8 +42,8 @@ body.colorscheme-dark {
   @include base_dark()
 }
 
-body.colorscheme-auto {
-  @media (prefers-color-scheme: dark) {
-    @include base_dark()
-  }
-}
+// body.colorscheme-auto {
+//   @media (prefers-color-scheme: dark) {
+//     @include base_dark()
+//   }
+// }

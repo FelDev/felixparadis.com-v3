@@ -93,5 +93,22 @@
     {{ end }}
 
   </body>
-
+  
+  <script>
+    const toggleSwitch = document.querySelector('#theme-toggle input[type="checkbox"]');
+    toggleSwitch.addEventListener('change', switchTheme, false);
+  
+    if(localStorage.getItem('theme') == "colorscheme-light") {
+      toggleSwitch.checked = false;
+      switchTheme()
+    }
+  
+    function switchTheme() {
+      let body = document.getElementsByTagName("body")[0];
+      let theme = body.className == "colorscheme-dark" ? "colorscheme-light" : "colorscheme-dark";
+      body.className = ''
+      body.classList.add(theme)
+      localStorage.setItem('theme', theme);
+    }
+  </script>
 </html>

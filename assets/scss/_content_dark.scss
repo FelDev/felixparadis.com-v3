@@ -39,8 +39,8 @@ body.colorscheme-dark {
   @include content_dark()
 }
 
-body.colorscheme-auto {
-  @media (prefers-color-scheme: dark) {
-    @include content_dark()
-  }
-}
+// body.colorscheme-auto {
+//   @media (prefers-color-scheme: dark) {
+//     @include content_dark()
+//   }
+// }
