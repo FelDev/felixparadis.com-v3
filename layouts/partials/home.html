@@ -1,13 +1,19 @@
 <section class="container centered">
   <div class="about">
-    {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
-      <div class="avatar">
-        <picture>
-          <source srcset="{{ .Site.Params.avatarurl | relURL }}" type="image/webp">
-          <img src="{{ .Site.Params.avatarurlBackup | relURL }}" alt="avatar">
-        </picture>
-      </div>
-    {{ end }}
+    <div class="avatar">
+      <picture>
+        <source 
+          media="(min-width: 500px)"
+          srcset="images/profile.webp"
+          type="image/webp"
+        >
+        <source 
+          srcset="images/profile_mobile.webp"
+          type="image/webp"
+        >
+        <img src="images/profile.png" alt="avatar">
+      </picture>
+    </div>
     {{ with .Site.Params.gravatar }}
       <div class="avatar"><img src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="gravatar"></div>
     {{ end }}
