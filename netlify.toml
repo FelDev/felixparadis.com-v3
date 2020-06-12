@@ -1,3 +1,9 @@
 [context.production.environment]
   HUGO_VERSION = "0.72.0"
   NODE_VERSION = "12"
+
+[[redirects]]
+  from = "/wp-admin"
+  to = "/admin"
+  status = 301
+  force = false
