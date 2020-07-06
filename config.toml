@@ -97,8 +97,12 @@ googleAnalytics = "UA-109396923-1"
             # url = "about/"
 
             [[languages.en.menu.main]]
-            name = "Blog"
+            name = "Projects"
             weight = 1
+            url = "projects/"
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
             url = "posts/"
 
             # [[languages.en.menu.main]]

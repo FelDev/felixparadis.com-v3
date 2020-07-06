@@ -1,5 +1,5 @@
 <section class="container page">
-  <article id="referrals">
+  <article {{ if .Params.html_id }} id="{{ .Params.html_id}}" {{ end }}>
     <header>
       <h1>{{ .Title }}</h1>
     </header>
@@ -7,7 +7,9 @@
     {{ .Content }}
     
     <!-- define the ui_component desired in front matter-->
-    {{ partial (printf "ui_components/%s" .Params.ui_component) . }}
-
+    {{ if .Params.ui_component }}
+      {{ partial (printf "ui_components/%s" .Params.ui_component) . }}
+    {{ end }}
+    
   </article>
 </section>

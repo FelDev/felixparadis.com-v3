@@ -1,8 +1,9 @@
-+++
-title = "Referral Links"
-slug = "referral-links"
-ui_component = "referrals.html"
-+++
+---
+title: "Referral Links"
+slug: "referral-links"
+ui_component: "referrals.html"
+html_id: "referrals"
+---
 
 <!-- ## Thanks for stopping by 😌 -->
 
