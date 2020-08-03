@@ -14,8 +14,12 @@
               <i class="fas fa-calendar"></i>
               <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
                 {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+                {{ if gt .Page.Lastmod .Date }}
+                  - updated on {{ .Page.Lastmod.Format "Jan 2, 2006"}}
+                {{ end }}
               </time>
             </span>
+            <br>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
               {{ i18n "reading_time" .ReadingTime }}

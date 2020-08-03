@@ -1,5 +1,6 @@
 --- 
 date: "2020-05-16"
+lastmod: "2020-08-03"
 title: "Quest for the Perfect Keyboard: Ergodox EZ vs. Dygma Raise"
 slug: "quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise" 
 tags: ["Product review"]
@@ -104,4 +105,4 @@ Someday I'll take the time to find friends with a 3D printer and figure out a wa
 
 # Conclusion 
 
-If you're getting your first fancy keyboard, the Raise is a safer option. But if you want the real deal, I think a Redox is the way to go.
+If you're getting your first fancy keyboard, the Raise is a safer option. But if you want the real deal, I think an ortholinear keyboard is the way to go. Whether that means an Ergodox, a Redox or ZSA's new [moonlander](https://www.zsa.io/moonlander/).
