@@ -77,7 +77,7 @@ googleAnalytics = "UA-109396923-1"
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
     weight = 6
-    url = "https://twitter.com/SirFelDev/"
+    url = "https://twitter.com/felixs_username/"
 [[params.social]]
     name = "Stack Exchange"
     icon = "fab fa-stack-exchange fa-2x"
