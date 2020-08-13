@@ -36,6 +36,10 @@
       margin-bottom: .75em;
     }
     .post-meta {
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      border-radius: 0.75em;
+      padding: 0.75em 0.9em;
       i {
         text-align: center;
         width: 1.6rem;
