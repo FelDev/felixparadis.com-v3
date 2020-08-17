@@ -1,6 +1,6 @@
 --- 
 date: "2020-05-16"
-lastmod: "2020-08-03"
+lastmod: "2020-08-17"
 title: "Quest for the Perfect Keyboard: Ergodox EZ vs. Dygma Raise"
 slug: "quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise" 
 tags: ["Product review"]
@@ -73,11 +73,11 @@ But I missed the ortholinear layout too much to not go back to my Ergodox. Also,
 
 ## Why "butchered"?
 
-I still hate the gaping hole on my Ergodox. I hate it a lot.
+I still hate the huge gap on my Ergodox. I hate it a lot.
 The real winner is probably the [Redox](https://www.reddit.com/r/MechanicalKeyboards/comments/afk6ix/wireless_redox_endgame/), but I don't feel like spending another massive amount of dollars on a keyboard right now. So, I found a solution...
 
-## My elegant solution to the Ergodox's silly hole
-I sculpted two 1.5u keys on my Ergodox to fill the hole and make my life a little bit better. (Better by 0.25u  per hand, precisely.) 
+## My elegant solution to the Ergodox's silly gap
+I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little bit better. (Better by 0.25u  per hand, precisely.) 
 
 ![a sculpted keycap](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577390/felixparadis.com/ergodox/ergodox_4_tcfdni.jpg)
 [High res picture⌝](https://res.cloudinary.com/felixparadis-com/image/upload/v1589577390/felixparadis.com/ergodox/ergodox_4_tcfdni.jpg)
@@ -100,9 +100,9 @@ I sculpted two 1.5u keys on my Ergodox to fill the hole and make my life a littl
 
 It's not extremely satisfying, but good enough for now.
 
-Someday I'll take the time to find friends with a 3D printer and figure out a way to print custom keycaps that fill the hole. Or maybe I'll just buy a Redox. Or maybe Dygma will release an awesome hole-less ortholinear keeb. Until then, I'm rocking a butchered Ergodox and life is pretty good.
+Someday I'll take the time to find friends with a 3D printer and figure out a way to print custom keycaps that fill the gap. Or maybe I'll just buy a Redox. Or maybe Dygma will release an awesome gap-less ortholinear keeb. Until then, I'm rocking a butchered Ergodox and life is pretty good.
 
 
 # Conclusion 
 
-If you're getting your first fancy keyboard, the Raise is a safer option. But if you want the real deal, I think an ortholinear keyboard is the way to go. Whether that means an Ergodox, a Redox or ZSA's new [moonlander](https://www.zsa.io/moonlander/).
+If you're getting your first fancy keyboard, the Raise is a safer option. But if you want the real deal, I think an ortholinear keyboard is the way to go. Whether that means an Ergodox, a Redox or [ZSA's new moonlander](https://www.zsa.io/moonlander/) 👀 (I'm not buying the moonlander because it does look like an improved version of the ergodox, but the improvements don't look like they're worth 500$CAD.)
