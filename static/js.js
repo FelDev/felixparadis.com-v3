@@ -1,31 +1,17 @@
-  function filterList(checkbox, tag) {
-    let lis = document.querySelectorAll("[data-tags*="+tag+"]");
-    
-    if (checkbox.checked) {
-      lis.forEach(li => {
-          li.classList.remove("hide")
-      })
-      return;
-    }
+function filterList(tag) {
+  let lis = document.querySelectorAll("[data-tags]");
 
-
-    let checkboxes = document.getElementsByClassName("filter");
-    checkboxes = Array.from(checkboxes).filter(c => c.checked)
-    let visibleTags = checkboxes.map(c => c.id)
-    console.log('@visibleTags: ', visibleTags);
-    
+  if (tag == "all") {
     lis.forEach(li => {
-      let hideLi = true;
-      visibleTags.forEach(vt => {
-        if (li.attributes["data-tags"].nodeValue.includes(vt)) {
-          return hideLi = false
-        }
-      })
-      
-      if (hideLi) {
-        li.classList.add("hide")
-      }
-      
+      li.classList.remove("hide")
     })
-
+  } else {
+    lis.forEach(li => {
+      if (li.attributes["data-tags"].nodeValue.includes(tag)) {
+        return li.classList.remove("hide")
+      }
+      li.classList.add("hide")
+    })
   }
+  
+}

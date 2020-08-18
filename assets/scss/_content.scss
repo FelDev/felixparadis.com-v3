@@ -76,8 +76,16 @@
 }
 
 .list {
+  #filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media only screen and (max-width : 768px) {
+      justify-content: flex-start;
+    }
+  }
   label {
-    margin: 1rem;
+    margin: 0.6rem 1rem;
     white-space:nowrap;
     input {
       margin-right: 0.5rem;

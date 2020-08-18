@@ -4,21 +4,33 @@
 {{ define "content" }}
   <section class="container list">
     <h1 class="title">{{ .Title }}</h1>
-    {{range $name, $taxonomy := .Site.Taxonomies.tags}}
+    <div id="filters">
+      <label for="all">
+        <input 
+        type="radio" 
+        name="tag" 
+        id="all" 
+        class="filter"
+        checked
+        onchange="filterList('all')"
+        >
+        All
+      </label>   
+      {{range $name, $taxonomy := .Site.Taxonomies.tags}}
       {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-        <label for="{{$name}}">
-          <input 
-            type="checkbox" 
-            name="{{$name}}" 
-            id="{{$name}}" 
-            class="filter"
-            checked 
-            onchange="filterList(this, {{$name}})"
-          >
-          {{- replace $name "-" " " -}}
-        </label>   
+      <label for="{{$name}}">
+        <input 
+        type="radio" 
+        name="tag" 
+        id="{{$name}}" 
+        class="filter"
+        onchange="filterList({{$name}})"
+        >
+        {{- replace $name "-" " " -}}
+      </label>   
       {{end}}
-    {{end}}
+      {{end}}
+    </div>
     <ul>
       {{- range .Paginator.Pages -}}
         {{- .Render "li" -}}
