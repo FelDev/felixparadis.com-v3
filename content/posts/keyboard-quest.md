@@ -3,7 +3,7 @@ date: "2020-05-16"
 lastmod: "2020-08-17"
 title: "Quest for the Perfect Keyboard: Ergodox EZ vs. Dygma Raise"
 slug: "quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise" 
-tags: ["Product review"]
+tags: ["product review"]
 categories: []
 description: "My first decent keyboard was the Ergodox EZ, almost a year later I got a Dygma Raise. And the winner is..."
 ---

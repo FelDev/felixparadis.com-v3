@@ -76,6 +76,13 @@
 }
 
 .list {
+  label {
+    margin: 1rem;
+    white-space:nowrap;
+    input {
+      margin-right: 0.5rem;
+    }
+  }
   ul {
     margin: 3.2rem 0 3.2rem 0;
     list-style: none;
@@ -83,8 +90,16 @@
     li {
       font-size: 1.8rem;
       margin-top: 1rem;
+      transition: .75s;
+      max-height: 5rem;
+      &.hide {
+        opacity: 0;
+        max-height: 0;
+        margin: 0;
+      }
       @media only screen and (max-width : 768px) {
-        margin: 1.6rem 0 1.6rem 0;
+        max-height: 10rem;
+        margin: 0rem 0 3rem 0;
       }
       .date {
         display: inline-block;

@@ -2,7 +2,7 @@
 title: "Fongo review: Can it be your only phone number?"
 date: 2019-05-03T14:33:18-04:00
 slug: "fongo-review-can-it-be-your-only-phone-number"
-tags: ["Product review"]
+tags: ["product review"]
 images: ["/images/posts/fongo/banner.png" ]
 description: "I’ve been using a Fongo number as my only phone number for just over 2 years. Do I recommend Fongo after that experience? Maybe..."
 ---

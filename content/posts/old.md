@@ -1,6 +1,7 @@
 ---
 title: "Older versions of felixparadis.com"
 date: 2020-03-30T09:29:33-04:00
+tags: ["tech"]
 ---
 
 <!-- The previous versions of this website are still accessible. -->
