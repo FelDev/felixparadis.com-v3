@@ -29,10 +29,6 @@ Login your Google account and click "manage your Google account". This could be 
     src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto/v1597287074/felixparadis.com/revoke_third_party_google/ezoic2_dlnsyf.png" 
     alt="Screenshot: clicking your avatar in a Google product yields \"manage your account\""
 >}}
-{{< figure 
-    src="" 
-    alt=""
->}}
 
 Go to "security".
 
@@ -51,7 +47,7 @@ You'll see a list of "Third-party apps with account access". Simply click on the
 
 {{< figure 
     src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto/v1597286248/felixparadis.com/revoke_third_party_google/ezoic5_hclnhu.png" 
-    alt="Screenshot: Click ."
+    alt="Screenshot: Click \"REMOVE ACCESS\" and you're done."
 >}}
  
 Remove access and celebrate! 🎉💪🍾
