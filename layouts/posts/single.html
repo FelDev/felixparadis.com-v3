@@ -1,57 +1,105 @@
 {{ define "title" }}
-  {{ .Title }} · {{ .Site.Title }}
+{{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "content" }}
-  <section class="container post">
-    <article>
-      <header>
-        <div class="post-title">
-          <h1 class="title">{{ .Title }}</h1>
-        </div>
-        <div class="post-meta">
-          <div class="date">
-            <span class="posted-on">
-              <i class="fas fa-calendar"></i>
-              <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
-                {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
-                {{ if gt .Page.Lastmod .Date }}
-                  - updated on {{ .Page.Lastmod.Format "Jan 2, 2006"}}
-                {{ end }}
-              </time>
-            </span>
-            <br>
-            <span class="reading-time">
-              <i class="fas fa-clock"></i>
-              {{ i18n "reading_time" .ReadingTime }}
-            </span>
-          </div>
-          {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
-          {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
-        </div>
-      </header>
+<section class="container post">
 
-      <div>
-        {{ if .Params.featured_image }}
-          <img src='{{ .Params.featured_image }}' alt="Featured image"/>
-        {{ end }}
-        {{ .Content }}
+  <article>
+    <header>
+      <div class="post-title">
+        <h1 class="title">{{ .Title }}</h1>
       </div>
+      <div class="post-meta">
+        <div class="date">
+          <span class="posted-on">
+            <i class="fas fa-calendar"></i>
+            <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+              {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+              {{ if gt .Page.Lastmod .Date }}
+              - updated on {{ .Page.Lastmod.Format "Jan 2, 2006"}}
+              {{ end }}
+            </time>
+          </span>
+          <br>
+          <span class="reading-time">
+            <i class="fas fa-clock"></i>
+            {{ i18n "reading_time" .ReadingTime }}
+          </span>
+        </div>
+        {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+        {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+      </div>
+    </header>
 
-      <footer>
-        <hr>
-        <a href="https://twitter.com/felixs_username?ref_src=twsrc%5Etfw" 
-          class="twitter-follow-button" 
-          data-size="large" 
-          data-show-count="false">
-          Follow @felixs_username
-        </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        {{ partial "posts/series.html" . }}
-        {{ partial "posts/disqus.html" . }}
-        {{ partial "posts/commento.html" . }}
-        {{ partial "posts/utteranc.html" . }}
-      </footer>
-    </article>
+    <div>
+      {{ if .Params.featured_image }}
+      <img src='{{ .Params.featured_image }}' alt="Featured image" />
+      {{ end }}
+      {{ .Content }}
+    </div>
 
-    {{ partial "posts/math.html" . }}
-  </section>
+    <footer>
+      <hr>
+      <a href="https://twitter.com/felixs_username?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
+        data-show-count="false">
+        Follow @felixs_username
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <section id="newsletterSignup">
+        <div>
+
+          <p>Pssst!</p>
+          <h6>I'm starting a newsletter about my Indie Hacking journey.</h6>
+          <p>Simple and fun concept: I start with no job and 10 000$, hoping it will be enough to support myself until I start generating decent income. Follow along?</p>
+          <!-- <link rel="stylesheet" href="https://emailoctopus.com/bundles/emailoctopuslist/css/formEmbed.css"> -->
+          <style>
+            .email-octopus-form-wrapper form {text-align: center;}
+            .email-octopus-form-wrapper h2{font-size:20px;margin:0 0 25px}.email-octopus-form-row{margin-bottom:15px}.email-octopus-form-row label{display:block}.email-octopus-form-row input{width:100%;max-width:400px;padding:8px;height:32px;border:1px solid #ccc}.email-octopus-form-row-consent{margin-top:20px}.email-octopus-form-row-consent label{vertical-align:top}.email-octopus-form-row-subscribe{margin-top:20px}.email-octopus-form-row-subscribe button{background-color:#e0e0e0;padding:6px 12px;border:0;font-weight:700}.email-octopus-form-row-hp{position:absolute;left:-5000px}.email-octopus-error-message{color:#e74c3c}.email-octopus-referral,.email-octopus-rewards{margin-top:20px}
+          </style>
+          <div class="email-octopus-form-wrapper">
+            <p class="email-octopus-success-message"></p>
+            <p class="email-octopus-error-message"></p>
+
+            <form method="post"
+              action="https://emailoctopus.com/lists/04332982-e1c1-11ea-a3d0-06b4694bee2a/members/embedded/1.3s/add"
+              class="email-octopus-form" data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6">
+
+              <div class="email-octopus-form-row">
+                <label for="field_0">Email address</label>
+                <input id="field_0" name="field_0" type="email" placeholder="">
+              </div>
+
+              <div class="email-octopus-form-row-hp" aria-hidden="true">
+                <input type="text" name="hp04332982-e1c1-11ea-a3d0-06b4694bee2a" tabindex="-1" autocomplete="nope">
+              </div>
+
+              <div class="email-octopus-form-row-subscribe">
+                <input type="hidden" name="successRedirectUrl" value="">
+                <button type="submit">Subscribe</button>
+              </div>
+            </form>
+
+            <div class="email-octopus-rewards">
+              Powered by <a
+                href="https://emailoctopus.com/?urli=lWf4V&amp;utm_medium=user_referral&amp;utm_source=builder"
+                target="_blank"
+                rel="noopener"
+                >EmailOctopus</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.5/recaptcha.js"></script>
+      <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.5/formEmbed.js"></script>
+      {{ partial "posts/series.html" . }}
+      {{ partial "posts/disqus.html" . }}
+      {{ partial "posts/commento.html" . }}
+      {{ partial "posts/utteranc.html" . }}
+    </footer>
+  </article>
+
+  {{ partial "posts/math.html" . }}
+</section>
 {{ end }}

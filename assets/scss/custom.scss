@@ -110,6 +110,29 @@ footer {
         margin: auto;
         display: block;
     }
+    #newsletterSignup {
+        background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%);
+        margin-top: 3rem;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        > div {
+            background-color: #fafafa;
+            padding: 1rem;
+            border-radius: 1rem;
+            p:first-of-type {
+                margin-top: 0;
+            }
+            h6 {
+                margin: 0;
+            }
+        }
+    }
+}
+
+body.colorscheme-dark {
+    footer #newsletterSignup > div {
+        background-color: #212121;
+    }
 }
 
 /*!
