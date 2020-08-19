@@ -146,43 +146,44 @@
       margin-top: 2.0rem;
       margin-bottom: 0.5rem;
     }
-    h2 {
-      margin-top: 1.0rem;
-      margin-bottom: 0.5rem;
-      font-size: 2.4rem;
-      @media only screen and (max-width : 768px) {
-        font-size: 2.0rem;
-      }
-    }
+    // What's commented out was used for the social links
+    // h2 {
+    //   margin-top: 1.0rem;
+    //   margin-bottom: 0.5rem;
+    //   font-size: 2.4rem;
+    //   @media only screen and (max-width : 768px) {
+    //     font-size: 2.0rem;
+    //   }
+    // }
     p {
       text-align: left;
     }
-    ul {
-      list-style: none;
-      margin: 3.0rem 0 1.0rem 0;
-      padding: 0;
-      li {
-        display: inline-block;
-        position: relative;
-        a {
-          color: $fg-color;
-          // text-transform: uppercase;
-          margin-left: 1.0rem;
-          margin-right: 1.0rem;
-          font-size: 1.6rem;
-          &:hover,
-          &:focus {
-            color: $link-color;
-          }
-          @media only screen and (max-width : 768px) {
-            font-size: 1.4rem;
-          }
-          i {
-            font-size: 3.2rem;
-          }
-        }
-      }
-    }
+    // ul {
+    //   list-style: none;
+    //   margin: 3.0rem 0 1.0rem 0;
+    //   padding: 0;
+    //   li {
+    //     display: inline-block;
+    //     position: relative;
+    //     a {
+    //       color: $fg-color;
+    //       // text-transform: uppercase;
+    //       margin-left: 1.0rem;
+    //       margin-right: 1.0rem;
+    //       font-size: 1.6rem;
+    //       &:hover,
+    //       &:focus {
+    //         color: $link-color;
+    //       }
+    //       @media only screen and (max-width : 768px) {
+    //         font-size: 1.4rem;
+    //       }
+    //       i {
+    //         font-size: 3.2rem;
+    //       }
+    //     }
+    //   }
+    // }
   }
 
   .error {

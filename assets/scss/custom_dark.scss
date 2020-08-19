@@ -1,13 +1,26 @@
 body.colorscheme-dark {
-    
-    form  {
+    form {
         background: #1f1f1f;
         padding: 1em;
         border-color: #313131;
-        
-        &, button, input, textarea {
+
+        &,
+        button,
+        input,
+        textarea {
             border: 0.1em solid #313131;
         }
     }
 
+    #social-links li a {        
+        color: $fg-color-dark;
+        &:hover,
+        &:focus {
+            color: $link-color-dark;
+        }
+    }
+
+    #newsletterSignup > div {
+        background-color: #212121;
+    }
 }

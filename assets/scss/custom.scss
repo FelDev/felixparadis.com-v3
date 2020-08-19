@@ -79,7 +79,11 @@ form  {
 
 #social-links {
     position: relative;
-    
+    list-style: none;
+    margin: 3rem 0 1rem;
+    padding: 0;
+    text-align: center;  
+
     span {
         position: absolute;
         left: 50%;
@@ -90,6 +94,26 @@ form  {
         white-space: nowrap;
     }
 
+    li {
+        display: inline-block;
+        position: relative;
+        a {
+          color: $fg-color;
+          margin-left: 1.0rem;
+          margin-right: 1.0rem;
+          font-size: 1.6rem;
+          &:hover,
+          &:focus {
+            color: $link-color;
+          }
+          @media only screen and (max-width : 768px) {
+            font-size: 1.4rem;
+          }
+          i {
+            font-size: 3.2rem;
+          }
+        }
+      }
     li:hover span, a:focus + span {
         opacity: 1;
     }
@@ -110,30 +134,27 @@ footer {
         margin: auto;
         display: block;
     }
-    #newsletterSignup {
-        background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%);
-        margin-top: 3rem;
-        padding: 0.3rem;
+}
+
+#newsletterSignup {
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%);
+    margin-top: 3rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    > div {
+        background-color: #fafafa;
+        padding: 1.25rem 2rem;
         border-radius: 1rem;
-        > div {
-            background-color: #fafafa;
-            padding: 1rem;
-            border-radius: 1rem;
-            p:first-of-type {
-                margin-top: 0;
-            }
-            h6 {
-                margin: 0;
-            }
+        p:first-of-type {
+            margin-top: 0;
+        }
+        h6 {
+            margin: 0;
         }
     }
 }
 
-body.colorscheme-dark {
-    footer #newsletterSignup > div {
-        background-color: #212121;
-    }
-}
+
 
 /*!
 * Gist DarkCode ver 0.2.0 

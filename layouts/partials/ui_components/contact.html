@@ -1,11 +1,11 @@
 <form name="contact" netlify netlify-honeypot="money">
   <p>
     <label for="name">Name </label>
-    <input type="text" name="name" id="name"/>
+    <input type="text" name="name" id="name" />
   </p>
   <p>
     <label for="email">Email </label>
-    <input type="email" name="email" id="email"/>
+    <input type="email" name="email" id="email" />
   </p>
   <p>
     <label for="message">Message </label>
@@ -13,9 +13,33 @@
   </p>
   <p style="display: none;">
     <label for="money">Name </label>
-    <input type="text" name="money" id="money"/>
+    <input type="text" name="money" id="money" />
   </p>
   <p>
-  <button type="submit">Send</button>
+    <button type="submit">Send</button>
   </p>
 </form>
+
+<h2 class="centered">{{ .Site.Params.info }}</h2>
+
+{{ with .Site.Params.social }}
+<ul id="social-links">
+  {{ range sort . "weight" }}
+    {{ if .icon }}
+    <li>
+      <a href="{{ .url }}" aria-label="{{ .name }}" rel="noopener" target="_blank" {{ if .type }}type="{{ .type }}"
+        {{ end }}>
+        <i class="{{ .icon }}" aria-hidden="true"></i>
+      </a>
+      <span>{{ .name }}</span>
+    </li>
+    {{ else }}
+    <li>
+      <a href="{{ .url }}" aria-label="{{ .name }}" rel="noopener" target="_blank">
+        {{ .name }}
+      </a>
+    </li>
+    {{ end }}
+  {{ end }}
+</ul>
+{{ end }}
