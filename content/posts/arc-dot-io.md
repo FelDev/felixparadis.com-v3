@@ -1,6 +1,7 @@
 ---
 title: "Arc.io Review - A Way to Monetize Any Website"
 date: 2020-08-18
+lastmod: 2020-08-19
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
@@ -77,7 +78,7 @@ Then I noticed errors were being logged in the console...
 
 I wrote to Arc's team about this, pointing out that some of the issues were easy fixes. They kindly replied that they will be fixing them "shortly".  I'm still eagerly waiting for those fixes in particular:
 
-- [ ] \<frame\> or \<iframe\> elements do not have a title
+- [x] \<frame\> or \<iframe\> elements do not have a title - UPDATE: FIXED
 - [ ] A cookie associated with a cross-site resource at http://core.arc.io/ was set without the `SameSite` attribute.
 - [ ] Arc's widget is not accessible to users who only use a keyboard. 
 
