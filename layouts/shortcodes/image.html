@@ -1,6 +1,13 @@
 <!-- TODO: automatically get width and height -->
 {{ $.Scratch.Set "lazy" (.Get "lazy") }}
 {{ $lazy := $.Scratch.Get "lazy" }}
+
+{{ $.Scratch.Set "captionLink" (.Get "captionLink") }}
+{{ $captionLink := $.Scratch.Get "captionLink" }}
+
+{{ $.Scratch.Set "extraBR" (.Get "extraBR") }}
+{{ $extraBR := $.Scratch.Get "extraBR" }}
+
 <figure>
   <picture>
     <source srcset='{{.Get "src"}}'>
@@ -14,6 +21,20 @@
     >
  </picture>
   <figcaption>
-    <p>{{.Get "caption" }}</p>
+    {{ if $captionLink }}
+        <p>
+          <a 
+            href='{{.Get "captionLink" }}' 
+            rel="noopener" 
+            target="_blank"
+          >{{.Get "caption" }}</a>
+        </p>
+    
+    {{else}}
+      <p>{{.Get "caption" }}</p>
+    {{end}}
   </figcaption>
 </figure>
+{{ if $extraBR}}
+  <br>      
+{{end}}

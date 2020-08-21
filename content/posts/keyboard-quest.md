@@ -79,24 +79,59 @@ The real winner is probably the [Redox](https://www.reddit.com/r/MechanicalKeybo
 ## My elegant solution to the Ergodox's silly gap
 I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little bit better. (Better by 0.25u  per hand, precisely.) 
 
-![a sculpted keycap](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577390/felixparadis.com/ergodox/ergodox_4_tcfdni.jpg)
-[High res picture⌝](https://res.cloudinary.com/felixparadis-com/image/upload/v1589577390/felixparadis.com/ergodox/ergodox_4_tcfdni.jpg)
+{{< image 
+    src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577390/felixparadis.com/ergodox/ergodox_4_tcfdni.jpg" 
+    alt="a sculpted keycap"
+    captionLink="https://res.cloudinary.com/felixparadis-com/image/upload/v1589577390/felixparadis.com/ergodox/ergodox_4_tcfdni.jpg"
+    caption="High res picture⌝"
+    lazy="true"
+    extraBR="true"
+>}}
 
-![a sculpted keycap](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577416/felixparadis.com/ergodox/ergodox_7_yv55rz.jpg)
-[High res picture⌝](https://res.cloudinary.com/felixparadis-com/image/upload/v1589577416/felixparadis.com/ergodox/ergodox_7_yv55rz.jpg)
+{{< image 
+    src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577416/felixparadis.com/ergodox/ergodox_7_yv55rz.jpg" 
+    alt="a sculpted keycap"
+    captionLink="https://res.cloudinary.com/felixparadis-com/image/upload/v1589577416/felixparadis.com/ergodox/ergodox_7_yv55rz.jpg"
+    caption="High res picture⌝"
+    lazy="true"
+    extraBR="true"
+>}}
 
-![a sculpted keycap](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577375/felixparadis.com/ergodox/ergodox_1_nfvfv9.jpg)
-[High res picture⌝](https://res.cloudinary.com/felixparadis-com/image/upload/v1589577375/felixparadis.com/ergodox/ergodox_1_nfvfv9.jpg)
+{{< image 
+    src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577375/felixparadis.com/ergodox/ergodox_1_nfvfv9.jpg" 
+    alt="a sculpted keycap"
+    captionLink="https://res.cloudinary.com/felixparadis-com/image/upload/v1589577375/felixparadis.com/ergodox/ergodox_1_nfvfv9.jpg"
+    caption="High res picture⌝"
+    lazy="true"
+    extraBR="true"
+>}}
 
-![a sculpted keycap](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577410/felixparadis.com/ergodox/ergodox_2_o8uxkh.jpg)
-[High res picture⌝](https://res.cloudinary.com/felixparadis-com/image/upload/v1589577410/felixparadis.com/ergodox/ergodox_2_o8uxkh.jpg)
+{{< image 
+    src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577410/felixparadis.com/ergodox/ergodox_2_o8uxkh.jpg" 
+    alt="a sculpted keycap"
+    captionLink="https://res.cloudinary.com/felixparadis-com/image/upload/v1589577410/felixparadis.com/ergodox/ergodox_2_o8uxkh.jpg"
+    caption="High res picture⌝"
+    lazy="true"
+    extraBR="true"
+>}}
 
-![a sculpted keycap](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577343/felixparadis.com/ergodox/ergodox_5_fyejrb.jpg)
-[High res picture⌝](https://res.cloudinary.com/felixparadis-com/image/upload/v1589577343/felixparadis.com/ergodox/ergodox_5_fyejrb.jpg)
+{{< image 
+    src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577343/felixparadis.com/ergodox/ergodox_5_fyejrb.jpg" 
+    alt="a sculpted keycap"
+    captionLink="https://res.cloudinary.com/felixparadis-com/image/upload/v1589577343/felixparadis.com/ergodox/ergodox_5_fyejrb.jpg"
+    caption="High res picture⌝"
+    lazy="true"
+    extraBR="true"
+>}}
 
-![a sculpted keycap](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577413/felixparadis.com/ergodox/ergodox_3_oe8jzm.jpg)
-[High res picture⌝](https://res.cloudinary.com/felixparadis-com/image/upload/v1589577413/felixparadis.com/ergodox/ergodox_3_oe8jzm.jpg)
-
+{{< image 
+    src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589577413/felixparadis.com/ergodox/ergodox_3_oe8jzm.jpg" 
+    alt="a sculpted keycap"
+    captionLink="https://res.cloudinary.com/felixparadis-com/image/upload/v1589577413/felixparadis.com/ergodox/ergodox_3_oe8jzm.jpg"
+    caption="High res picture⌝"
+    lazy="true"
+    extraBR="true"
+>}}
 
 It's not extremely satisfying, but good enough for now.
 
