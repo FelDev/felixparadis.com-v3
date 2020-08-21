@@ -6,6 +6,7 @@ slug: "quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise"
 tags: ["product review"]
 categories: []
 description: "My first decent keyboard was the Ergodox EZ, almost a year later I got a Dygma Raise. And the winner is..."
+images: ["https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589654862/felixparadis.com/ergodox/hero_d5uqdm.jpg"]
 ---
 
 ![Half a Raise next to half an Ergodox](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589654862/felixparadis.com/ergodox/hero_d5uqdm.jpg)
