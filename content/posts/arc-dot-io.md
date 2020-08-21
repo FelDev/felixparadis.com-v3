@@ -7,11 +7,11 @@ tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
 ---
 
-{{< figure 
-    src="/images/posts/arc/banner.png" 
+{{< image 
+    src="/images/posts/arc/banner.webp" 
+    fallbackSrc="/images/posts/arc/banner.png"
     alt="Arc's logo"
 >}}
-
 # What's [Arc.io](https://arc.io/) ?
 
 In their own words, "Arc is a peer-to-peer Content Delivery Network". Basically, a tiny portion of your users' bandwith and CPU will be used to power Arc's CDN. Arc promises that "it never impacts the user experience" and anyone can join the network, whether you have a single or a million monthly visitors.
@@ -54,32 +54,37 @@ I ran Lighthouse tests before and after implementing Arc. Sadly, it doesn't look
 
 My score before implementing Arc:
 
-{{< figure 
-    src="/images/posts/arc/lighthouse_1.png" 
+{{< image 
+    src="/images/posts/arc/lighthouse_1.webp" 
+    fallbackSrc="/images/posts/arc/lighthouse_1.png"
     alt="Lighthouse test showing a score of 100 for Performance, Accessibility, Best Practices and SEO."
     caption="Yeah, I'm that good."
+    lazy="true"
 >}}
 
 After implementing Arc:
 
-{{< figure 
-    src="/images/posts/arc/lighthouse_2.png" 
+{{< image 
+    src="/images/posts/arc/lighthouse_2.webp" 
+    fallbackSrc="/images/posts/arc/lighthouse_2.png"
     alt="Lighthouse test showing a score of 81 for Performance, 96 for Accessibility, 93 for Best Practices and 100 for SEO."
     caption="Yikes!"
+    lazy="true"
 >}}
-
 Then I noticed errors were being logged in the console...
 
-{{< figure 
-    src="/images/posts/arc/console.png" 
+{{< image 
+    src="/images/posts/arc/console.webp" 
+    fallbackSrc="/images/posts/arc/lighthouse_1.png"
     alt="Developer console showing \"Uncaught DOMException: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.\" All errors come from https://static.arc.io/something"
     caption="Yuck!"
+    lazy="true"
 >}}
 
 I wrote to Arc's team about this, pointing out that some of the issues were easy fixes. They kindly replied that they will be fixing them "shortly".  I'm still eagerly waiting for those fixes in particular:
 
-- [x] \<frame\> or \<iframe\> elements do not have a title - UPDATE: FIXED
-- [ ] A cookie associated with a cross-site resource at http://core.arc.io/ was set without the `SameSite` attribute.
+- [x] \<frame\> or \<iframe\> elements do not have a title - **UPDATE: FIXED**
+- [x] A cookie associated with a cross-site resource at http://core.arc.io/ was set without the `SameSite` attribute. - **UPDATE: FIXED**
 - [ ] Arc's widget is not accessible to users who only use a keyboard. 
 
 I'll update this blog post when I notice fixes. But Arc's reply included this:
@@ -93,17 +98,21 @@ To be fair, I cannot say that I notice slower performances now that Arc is on my
 
 My website is, for the moment, pretty low traffic. Here is a screenshot of my Google Analytics homepage for the past 28 days.
 
-{{< figure 
-    src="/images/posts/arc/analytics.png" 
+{{< image 
+    src="/images/posts/arc/analytics.webp" 
+    fallbackSrc="/images/posts/arc/analytics.png"
     alt="Google Analytics screenshot showing 282 users, 293 sessions, 89.42% bounce rate and 17 seconds as the average session duration"
+    caption="Yikes!"
+    lazy="true"
 >}}
-
 Yeah, this blog has room for growth. The traffic is so low that I couldn't possibly be accepted by any decent ad network at the moment. And yet... even with such a humble amount of visitors, felixparadis.com is now a source of passive income!
 
-{{< figure 
-    src="/images/posts/arc/earnings.png" 
+{{< image 
+    src="/images/posts/arc/earnings.webp" 
+    fallbackSrc="/images/posts/arc/earnings.png" 
     alt="Graphic of my earnings through Arc.io. Some days are as low as not even a penny, but some are above 0.10$ and one day even got to 0.24$"
     caption="I implemented Arc on the 4th of August."
+    lazy="true"
 >}}
 
 Ok, it's passive pennies. Just enough to cover the yearly cost of my domain name plus a few cheap beers. But considering how low traffic this website is, I'd say it's not bad at all! Remember, there are no annoying ads  here. No asking for money anywhere, just a slightly bad Lighthouse score 😐

@@ -1,0 +1,19 @@
+<!-- TODO: automatically get width and height -->
+{{ $.Scratch.Set "lazy" (.Get "lazy") }}
+{{ $lazy := $.Scratch.Get "lazy" }}
+<figure>
+  <picture>
+    <source srcset='{{.Get "src"}}'>
+    <img 
+      src='{{.Get "fallbackSrc" }}' 
+      alt='{{.Get "alt" }}' 
+
+      {{ if $lazy }}
+        loading="lazy"
+      {{end}}
+    >
+ </picture>
+  <figcaption>
+    <p>{{.Get "caption" }}</p>
+  </figcaption>
+</figure>
