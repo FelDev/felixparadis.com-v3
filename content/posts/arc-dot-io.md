@@ -15,7 +15,7 @@ images: ["/images/posts/arc/banner.png"]
 >}}
 # What's [Arc.io](https://arc.io/) ?
 
-In their own words, "Arc is a peer-to-peer Content Delivery Network". Basically, a tiny portion of your users' bandwith and CPU will be used to power Arc's CDN. Arc promises that "it never impacts the user experience" and anyone can join the network, whether you have a single or a million monthly visitors.
+In their own words, "Arc is a peer-to-peer Content Delivery Network". Basically, a tiny portion of your users' bandwidth and CPU will be used to power Arc's CDN. Arc promises that "it never impacts the user experience" and anyone can join the network, whether you have a single or a million monthly visitors.
 
 Generating money from any kind of website without charging your users or showing them ads is an enticing promise. So I gave it a try!
 
@@ -23,13 +23,13 @@ Note that I'm not using Arc as a way to serve my assets, so this blog post is no
 - [How easy it is to setup ](#getting-started-with-arc)
 - [Whether it really "never impacts the user experience" or not ](#impact-on-the-user-experience)
 - [How much money it actually generates ](#is-this-generating-income)
-- [The ethical implications of renting out your users' bandwith.](#is-this-ethical-though)
+- [The ethical implications of renting out your users' bandwidth.](#is-this-ethical-though)
 
 This website is currently running Arc.
 
 # Getting started with Arc
 
-Setting up Arc was fairly easy. The whole process, from signing up to testing in production, took me less than an hour. It may take you a little longer if you're not comfortable copy/pasting a few lines of code, but I think anyone tech savy enough to have a website will be able to get around the challenge. 
+Setting up Arc was fairly easy. The whole process, from signing up to testing in production, took me less than an hour. It may take you a little longer if you're not comfortable copy/pasting a few lines of code, but I think anyone tech savvy enough to have a website will be able to get around the challenge. 
 
 My website is built with Hugo as a Static Site Generator and hosted on Netlify. So the whole process was this:
 
@@ -103,7 +103,6 @@ My website is, for the moment, pretty low traffic. Here is a screenshot of my Go
     src="/images/posts/arc/analytics.webp" 
     fallbackSrc="/images/posts/arc/analytics.png"
     alt="Google Analytics screenshot showing 282 users, 293 sessions, 89.42% bounce rate and 17 seconds as the average session duration"
-    caption="Yikes!"
     lazy="true"
 >}}
 Yeah, this blog has room for growth. The traffic is so low that I couldn't possibly be accepted by any decent ad network at the moment. And yet... even with such a humble amount of visitors, felixparadis.com is now a source of passive income!
@@ -122,17 +121,17 @@ If you run some kind of free web app where many people spend many minutes, you p
 
 # Is this ethical though?
 
-When I entered "arc.io review" in Google Search, the first result was [a post on Hacker News](https://news.ycombinator.com/item?id=20105509) where almost everyone said they wouldn't use it, even though some admited it's a cool technology. 
+When I entered "arc.io review" in Google Search, the first result was [a post on Hacker News](https://news.ycombinator.com/item?id=20105509) where almost everyone said they wouldn't use it, even though some admitted it's a cool technology. 
 
-Most criticism came from people seeing the idea of renting your users' bandwith as somewhat sly and potentialy not compliant with privacy regulations such as the GDPR, *potentially*.
+Most criticism came from people seeing the idea of renting your users' bandwidth as somewhat sly and potentially not compliant with privacy regulations such as the GDPR, *potentially*.
 
 You definitely should be wary of anyone asking you to inject their code into your users' browsers and Arc could do a better job of making us feel at ease (Maybe by being more transparent about who works there? Having an official Twitter account?). Also, while Arc's widget offers the possibility of opting out, some argue that it should be the other way around. Although, let's be honest, nobody would opt-in.
 
-So, there is room for personnal opinions here. But Arc is very legit when it comes to privacy and they only rent out users' bandwith if they're on wifi. To me, it sounds like a good deal as a user too; I give money to people creating content I enjoy without actually giving them money. It's a win-win, no?
+So, there is room for personal opinions here. But Arc is very legit when it comes to privacy and they only rent out users' bandwidth if they're on wifi. To me, it sounds like a good deal as a user too; I give money to people creating content I enjoy without actually giving them money. It's a win-win, no?
 
 # Conclusion
 
-I think Arc is bringing an inovative solution to a real problem: creators like to get paid but users don't like to pay. There are still some rough edges around their technology, but this should get better... "shortly".
+I think Arc is bringing an innovative solution to a real problem: creators like to get paid but users don't like to pay. There are still some rough edges around their technology, but this should get better... "shortly".
 
 You do need a lot of traffic to generate serious income, but it's probably the easiest way to monetize any web project. As for the user experience, you've read this article on a website running Arc. How did it feel?
 
