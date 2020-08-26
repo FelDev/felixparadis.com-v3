@@ -38,3 +38,6 @@ Some easy examples: smoking, drinking, choosing the unhealthy food, not exercisi
 \- Antoine de Saint-Exupery
 
 I found this quote particularly relevant when doing video editing.
+
+### We are a way for the universe to know itself.
+\- Carl Sagan

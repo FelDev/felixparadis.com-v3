@@ -45,7 +45,7 @@ googleAnalytics = "UA-109396923-1"
     colorscheme = "dark"
 
     custom_css = []
-    custom_js = ["js.js"]
+    custom_js = []
 
 [taxonomies]
   category = "categories"

@@ -101,10 +101,11 @@ It’s free to try Fongo. Literally. So why not give it a shot out of curiosity?
 
 I sincerely hope the company is going to keep on getting better because they are actually solving a problem and they are very close to really nailing it. That being said, over that past 2 years, I cannot say that I’ve noticed any improvement in the service.
 
+## \*August 2020 update\*
+Fongo didn't get better. I had to call the government twice this year and both times the line dropped in the middle of the call. I now use Gmail to make phone calls when I can.
+
 ---
 **Full Disclosure**: I am not being paid or otherwise compensated by Fongo nor its competitors to write this article. All opinions expressed in this article are my own. No affiliate or referral links are used in this article.
-
-If you want to say thanks though, [here is a bunch of referral links](https://www.felixparadis.com/referral-links/).
 
 
 

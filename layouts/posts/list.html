@@ -12,7 +12,7 @@
         id="all" 
         class="filter"
         checked
-        onchange="filterList('all')"
+        onchange="filterList()"
         >
         All
       </label>   
@@ -24,7 +24,7 @@
         name="tag" 
         id="{{$name}}" 
         class="filter"
-        onchange="filterList({{$name}})"
+        onchange="filterList()"
         >
         {{- replace $name "-" " " -}}
       </label>   
@@ -39,4 +39,28 @@
 
     {{ partial "pagination.html" . }}
   </section>
+  <script>
+    function filterList() {
+      let lis = document.querySelectorAll("[data-tags]");
+      let tag = document.querySelector('input[name="tag"]:checked').id;
+      
+      if (tag == "all") {
+        lis.forEach(li => {
+          li.classList.remove("hide")
+        })
+      } else {
+        lis.forEach(li => {
+          if (li.attributes["data-tags"].nodeValue.includes(tag)) {
+            return li.classList.remove("hide")
+          }
+          li.classList.add("hide")
+        })
+      }
+    }
+    // So that if users go back from an article, the list is filtered. 
+    // Not sure why I need to add a setTimeout of 1ms ...
+    document.addEventListener("DOMContentLoaded", setTimeout(() => {
+      filterList()
+    }, 1));
+  </script>
 {{ end }}
