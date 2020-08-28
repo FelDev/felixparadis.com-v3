@@ -1,0 +1,14 @@
+<!-- TODO: automatically get width and height -->
+
+<figure>
+  <picture>
+    <source 
+      srcset='{{.Get "avifSrc"}}'
+      type="image/avif"
+    >
+    <img 
+      src='{{.Get "fallbackSrc" }}' 
+      alt='{{.Get "alt" }}' 
+    >
+  </picture>  
+</figure>

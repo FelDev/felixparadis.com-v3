@@ -8,12 +8,11 @@ images: ["/images/posts/fongo/banner.png" ]
 description: "I’ve been using a Fongo number as my only phone number for just over 2 years. Do I recommend Fongo after that experience? Maybe..."
 ---
 
-{{< figure 
-    src="/images/posts/fongo/banner.png" 
+{{< banner
+    avifSrc="/images/posts/fongo/banner.avif" 
+    fallbackSrc="/images/posts/fongo/banner.png"
     alt="Fongo's logo with a skeptical emoji looking at it"
 >}}
-
-<!-- ![Fongo's logo with a skeptical emoji looking at it](/images/posts/fongo/banner.png) -->
 
 Canada is a great country 🇨🇦 Except for phone and data plans. Blame it on the vastness of the land if you will, it still sucks.
 

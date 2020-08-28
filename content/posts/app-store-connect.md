@@ -7,8 +7,9 @@ images: ["/images/posts/app_store_connect.jpeg" ]
 description: "Without further ado, the snippet you need to get going quickly:"
 ---
 
-{{< figure 
-    src="/images/posts/app_store_connect.jpeg" 
+{{< banner
+    avifSrc="/images/posts/app_store_connect/banner.avif" 
+    fallbackSrc="/images/posts/app_store_connect/banner.jpeg"
     alt="Node logo with Apple's logo"
 >}}
 
