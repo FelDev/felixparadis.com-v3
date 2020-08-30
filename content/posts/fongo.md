@@ -1,5 +1,5 @@
 ---
-title: "Fongo review: Can it be your only phone number?"
+title: "Fongo Review: Can It Be Your Only Phone Number?"
 date: 2019-05-03
 lastmod: 2020-08-26
 slug: "fongo-review-can-it-be-your-only-phone-number"
