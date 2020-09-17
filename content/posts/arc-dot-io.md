@@ -1,7 +1,7 @@
 ---
 title: "Arc.io Review - A Way to Monetize Any Website"
 date: 2020-08-18
-lastmod: 2020-08-19
+lastmod: 2020-09-17
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
@@ -118,6 +118,11 @@ Yeah, this blog has room for growth. The traffic is so low that I couldn't possi
 Ok, it's passive pennies. Just enough to cover the yearly cost of my domain name plus a few cheap beers. But considering how low traffic this website is, I'd say it's not bad at all! Remember, there are no annoying ads  here. No asking for money anywhere, just a slightly bad Lighthouse score 😐
 
 If you run some kind of free web app where many people spend many minutes, you probably could make decent earnings. [I asked for arc.io reviews on Indie Hackers](https://www.indiehackers.com/post/arcdot-io-reviews-rent-your-users-bandwidth-058c1efe42) and [Martin Ratinaud](https://twitter.com/martinratinaud) wrote back that he makes about 8$ per day for 400k views per month with [edityouraudio.com](https://www.edityouraudio.com/). That's a daily not-so-cheap beer!
+
+
+**Update!** Ralf has something to add:
+
+{{< tweet 1306455670376497152 >}}
 
 # Is this ethical though?
 
