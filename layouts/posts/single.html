@@ -33,7 +33,7 @@
 
     <div>
       {{ if .Params.featured_image }}
-      <img src='{{ .Params.featured_image }}' alt="Featured image" />
+        <img src='{{ .Params.featured_image }}' alt="Featured image" />
       {{ end }}
       {{ .Content }}
     </div>
@@ -41,7 +41,7 @@
     <footer>
       <hr>
       <style>
-        .twitter-follow-button span b {
+        .twitter-follow-button-custom span b {
           font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
           user-select: none;
           font-size: 13px;
@@ -52,7 +52,7 @@
           font-weight: 500;
           white-space: nowrap;
         }
-        .twitter-follow-button span {
+        .twitter-follow-button-custom span {
           font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
           user-select: none;
           font-size: 13px;
@@ -68,7 +68,7 @@
           margin-left: 4px;
           text-shadow: 0px 0px 4px #333;
         }
-        .twitter-follow-button i {
+        .twitter-follow-button-custom i {
           font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
           user-select: none;
           font-size: 13px;
@@ -86,7 +86,7 @@
           height: 18px;
           width: 18px;
         }
-        .twitter-follow-button {
+        .twitter-follow-button-custom {
           font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
           user-select: none;
           font-size: 13px;
@@ -108,16 +108,16 @@
           border-radius: 4px;
           padding: 1px 10px 1px 9px;
         }
-        .twitter-follow-button:hover {
+        .twitter-follow-button-custom:hover {
           background-color: #135177;
         }
-        .twitter-wrapper {
+        .twitter-wrapper-custom {
           text-align: center;
         }
       </style>
-      <div class="twitter-wrapper">
+      <div class="twitter-wrapper-custom">
         <a 
-        class="twitter-follow-button" 
+        class="twitter-follow-button-custom" 
         title="Follow @felixs_username on Twitter" 
         rel="noopener"
         target="_blank"
