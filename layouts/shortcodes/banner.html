@@ -2,10 +2,18 @@
 
 <figure>
   <picture>
-    <source 
-      srcset='{{.Get "avifSrc"}}'
-      type="image/avif"
-    >
+    {{ if .Get "avifSrc"}}
+      <source 
+        srcset='{{.Get "avifSrc"}}'
+        type="image/avif"
+      >
+    {{ end }}
+    {{ if .Get "webpSrc"}}
+      <source 
+        srcset='{{.Get "webpSrc"}}'
+        type="image/webp"
+      >
+    {{ end }}
     <img 
       src='{{.Get "fallbackSrc" }}' 
       alt='{{.Get "alt" }}' 

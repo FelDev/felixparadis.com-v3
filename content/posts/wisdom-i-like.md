@@ -6,6 +6,26 @@ slug: "nuggets-of-wisdom-i-like"
 tags: ["motivation"]
 ---
 
+<figure>
+  <picture>
+  <source 
+    srcset='/images/posts/wisdom/thinking_monkey.avif'
+    type="image/avif"
+  >
+  <source 
+    srcset='/images/posts/wisdom/thinking_monkey.webp'
+    type="image/webp"
+  >
+  <img 
+    src='/images/posts/wisdom/thinking_monkey.png' 
+    alt='A monkey sitting on a rock at sunset, looking like its thinking deep thoughts.' 
+  >
+  </picture>  
+  <figcaption>
+    <span>Photo by <a href="https://unsplash.com/@vivekxr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Vivek Sharma</a> on <a href="https://unsplash.com/s/photos/old-wise-monkey?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  </figcaption>
+</figure>
+
 I'm a big fan of good advice, motivational content, self-help books and the likes.
 
 Here's a little collection of wisdom nuggets I want to keep. Some of it is paraphrased.

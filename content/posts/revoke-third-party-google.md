@@ -6,6 +6,12 @@ tags: ["tutorial"]
 description: "It's easy to remove third party authorization to your Google account, even if the third party isn't helpful!"
 ---
 
+{{< banner
+    webpSrc="/images/posts/search_console/banner.webp" 
+    fallbackSrc="/images/posts/search_console/banner.jpg"
+    alt="Google's Search Console logo with a padlock right next to it."
+>}}
+
 # Introduction 
 I decided to give [Ezoic](https://ezoic.com/) a try the other day. To see its full potential, I had to give them access to Google Search Console. 
 
