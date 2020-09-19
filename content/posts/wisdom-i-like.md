@@ -61,3 +61,6 @@ I found this quote particularly relevant when doing video editing.
 
 ### We are a way for the universe to know itself.
 \- Carl Sagan
+
+<!-- ### Des fois ça en prend beaucoup pour avoir besoin de rien...
+\- Maxime Pelletier ..? Kamou 2020-->
