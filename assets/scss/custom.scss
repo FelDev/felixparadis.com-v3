@@ -3,15 +3,23 @@
     outline-color: $link-color;
 }
 
+.content .project-figure {
+    margin: 3rem;
+    img {
+        border-radius: 1rem;
+    }
+}
 .content .project-info {
-    margin-top: -2rem;
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-radius: 0.75em;
     padding: 0.75em 0.9em;
     p {
-        margin: 0.5rem 0;
+        margin: 0;
         text-align: left;
+        &:nth-of-type(2) {
+            margin: 0.5rem 0;
+        }
     }
     .tag {
         background: #a3c4ea;

@@ -1,8 +1,29 @@
+<figure class="project-figure">
+  <picture>
+    {{ if .Get "avifSrc"}}
+      <source 
+        srcset='{{.Get "avifSrc"}}'
+        type="image/avif"
+      >
+    {{ end }}
+    {{ if .Get "webpSrc"}}
+      <source 
+        srcset='{{.Get "webpSrc"}}'
+        type="image/webp"
+      >
+    {{ end }}
+    <img 
+      src='{{.Get "fallbackSrc" }}' 
+      alt='{{.Get "alt" }}' 
+    >
+  </picture>  
+</figure>
+
 <div class="project-info">
   <p>
     Status: {{ .Get "status" }}
   </p>
-  {{ $array := split (.Get "kindOfProject") "," }}
+    {{ $array := split (.Get "kindOfProject") "," }}
   <p>
     {{ range $array }}
       <span class="tag">#{{.}}</span>
