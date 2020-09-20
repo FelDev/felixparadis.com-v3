@@ -3,14 +3,24 @@
     outline-color: $link-color;
 }
 
-.project-info {
+.content .project-info {
     margin-top: -2rem;
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-radius: 0.75em;
     padding: 0.75em 0.9em;
     p {
-        margin:0;
+        margin: 0.5rem 0;
+        text-align: left;
+    }
+    .tag {
+        background: #a3c4ea;
+        color: #000000;
+        font-family: monospace;
+        font-size: 1.25em;
+        padding: 0.4rem;
+        border-radius: 0.5rem;
+        margin-right: 0.5rem;
     }
 }
 

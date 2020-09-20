@@ -2,10 +2,13 @@
   <p>
     Status: {{ .Get "status" }}
   </p>
+  {{ $array := split (.Get "kindOfProject") "," }}
   <p>
-    Kind of project: {{ .Get "kindOfProject" }}
+    {{ range $array }}
+      <span class="tag">#{{.}}</span>
+    {{ end }}
   </p>
   <p>
-    Open source repo: <a href='{{ .Get "openSourceRepo" }}'>{{ .Get "openSourceRepo" }}</a>
+    Open source repo: <a href='{{ .Get "openSourceRepo" }}'>{{ strings.TrimLeft "https://" (.Get "openSourceRepo") }}</a>
   </p>
 </div>

@@ -8,7 +8,7 @@ ui_component: ""
 ## [Simple Timeline](https://timeline.felixparadis.com/)
 {{< project-info
     status="MVP available, but unfinished 🚧" 
-    kindOfProject="Webapp, SAAS."
+    kindOfProject="Webapp,SAAS"
     openSourceRepo="https://github.com/FelDev/nicetimeline"
 >}}
 
@@ -19,7 +19,7 @@ The older I get, the harder it is to remember where I was X years ago. This tool
 ## [Artsy Hams](https://boutique.felixparadis.com/)
 {{< project-info
     status="Never-ending 🎨" 
-    kindOfProject="Art, E-commerce."
+    kindOfProject="Art,E-commerce"
     openSourceRepo="https://github.com/FelDev/free-ecom"
 >}}
 
@@ -30,7 +30,7 @@ I did write a blog post about the tech behind the store: [My Recipe for a 0$/mon
 ## [Ask Sagan](https://v2.felixparadis.com/ask-sagan)
 {{< project-info
     status="Done ✅" 
-    kindOfProject="Webapp, Joke."
+    kindOfProject="Webapp,Joke"
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v2/tree/master/ask-sagan"
 >}}
 
@@ -39,7 +39,7 @@ What if Carl Sagan himself could answer your questions? Just fill the text box a
 ## [Photography 365](https://365.felixparadis.com/)
 {{< project-info
     status="Done ✅" 
-    kindOfProject="Art."
+    kindOfProject="Art"
     openSourceRepo="https://github.com/FelDev/365"
 >}}
 
@@ -48,7 +48,7 @@ A photography project I did during my gap year in 2012-2013. The challenge was t
 ## [Morem](https://morem.netlify.app/)
 {{< project-info
     status="Abandoned 🏚" 
-    kindOfProject="Webapp, PWA."
+    kindOfProject="Webapp,PWA"
     openSourceRepo="https://github.com/FelDev/morem"
 >}}
 
@@ -57,7 +57,7 @@ Morem is for **MORE M**editation. I learned about Progressive Web Apps, got exci
 ## [The First Version of this Website](https://v1.felixparadis.com/)
 {{< project-info
     status="Done ✅" 
-    kindOfProject="Website, Joke."
+    kindOfProject="Website,Joke"
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v1"
 >}}
 
@@ -66,7 +66,7 @@ A single index.html file! It sure is fast to load and contains a fun easter egg 
 ## [The Second Version of this Website](https://v2.felixparadis.com/)
 {{< project-info
     status="Done ✅" 
-    kindOfProject="Website."
+    kindOfProject="Website"
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v2"
 >}}
 
