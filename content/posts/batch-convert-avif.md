@@ -4,6 +4,8 @@ date: 2020-08-29
 slug: "How-to-Batch-Convert-Images-to-.avif"
 tags: ["tutorial", "tech"]
 images: ["/images/posts/avif/banner.jpeg"]
+previewImage: "/images/posts/avif/banner.avif"
+previewImageFallback: "/images/posts/avif/banner.jpg"
 ---
 
 {{< banner
