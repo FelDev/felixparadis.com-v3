@@ -178,7 +178,10 @@ footer {
 #latest-blog-posts > div {
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(2rem, 32rem));
+    grid-template-columns: minmax(6rem, 32rem) minmax(6rem, 32rem);
+    @media only screen and (max-width :768px) {
+        grid-template-columns: minmax(6rem, 32rem);
+    }
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1rem;
     grid-row-gap: 2.5rem;
