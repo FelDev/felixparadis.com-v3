@@ -23,4 +23,13 @@ body.colorscheme-dark {
     .colorful-section > div {
         background-color: #212121;
     }
+
+    #latest-blog-posts > div {
+        h2 {
+            a {
+                color: #dadada;
+            }
+        }    
+    }
+    
 }
