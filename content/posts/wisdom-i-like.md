@@ -1,7 +1,7 @@
 ---
 title: "Nuggets of Wisdom I Like"
 date: 2020-08-03
-lastmod: "2020-08-10"
+lastmod: "2020-09-29"
 slug: "nuggets-of-wisdom-i-like"
 tags: ["motivation"]
 ---
@@ -61,6 +61,9 @@ I found this quote particularly relevant when doing video editing.
 
 ### We are a way for the universe to know itself.
 \- Carl Sagan
+
+### You can fail at what you don’t want, so you might as well take a chance on doing what you love.
+\- Jim Carrey
 
 <!-- ### Des fois ça en prend beaucoup pour avoir besoin de rien...
 \- Maxime Pelletier ..? Kamou 2020-->
