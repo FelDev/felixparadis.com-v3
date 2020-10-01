@@ -10,7 +10,16 @@
 
 <figure>
   <picture>
-    <source srcset='{{.Get "src"}}'>
+    {{ if .Get "webpSrc"}}
+      <source 
+        srcset='{{.Get "webpSrc"}}'
+        type="webp"
+      >
+    {{ else }}
+      <source 
+        srcset='{{.Get "src"}}'
+      >
+    {{ end }}
     <img 
       src='{{.Get "fallbackSrc" }}' 
       alt='{{.Get "alt" }}' 

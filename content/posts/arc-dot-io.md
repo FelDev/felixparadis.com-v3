@@ -11,7 +11,7 @@ previewImageFallback: "/images/posts/arc/banner.png"
 ---
 
 {{< image 
-    src="/images/posts/arc/banner.webp" 
+    webpSrc="/images/posts/arc/banner.webp" 
     fallbackSrc="/images/posts/arc/banner.png"
     alt="Arc's logo"
 >}}
@@ -58,7 +58,7 @@ I ran Lighthouse tests before and after implementing Arc. Sadly, it doesn't look
 My score before implementing Arc:
 
 {{< image 
-    src="/images/posts/arc/lighthouse_1.webp" 
+    webpSrc="/images/posts/arc/lighthouse_1.webp" 
     fallbackSrc="/images/posts/arc/lighthouse_1.png"
     alt="Lighthouse test showing a score of 100 for Performance, Accessibility, Best Practices and SEO."
     caption="Yeah, I'm that good."
@@ -68,7 +68,7 @@ My score before implementing Arc:
 After implementing Arc:
 
 {{< image 
-    src="/images/posts/arc/lighthouse_2.webp" 
+    webpSrc="/images/posts/arc/lighthouse_2.webp" 
     fallbackSrc="/images/posts/arc/lighthouse_2.png"
     alt="Lighthouse test showing a score of 81 for Performance, 96 for Accessibility, 93 for Best Practices and 100 for SEO."
     caption="Yikes!"
@@ -77,7 +77,7 @@ After implementing Arc:
 Then I noticed errors were being logged in the console...
 
 {{< image 
-    src="/images/posts/arc/console.webp" 
+    webpSrc="/images/posts/arc/console.webp" 
     fallbackSrc="/images/posts/arc/lighthouse_1.png"
     alt="Developer console showing \"Uncaught DOMException: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.\" All errors come from https://static.arc.io/something"
     caption="Yuck!"
@@ -102,7 +102,7 @@ To be fair, I cannot say that I notice slower performances now that Arc is on my
 My website is, for the moment, pretty low traffic. Here is a screenshot of my Google Analytics homepage for the past 28 days.
 
 {{< image 
-    src="/images/posts/arc/analytics.webp" 
+    webpSrc="/images/posts/arc/analytics.webp" 
     fallbackSrc="/images/posts/arc/analytics.png"
     alt="Google Analytics screenshot showing 282 users, 293 sessions, 89.42% bounce rate and 17 seconds as the average session duration"
     lazy="true"
@@ -110,7 +110,7 @@ My website is, for the moment, pretty low traffic. Here is a screenshot of my Go
 Yeah, this blog has room for growth. The traffic is so low that I couldn't possibly be accepted by any decent ad network at the moment. And yet... even with such a humble amount of visitors, felixparadis.com is now a source of passive income!
 
 {{< image 
-    src="/images/posts/arc/earnings.webp" 
+    webpSrc="/images/posts/arc/earnings.webp" 
     fallbackSrc="/images/posts/arc/earnings.png" 
     alt="Graphic of my earnings through Arc.io. Some days are as low as not even a penny, but some are above 0.10$ and one day even got to 0.24$"
     caption="I implemented Arc on the 4th of August."

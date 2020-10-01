@@ -23,8 +23,8 @@ This was my first 3D printing experiment. Don't use this as a definite guide.
 **Short version**: I dislike the gap between the main layout and the thumb clusters on the Ergodox.
 
 {{< image 
-    src="/images/posts/3D_keycaps/gap.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/gap.jpg"
+    webpSrc="/images/posts/3D_keycaps/gap.webp" 
+    fallbackSrc="/images/posts/3D_keycaps/gap.png"
     alt="The gap I'm talking about."
     caption="Yeah, that gap."
     lazy="true"
@@ -50,14 +50,14 @@ I can't tell you much more about the printing process because I simply sent the 
 Anyways, here's what it looks like.
 
 {{< image 
-    src="/images/posts/3D_keycaps/first_attempt.webp" 
+    webpSrc="/images/posts/3D_keycaps/first_attempt.webp" 
     fallbackSrc="/images/posts/3D_keycaps/first_attempt.jpg"
     alt="The keycap occupies much of the gap I dislike, but is a little bit skewed."
     lazy="true"
 >}}
 
 {{< image 
-    src="/images/posts/3D_keycaps/banner.webp" 
+    webpSrc="/images/posts/3D_keycaps/banner.webp" 
     fallbackSrc="/images/posts/3D_keycaps/banner.jpg"
     alt=""
     lazy="true"
@@ -69,7 +69,7 @@ The keycaps is fine except for one very important aspect: the mount (the cross-s
 BUT, being crafty and reckless I found an elegant solution... Melted wax!
 
 {{< image 
-    src="/images/posts/3D_keycaps/wax.webp" 
+    webpSrc="/images/posts/3D_keycaps/wax.webp" 
     fallbackSrc="/images/posts/3D_keycaps/wax.jpg"
     alt="An opened switch with a keycap and wax pouring out the stem."
     caption="The keycap in this picture is from the second attempt; didn't take pictures the first time."
@@ -93,14 +93,14 @@ Sadly, the mount was still too big.
 I did the wax hack again, but with a different candle and it didn't work as well... Went back to the original candle and it's much better.
 
 {{< image 
-    src="/images/posts/3D_keycaps/second_attempt1.webp" 
+    webpSrc="/images/posts/3D_keycaps/second_attempt1.webp" 
     fallbackSrc="/images/posts/3D_keycaps/second_attempt1.jpg"
     alt="The keycap is still slightly skewed."
     lazy="true"
 >}}
 
 {{< image 
-    src="/images/posts/3D_keycaps/second_attempt2.webp" 
+    webpSrc="/images/posts/3D_keycaps/second_attempt2.webp" 
     fallbackSrc="/images/posts/3D_keycaps/second_attempt2.jpg"
     alt="Seen from above, the gap is even smaller."
     lazy="true"
@@ -117,7 +117,7 @@ The acrylic resin is much smoother, transparent and twice the price. Nylon 12 fe
 - 3D printing those keycaps was worth it. My Ergodox is comfier.
 
 {{< image 
-    src="/images/posts/3D_keycaps/evolution.webp" 
+    webpSrc="/images/posts/3D_keycaps/evolution.webp" 
     fallbackSrc="/images/posts/3D_keycaps/evolution.jpg"
     alt="My sculpted 1.5U keycap next to the 2 3D printed ones.."
     caption="Evolution of my pre-thumb cluster keycaps."
@@ -125,7 +125,7 @@ The acrylic resin is much smoother, transparent and twice the price. Nylon 12 fe
 >}}
 
 {{< image 
-    src="/images/posts/3D_keycaps/full_ergo.webp" 
+    webpSrc="/images/posts/3D_keycaps/full_ergo.webp" 
     fallbackSrc="/images/posts/3D_keycaps/full_ergo.jpg"
     alt="The full ergodox, seen from above."
     caption="I'm going to rock those new keycaps for a while now. Even though they're ugly."
