@@ -2,7 +2,7 @@
 title: "3D Printing Custom Keycaps for the Ergodox"
 date: 2020-10-01
 slug: ""
-tags: ["Keyboard"]
+tags: ["Keyboards"]
 images: ["/images/posts/3D_keycaps/banner.jpg"]
 previewImage: "/images/posts/3D_keycaps/banner.webp"
 previewImageFallback: "/images/posts/3D_keycaps/banner.jpg"
