@@ -35,7 +35,9 @@
       {{ if .Params.featured_image }}
         <img src='{{ .Params.featured_image }}' alt="Featured image" />
       {{ end }}
-      {{ .Content }}
+      <!-- Initially, the two lines below would simply be {{ .Content}}, But, for responsive tables, this: -->
+      {{ $wrappedTable := printf "<div class=table-wrapper style=overflow:auto;> ${1} </div>" }}
+      {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
     </div>
 
     <footer>
