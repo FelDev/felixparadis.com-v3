@@ -4,6 +4,37 @@
     {{- urlize . -}}
   {{- end -}}"
 >
-  <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-  <a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a>
+<a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">
+  <div class="top">
+
+    <figure>
+      <picture>
+        {{ $ext := substr (path.Ext .Params.previewImage) 1 }} 
+        <source 
+        srcset='{{.Params.previewImage}}'
+        type="image/{{$ext}}"
+        >
+        <div
+        style="width: 250px;
+        height: 250px;
+        overflow: hidden;    position: relative;
+"
+        >
+          <img 
+
+          src='{{.Params.previewImageFallback }}' 
+          alt=''
+          >
+        </div>
+      </picture>
+    </figure>
+    <div class="text">
+      <h2>{{ .Title }}</h2>
+      <!-- <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span> -->
+      <p>{{ .Params.description }}</p>
+    </div>
+  </div>
+
+  </a>
 </li>
+<hr>
