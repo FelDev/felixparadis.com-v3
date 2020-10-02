@@ -4,6 +4,10 @@ date: 2020-08-03
 lastmod: "2020-09-29"
 slug: "nuggets-of-wisdom-i-like"
 tags: ["motivation"]
+description: "A collection of short quotes I particularly like and wish to remember."
+images: ["/images/posts/wisdom/thinking_monkey.png"]
+previewImage: "/images/posts/wisdom/thinking_monkey.avif"
+previewImageFallback: "/images/posts/wisdom/thinking_monkey.png"
 ---
 
 <figure>

@@ -4,6 +4,8 @@ date: 2019-02-26T11:46:04-04:00
 tags: ["tutorial"]
 slug: "Authenticating-to-Apples-App-Store-Connect-API-from-Node.js-using-JWT"
 images: ["/images/posts/app_store_connect.jpeg" ]
+previewImage: "/images/posts/app_store_connect/banner.avif"
+previewImageFallback: "/images/posts/app_store_connect/banner.jpeg"
 description: "Without further ado, the snippet you need to get going quickly:"
 ---
 

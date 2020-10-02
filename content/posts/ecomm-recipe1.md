@@ -5,6 +5,8 @@ slug: "my-Recipe-for-a-0-dollar-per-month-e-commerce-website"
 tags: ["e-commerce"]
 images: ["https://res.cloudinary.com/felixparadis-com/image/upload/v1589901361/felixparadis.com/ecommerce_xjpn8n.jpg"]
 description:  "Where’s the catch? Stripe will charge you 2,9 % + 0,30$ on every transaction, but only if you make sales. Fine by me!"
+previewImage: "https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.7/v1589901361/felixparadis.com/ecommerce_xjpn8n.jpg"
+previewImageFallback: "https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.7/v1589901361/felixparadis.com/ecommerce_xjpn8n.jpg"
 ---
 
 {{< figure 
