@@ -139,7 +139,7 @@ It's not extremely satisfying, but good enough for now.
 Someday I'll take the time to find friends with a 3D printer and figure out a way to print custom keycaps that fill the gap. Or maybe I'll just buy a Redox. Or maybe Dygma will release an awesome gap-less ortholinear keeb. Until then, I'm rocking a butchered Ergodox and life is pretty good.
 
 **EDIT: I did 3D print custom keycaps:** [**3D Printing Custom Keycaps for the Ergodox**
-](/posts/3d_keycaps/)
+](/posts/3d-printing-custom-keycaps-for-the-ergodox/)
 
 # Conclusion 
 

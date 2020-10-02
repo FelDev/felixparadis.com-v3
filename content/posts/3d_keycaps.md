@@ -1,7 +1,7 @@
 ---
 title: "3D Printing Custom Keycaps for the Ergodox"
 date: 2020-10-01
-slug: ""
+slug: "3d-printing-custom-keycaps-for-the-ergodox"
 tags: ["Keyboards"]
 images: ["/images/posts/3D_keycaps/banner.jpg"]
 previewImage: "/images/posts/3D_keycaps/banner.webp"
@@ -83,7 +83,7 @@ Of course, using melted wax is a dirty hack and there was still a bit of a gap I
 
 ## Second attempt
 
-I modified the first model to make the top surface a bit bigger, reduce the size of the mount by 0.9mm and tried different settings.
+I modified the first model to make the top surface a bit bigger, reduce the size of the mount by 0.9mm and tried different settings. The [3D model of the second attempt is also available on Thingiverse](https://www.thingiverse.com/thing:4612088).
 
 | Material      | Technology | Resolution   | Cost per Keycap |
 |---------------|------------|--------------|-----------------|
