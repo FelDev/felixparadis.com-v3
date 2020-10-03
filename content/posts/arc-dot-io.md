@@ -1,7 +1,7 @@
 ---
 title: "Arc.io Review - A Way to Monetize Any Website"
 date: 2020-08-18
-lastmod: 2020-09-17
+lastmod: 2020-10-03
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
@@ -77,8 +77,8 @@ After implementing Arc:
 Then I noticed errors were being logged in the console...
 
 {{< image 
-    webpSrc="/images/posts/arc/console.webp" 
-    fallbackSrc="/images/posts/arc/lighthouse_1.png"
+    webpSrc="/images/posts/arc/console.webp"
+    fallbackSrc="/images/posts/arc/conssole.png"
     alt="Developer console showing \"Uncaught DOMException: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.\" All errors come from https://static.arc.io/something"
     caption="Yuck!"
     lazy="true"
@@ -122,7 +122,9 @@ Ok, it's passive pennies. Just enough to cover the yearly cost of my domain name
 If you run some kind of free web app where many people spend many minutes, you probably could make decent earnings. [I asked for arc.io reviews on Indie Hackers](https://www.indiehackers.com/post/arcdot-io-reviews-rent-your-users-bandwidth-058c1efe42) and [Martin Ratinaud](https://twitter.com/martinratinaud) wrote back that he makes about 8$ per day for 400k views per month with [edityouraudio.com](https://www.edityouraudio.com/). That's a daily not-so-cheap beer!
 
 
-**Update!** Ralf has something to add:
+**Update!** I got my first payment almost 2 months after implementing Arc: **5.31$US** (The minimum payout amount is 5$US.) 
+
+Also, Ralf has something to add:
 
 {{< tweet 1306455670376497152 >}}
 
