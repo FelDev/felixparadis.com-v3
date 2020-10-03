@@ -78,7 +78,7 @@ Then I noticed errors were being logged in the console...
 
 {{< image 
     webpSrc="/images/posts/arc/console.webp"
-    fallbackSrc="/images/posts/arc/conssole.png"
+    fallbackSrc="/images/posts/arc/console.png"
     alt="Developer console showing \"Uncaught DOMException: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.\" All errors come from https://static.arc.io/something"
     caption="Yuck!"
     lazy="true"
