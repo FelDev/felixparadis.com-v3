@@ -69,5 +69,10 @@ I found this quote particularly relevant when doing video editing.
 ### You can fail at what you don’t want, so you might as well take a chance on doing what you love.
 \- Jim Carrey
 
+### No matter what I do, I ask myself three questions: What do I want? Why do I want it? And how do I get it? 
+> [...] know why you're doing it. And know why it must be done. [...] Because when it gets hard, when it gets tough, when your friends walk away from you, when your supporters forget you, when you don't win your first race -- if you don't know why, you can't try again. 
+
+\- Stacey Abrams
+
 <!-- ### Des fois ça en prend beaucoup pour avoir besoin de rien...
 \- Maxime Pelletier ..? Kamou 2020-->
