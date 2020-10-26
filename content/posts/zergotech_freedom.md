@@ -1,7 +1,7 @@
 ---
 title: "Zergotech Freedom Review — The Ergonomic Keyboard for the Masses?"
 date: 2020-10-25T21:39:49-04:00
-slug: "zergotech-freedom-review—the-ergonomic-keyboard-for-the-masses"
+slug: "zergotech-freedom-review—--the-ergonomic-keyboard-for-the-masses"
 tags: ["keyboards", "product review"]
 description: "The philosophy behind this keyboard is to give as much ergonomic benefits to its users while minimizing the learning curve of a new design."
 images: ["/images/posts/zergotech/preview.jpg"]
