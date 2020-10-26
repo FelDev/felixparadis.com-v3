@@ -1,6 +1,6 @@
 ---
 title: "Zergotech Freedom Review — The Ergonomic Keyboard for the Masses?"
-date: 2020-10-25T21:39:49-04:00
+date: 2020-10-26T19:39:49-04:00
 slug: "zergotech-freedom-review—--the-ergonomic-keyboard-for-the-masses"
 tags: ["keyboards", "product review"]
 description: "The philosophy behind this keyboard is to give as much ergonomic benefits to its users while minimizing the learning curve of a new design."
@@ -21,6 +21,8 @@ previewImageFallback: "/images/posts/zergotech/preview.jpg"
   >
   <img 
     src='/images/posts/zergotech/banner.jpg' 
+    width='867'
+    height='816'
     alt='The Zergotech Freedom, over a cheering crowd.' 
   >
   </picture>  
@@ -84,9 +86,7 @@ Anyways, I remapped my first 2 keys and quickly realized the keyboard was output
     lazy="true"
 >}}
 
-So I thought that was pretty cool at first, you open any text editing software and you’re good to go. BUT, considering that the Freedom is supposed to be as user friendly as possible, I think Keycortex is an odd choice; not having to download any extra software is nice, but I’m sure many users would enjoy a visual interface with everything displayed nice and intuitively. I got a little kick out of seeing a terminal-like interface when programming my keyboard, but I’m sure many non-programmers won’t. 
-
-Also, there is a way to mess up your layout with Keycortex. Let’s suppose you copy your spacebar onto your enter key. Now how do you get your enter key back? Hopefully you still have an enter key on at least one layer, because if you don’t, you’re screwed. Gotta go for the Master Reset… (Unless I missed something? @Zergotech)
+So I thought that was pretty cool at first, you open any text editing software and you're good to go. BUT, considering that the Freedom is supposed to be as user friendly as possible, I think Keycortex is an odd choice; not having to download any extra software is nice, but I'm sure many users would enjoy a visual interface with everything displayed nice and intuitively. I once copied my spacebar onto my enter key instead of swapping them and wondered for a full minute… How would I  get my enter key back if it was not on any  layer? Turns out there's a "Restore Keys" macro so you wouldn't need the Master Reset just for one key, but, you know, it could've been more obvious in a visual interface.
 
 If this is your first fancy keyboard, you might be amazed by the power of Keycortex. Any key can be remapped anywhere, on up to 3 layers. You even have a layer dedicated to controlling your mouse, WHAT!? 
 
