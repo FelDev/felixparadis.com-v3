@@ -21,8 +21,6 @@ previewImageFallback: "/images/posts/zergotech/preview.jpg"
   >
   <img 
     src='/images/posts/zergotech/banner.jpg' 
-    width='867'
-    height='816'
     alt='The Zergotech Freedom, over a cheering crowd.' 
   >
   </picture>  
