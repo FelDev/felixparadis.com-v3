@@ -40,7 +40,7 @@
         </p>
     
     {{else}}
-      <p>{{.Get "caption" }}</p>
+      <p>{{.Get "caption" | markdownify }}</p>
     {{end}}
   </figcaption>
 </figure>
