@@ -9,7 +9,7 @@ ui_component: ""
 {{< project-info
     webpSrc="/images/projects/simple_timeline.webp" 
     fallbackSrc="/images/projects/simple_timeline.png"
-    alt=""
+    alt="Screenshot of Simple Timeline"
     status="MVP available, but unfinished 🚧" 
     kindOfProject="Webapp,SAAS"
     openSourceRepo="https://github.com/FelDev/nicetimeline"
@@ -25,7 +25,7 @@ The older I get, the harder it is to remember where I was X years ago. This tool
 {{< project-info
     webpSrc="/images/projects/artsy_hams.webp" 
     fallbackSrc="/images/projects/artsy_hams.png"
-    alt=""
+    alt="Screenshot of Artsy Hams"
     status="Never-ending 🎨" 
     kindOfProject="Art,E-commerce"
     openSourceRepo="https://github.com/FelDev/free-ecom"
@@ -41,7 +41,7 @@ I did write a blog post about the tech behind the store: [My Recipe for a 0$/mon
 {{< project-info
 webpSrc="/images/projects/ask_sagan.webp" 
     fallbackSrc="/images/projects/ask_sagan.png"
-    alt=""
+    alt="Screenshot of Ask Sagan"
     status="Done ✅" 
     kindOfProject="Webapp,Joke"
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v2/tree/master/ask-sagan"
@@ -55,7 +55,7 @@ What if Carl Sagan himself could answer your questions? Just fill the text box a
 {{< project-info
 webpSrc="/images/projects/365.webp" 
     fallbackSrc="/images/projects/365.png"
-    alt=""
+    alt="Screenshot of 365.felixparadis.com"
     status="Done ✅" 
     kindOfProject="Art"
     openSourceRepo="https://github.com/FelDev/365"
@@ -69,7 +69,7 @@ A photography project I did during my gap year in 2012-2013. The challenge was t
 {{< project-info
 webpSrc="/images/projects/morem.webp" 
     fallbackSrc="/images/projects/morem.png"
-    alt=""
+    alt="Screenshot of Morem"
     status="Abandoned 🏚" 
     kindOfProject="Webapp,PWA"
     openSourceRepo="https://github.com/FelDev/morem"
@@ -83,7 +83,7 @@ Morem is for **MORE M**editation. I learned about Progressive Web Apps, got exci
 {{< project-info
 webpSrc="/images/projects/v1.felixparadis.com.webp" 
     fallbackSrc="/images/projects/v1.felixparadis.com.png"
-    alt=""
+    alt="Screenshot of v1.felixparadis.com"
     status="Done ✅" 
     kindOfProject="Website,Joke"
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v1"
@@ -97,7 +97,7 @@ A single index.html file! It sure is fast to load and contains a fun easter egg 
 {{< project-info
 webpSrc="/images/projects/v2.felixparadis.com.webp" 
     fallbackSrc="/images/projects/v2.felixparadis.com.png"
-    alt=""
+    alt="Screenshot of v2.felixparadis.com"
     status="Done ✅" 
     kindOfProject="Website"
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v2"

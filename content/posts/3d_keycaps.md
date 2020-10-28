@@ -59,7 +59,7 @@ Anyways, here's what it looks like.
 {{< image 
     webpSrc="/images/posts/3D_keycaps/banner.webp" 
     fallbackSrc="/images/posts/3D_keycaps/banner.jpg"
-    alt=""
+    alt="The keycap on the ergodox, from above. It looks fine from that angle."
     lazy="true"
 >}}
 
