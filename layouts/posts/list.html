@@ -59,7 +59,12 @@
     }
     // So that if users go back from an article, the list is filtered. 
     // Not sure why I need to add a setTimeout of 1ms ...
-    document.addEventListener("DOMContentLoaded", setTimeout(() => {
+    document.addEventListener("DOMContentLoaded", () => setTimeout(() => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const tagFromURL = urlParams.get('tag')
+      if(tagFromURL) {
+        document.querySelector(`#${tagFromURL.replace(' ', '-')}`).checked = true;
+      }
       filterList()
     }, 1));
   </script>
