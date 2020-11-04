@@ -87,7 +87,7 @@ Then I noticed errors were being logged in the console...
 I wrote to Arc's team about this, pointing out that some of the issues were easy fixes. They kindly replied that they will be fixing them "shortly".  I'm still eagerly waiting for those fixes in particular:
 
 - [x] \<frame\> or \<iframe\> elements do not have a title - **UPDATE: FIXED**
-- [x] A cookie associated with a cross-site resource at http://core.arc.io/ was set without the `SameSite` attribute. - **UPDATE: FIXED**
+- [x] A cookie associated with a cross-site resource at http\://core.arc.io/ was set without the `SameSite` attribute. - **UPDATE: FIXED**
 - [ ] Arc's widget is not accessible to users who only use a keyboard. 
 
 I'll update this blog post when I notice fixes. But Arc's reply included this:
