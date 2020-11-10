@@ -1,6 +1,7 @@
 ---
 title: "How to Batch Convert Images to .avif"
 date: 2020-08-29
+lastmod: 2020-11-10
 slug: "How-to-Batch-Convert-Images-to-.avif"
 tags: ["tutorial"]
 images: ["/images/posts/avif/banner.jpg"]
@@ -18,6 +19,12 @@ previewImageFallback: "/images/posts/avif/banner.jpg"
 AV1 reached version 1.0.0 🎉 .avif is even more impressive than .webp compression-wise and it's gaining browser support fast. So let's get converting!
 
 The easiest way to convert an image to .avif is to use [squoosh.app](https://squoosh.app/), but it only processes one image at a time. I've read a tweet about batch conversion being on their roadmap (Ping me if you notice that!), but until then, we're going to rely on an awesome open-source cli tool: [Colorist](https://joedrago.github.io/colorist/).
+
+---
+**UPDATE:** Squoosh still doesn't support batch conversion, but [avif.io](https://avif.io/) does. 
+The method described in this post is still more powerful in terms of customizability and probably gives better performance too since it's not browser-based, but avif.io is definitely worth looking at anyway. 
+
+---
 
 I'm working on a mac, so you might have to adjust a little if you're on Linux and probably a bit more if you're on Windows. But Colorist is available to all. Also, I'm using [ZSH](https://ohmyz.sh/) as a shell. 
 
