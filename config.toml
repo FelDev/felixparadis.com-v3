@@ -17,35 +17,35 @@ enableRobotsTXT = true
 
 googleAnalytics = "UA-109396923-1"
 [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = true
+  anonymizeIP = true
+  disable = false
+  respectDoNotTrack = true
+  useSessionStorage = true
 
 [params]
-    author = "Félix Paradis"
-    hello = "Hello, I'm Félix Paradis 👋"
-    info = "Or find me online at various places:"
-    description = "Felix Paradis's personal blog and homepage"
-    keywords = "blog,developer,tech"
-    images = ["images/profile.png"] # for og:image
+  author = "Félix Paradis"
+  hello = "Hello, I'm Félix Paradis 👋"
+  info = "Or find me online at various places:"
+  description = "Felix Paradis's personal blog and homepage"
+  keywords = "blog,developer,tech"
+  images = ["images/profile.png"] # for og:image
 
-    # favicon_32 = "/img/favicon-32x32.png"
-    # favicon_16 = "/img/favicon-16x16.png"
+  # favicon_32 = "/img/favicon-32x32.png"
+  # favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = ""
+  footercontent = ""
 
-    hidecredits = false
-    hidecopyright = false
+  hidecredits = false
+  hidecopyright = false
 
-    # Specify colorscheme. Supported values:
-    # "auto" (use preference set by browser)
-    # "dark" (dark background, light foreground)
-    # "light" (light background, dark foreground) (default)
-    colorscheme = "dark"
+  # Specify colorscheme. Supported values:
+  # "auto" (use preference set by browser)
+  # "dark" (dark background, light foreground)
+  # "light" (light background, dark foreground) (default)
+  colorscheme = "dark"
 
-    custom_css = []
-    custom_js = []
+  custom_css = []
+  custom_js = []
 
 [taxonomies]
   category = "categories"
@@ -61,72 +61,64 @@ googleAnalytics = "UA-109396923-1"
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/FelDev/"
+  name = "Github"
+  icon = "fab fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/FelDev/"
 [[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
-    weight = 2
-    url = "https://medium.com/@FelixParadis"
+  name = "Medium"
+  icon = "fab fa-medium"
+  weight = 2
+  url = "https://medium.com/@FelixParadis"
 [[params.social]]
-    name = "CodePen"
-    icon = "fab fa-codepen fa-2x"
-    weight = 5
-    url = "https://codepen.io/FelDev/"
+  name = "CodePen"
+  icon = "fab fa-codepen fa-2x"
+  weight = 5
+  url = "https://codepen.io/FelDev/"
 [[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 4
-    url = "https://www.linkedin.com/in/felix-paradis/"
+  name = "LinkedIn"
+  icon = "fab fa-linkedin"
+  weight = 4
+  url = "https://www.linkedin.com/in/felix-paradis/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 6
-    url = "https://twitter.com/felixs_username/"
+  name = "Twitter"
+  icon = "fab fa-twitter fa-2x"
+  weight = 6
+  url = "https://twitter.com/felixs_username/"
 [[params.social]]
-    name = "Stack Exchange"
-    icon = "fab fa-stack-exchange fa-2x"
-    weight = 3
-    url = "https://stackexchange.com/users/7861276/feldev?tab=accounts"
+  name = "Stack Exchange"
+  icon = "fab fa-stack-exchange fa-2x"
+  weight = 3
+  url = "https://stackexchange.com/users/7861276/feldev?tab=accounts"
 
 [languages]
-    [languages.en]
-        languagename = "English"
-        
-        # Menu links
-        [languages.en.menu]
+  [languages.en]
+    languagename = "English"
+    
+    # Menu links
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Projects"
+        weight = 1
+        url = "projects/"
+      [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "posts/"
+      [[languages.en.menu.main]]
+        name = "Contact"
+        weight = 5
+        url = "contact/"
+      
+      # [[languages.en.menu.main]]
+        # name = "About"
+        # weight = 1
+        # url = "about/"
+      # [[languages.en.menu.main]]
+        # name = "Referral Links"
+        # weight = 2
+        # url = "referral-links/"
 
-            # [[languages.en.menu.main]]
-            # name = "About"
-            # weight = 1
-            # url = "about/"
-
-            [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 1
-            url = "projects/"
-            [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            # [[languages.en.menu.main]]
-            # name = "Projects"
-            # weight = 3
-            # url = "projects/"
-            
-            # [[languages.en.menu.main]]
-            # name = "Referral Links"
-            # weight = 2
-            # url = "referral-links/"
-
-            # #TODO: include netlify contact form
-            [[languages.en.menu.main]]
-            name = "Contact"
-            weight = 5
-            url = "contact/"
 
 
     # [languages.fr-ca]

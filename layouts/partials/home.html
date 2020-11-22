@@ -47,7 +47,6 @@
 
     <section id="latest-blog-posts" class="colorful-section">
       <div>
-        <!-- #TODO: make "Blog" a link? <a href="/posts">Blog</a> -->
         <h2>Latest <br> <a href="/posts">Blog</a> <br> Posts</h2>
           {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
           <div class="latest-blog-post">
