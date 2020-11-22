@@ -1,7 +1,7 @@
 ---
 title: "Arc.io Review - A Way to Monetize Any Website"
 date: 2020-08-18
-lastmod: 2020-10-03
+lastmod: 2020-11-21
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
@@ -38,7 +38,7 @@ My website is built with Hugo as a Static Site Generator and hosted on Netlify. 
 1. Add this line of code to my baseof.html file:
 
 ```html
-<script async src="https://arc.io/widget.js#jf2aUNG1"></script>
+<script async src="https://arc.io/widget.min.js#jf2aUNG1"></script>
 ```
 
 2. Add this rule to my netlify.toml file:
