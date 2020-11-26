@@ -1,6 +1,7 @@
 ---
 title: "3D Printing Custom Keycaps for the Ergodox"
 date: 2020-10-01
+lastmod: 2020-11-26
 slug: "3d-printing-custom-keycaps-for-the-ergodox"
 tags: ["keyboards"]
 images: ["/images/posts/3D_keycaps/banner.jpg"]
@@ -16,6 +17,10 @@ description: "An introduction to 3D printing keycaps specifically to address the
 
 ## WARNING AND DISCLAIMER
 This was my first 3D printing experiment. Don't use this as a definite guide.
+
+Also, **#UPDATE**: after almost 2 months of use, it seems like the wax hack is
+failing the test of time; the wiggle got wigglier. So, I'm currently waiting for a
+Lili 58 Pro. What else was I going to do with my money anyway?
 
 ## Why 3D print keycaps?
 **Long version**: [Quest for the Perfect Keyboard: Ergodox EZ vs. Dygma Raise](/posts/quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise) 
