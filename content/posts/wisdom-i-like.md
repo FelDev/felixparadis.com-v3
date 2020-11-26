@@ -1,7 +1,7 @@
 ---
 title: "Nuggets of Wisdom I Like"
 date: 2020-08-03
-lastmod: "2020-09-29"
+lastmod: "2020-11-25"
 slug: "nuggets-of-wisdom-i-like"
 tags: ["motivation"]
 description: "A collection of short quotes I particularly like and wish to remember."
@@ -73,6 +73,9 @@ I found this quote particularly relevant when doing video editing.
 > [...] know why you're doing it. And know why it must be done. [...] Because when it gets hard, when it gets tough, when your friends walk away from you, when your supporters forget you, when you don't win your first race -- if you don't know why, you can't try again. 
 
 \- Stacey Abrams
+
+### If you have a problem and there is a solution, why worry? If you have a problem and there is no solution... why worry?
+\- The Dalaï Lama
 
 <!-- ### Des fois ça en prend beaucoup pour avoir besoin de rien...
 \- Maxime Pelletier ..? Kamou 2020-->
