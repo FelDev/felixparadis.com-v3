@@ -237,6 +237,7 @@ Rather than having a CMS folder with subfolders for each page with CMS-managed c
 This approach is based on nothing but my own experimentations; such is life on the bleeding edge. 
 
 I specify that because I'm not sure that this approach is *the* right approach and I'll gladly point to better ideas should they arise. In other words, let me know if there's a better way.
+There is one big problem with this current setup: no image optimization is happening. I have to trust that content editor will upload properly sized images…
 
 But I hope this blog post will help the next person looking for "Routify CMS", if only by letting them know that yes, you can use a CMS with Routify. I've done it. You're not alone.
 
