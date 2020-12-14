@@ -1,6 +1,6 @@
 ---
 title: "Integrating Netlifycms with Routify"
-date: 2020-12-14T21:39:49-04:00
+date: 2020-12-14T11:30:49-04:00
 slug: "integrating-netlifycms-with-routify"
 tags: ["tutorial"]
 description: ""
