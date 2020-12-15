@@ -1,7 +1,7 @@
 ---
-title: "Integrating Netlifycms with Routify"
+title: "Integrating Netlify CMS with Routify"
 date: 2020-12-14T11:30:49-04:00
-slug: "integrating-netlifycms-with-routify"
+slug: "integrating-netlify-cms-with-routify"
 tags: ["tutorial"]
 description: ""
 images: ["/images/posts/routify_netlifycms/banner.png"]
@@ -13,10 +13,10 @@ draft: false
 {{< banner
     webpSrc="/images/posts/routify_netlifycms/banner.webp" 
     fallbackSrc="/images/posts/routify_netlifycms/banner.jpeg"
-    alt="Netlifycms' logo with an arrow pointing to Routify's logo"
+    alt="Netlify CMS' logo with an arrow pointing to Routify's logo"
 >}}
 
-I chose Routify for a project and found close to zero doc on CMS integrations. After a bit of tinkering with Strapi, I figured I didn't want to spin up a heroku dyno just for the CMS of a jamstack site and decided to give netlifyCMS a try. The integration process was much smoother. 
+I chose Routify for a project and found close to zero doc on CMS integrations. After a bit of tinkering with Strapi, I figured I didn't want to spin up a heroku dyno just for the CMS of a jamstack site and decided to give Netlify CMS a try. The integration process was much smoother. 
 
 I made a repository to demo the final result of this tutorial: [github.com/FelDev/routify-netlifycms](https://github.com/FelDev/routify-netlifycms)
 
@@ -24,9 +24,9 @@ And the live site of that demo repo is available at [routify-netlifycms.netlify.
 
 ## Getting set up
 
-(A lot of the basics are pretty much what you'd find in [NetlifyCMS' docs](https://www.netlifycms.org/docs/add-to-your-site/), but here is a quick recap anyway until we get to the [Routify specific stuff](#routify-specific-stuff))
+(A lot of the basics are pretty much what you'd find in [Netlify CMS' docs](https://www.netlifycms.org/docs/add-to-your-site/), but here is a quick recap anyway until we get to the [Routify specific stuff](#routify-specific-stuff))
 
-It's quite easy to add NetlifyCMS to an already existing Routify project. But, if you're starting from scratch, you'll probably want to get started with Routify's starter repo.
+It's quite easy to add Netlify CMS to an already existing Routify project. But, if you're starting from scratch, you'll probably want to get started with Routify's starter repo.
 
 `npx @roxi/routify init` 
 
@@ -119,10 +119,10 @@ You should be able to login at http://localhost:5000/admin and see an error mess
 
 ## Routify specific stuff
 
-This is getting Routify specific because your collections property is where you define the location of the content files managed by NetlifyCMS.
+This is getting Routify specific because your collections property is where you define the location of the content files managed by Netlify CMS.
 You could do it in various ways, I'll propose two options.
 
-Again, the [NetlifyCMS docs on collections](https://www.netlifycms.org/docs/collection-types/#header) are pretty clear so I won't go in detail. The focus here is where we store our files and how we use them.
+Again, the [Netlify CMS docs on collections](https://www.netlifycms.org/docs/collection-types/#header) are pretty clear so I won't go in detail. The focus here is where we store our files and how we use them.
 
 ### 1st option: a CMS folder for all your content
 
