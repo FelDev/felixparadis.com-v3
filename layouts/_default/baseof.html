@@ -113,7 +113,9 @@
     {{ end -}}
 
     {{ hugo.Generator }}
-    <script async src="https://arc.io/widget.min.js#jf2aUNG1"></script>
+    {{ if not .Site.IsServer }}
+      <script async src="https://arc.io/widget.min.js#jf2aUNG1"></script>
+    {{ end }}
     <meta name="monetization" content="$ilp.uphold.com/Zn2iQrmHPB3W">
     <!-- Google adSense -->
     <!-- <script data-ad-client="ca-pub-9292989102900534" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
@@ -129,6 +131,13 @@
     {{ $csClass = "colorscheme-auto" }}
   {{ end }}
   <body class="{{ $csClass }}">
+    <!-- <script>
+      // #TODO: avoid flash of dark theme when light theme preferred
+      if(localStorage.getItem('theme') == "colorscheme-light") {
+        console.log('@oui');
+        document.getElementsByTagName("body")[0].classList.add("colorscheme-light")
+      }
+    </script> -->
     <main class="wrapper">
       {{ partial "header.html" . }}
 
@@ -160,7 +169,7 @@
       let body = document.getElementsByTagName("body")[0];
       let theme = body.className == "colorscheme-dark" ? "colorscheme-light" : "colorscheme-dark";
       body.className = ''
-      body.style.transition = "0.5s";
+      // body.style.transition = "0.5s";
       body.classList.add(theme)
       localStorage.setItem('theme', theme);
     }
