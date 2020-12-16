@@ -4,15 +4,15 @@ date: 2020-12-14T11:30:49-04:00
 slug: "integrating-netlify-cms-with-routify"
 tags: ["tutorial"]
 description: ""
-images: ["/images/posts/routify_netlifycms/banner.png"]
+images: ["/images/posts/routify_netlifycms/banner.jpg"]
 previewImage: "/images/posts/routify_netlifycms/banner.webp"
-previewImageFallback: "/images/posts/routify_netlifycms/banner.png"
+previewImageFallback: "/images/posts/routify_netlifycms/banner.jpg"
 draft: false
 ---
 
 {{< banner
     webpSrc="/images/posts/routify_netlifycms/banner.webp" 
-    fallbackSrc="/images/posts/routify_netlifycms/banner.jpeg"
+    fallbackSrc="/images/posts/routify_netlifycms/banner.jpg"
     alt="Netlify CMS' logo with an arrow pointing to Routify's logo"
 >}}
 
@@ -101,7 +101,7 @@ Now, when you click the invitation link you've sent yourself, you should see thi
 
 {{< image 
     webpSrc="/images/posts/routify_netlifycms/signup_popup.webp" 
-    fallbackSrc="/images/posts/routify_netlifycms/signup_popup.png"
+    fallbackSrc="/images/posts/routify_netlifycms/signup_popup.jpg"
     alt="Popup that reads 'Complete your signup' with a password prompt."
     lazy="true"
 >}}
