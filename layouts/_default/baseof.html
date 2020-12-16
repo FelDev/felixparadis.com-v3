@@ -165,11 +165,13 @@
       switchTheme()
     }
   
-    function switchTheme() {
+    function switchTheme(event) {
       let body = document.getElementsByTagName("body")[0];
       let theme = body.className == "colorscheme-dark" ? "colorscheme-light" : "colorscheme-dark";
       body.className = ''
-      // body.style.transition = "0.5s";
+      if (event) { // prevents flash of incorrect theme on page load
+        body.style.transition = "0.5s";
+      }
       body.classList.add(theme)
       localStorage.setItem('theme', theme);
     }
