@@ -55,10 +55,11 @@ Speaking of wifi, here is an annoying scenario you’ll bump into with Fongo: yo
 
 And sometimes, for no apparent reason, this:
 
-{{< figure 
-    src="/images/posts/fongo/system_ui.jpeg" 
+{{< image 
+    fallbackSrc="/images/posts/fongo/system_ui.jpeg" 
+    webpSrc="/images/posts/fongo/system_ui.webp" 
     alt="A phone's homescreen showing 'Fongo connection failed'"
-    class="tooTall"
+    lazy="true"
 >}}   
 
 For texting, again, it usually works just fine, but on some rare occasions, I’ve received text messages days after they were sent. **DAYS**. Again, that happened only twice in two years as far as I can tell and maybe it’s not even a Fongo problem, but I highly suspect it is.
