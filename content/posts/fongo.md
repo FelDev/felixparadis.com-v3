@@ -56,8 +56,9 @@ Speaking of wifi, here is an annoying scenario you’ll bump into with Fongo: yo
 And sometimes, for no apparent reason, this:
 
 {{< image 
-    fallbackSrc="/images/posts/fongo/system_ui.jpeg" 
+    avifSrc="/images/posts/fongo/system_ui.avif" 
     webpSrc="/images/posts/fongo/system_ui.webp" 
+    fallbackSrc="/images/posts/fongo/system_ui.jpeg" 
     alt="A phone's homescreen showing 'Fongo connection failed'"
     lazy="true"
 >}}   
