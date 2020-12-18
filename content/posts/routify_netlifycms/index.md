@@ -4,15 +4,15 @@ date: 2020-12-14T11:30:49-04:00
 slug: "integrating-netlify-cms-with-routify"
 tags: ["tutorial"]
 description: ""
-images: ["/images/posts/routify_netlifycms/banner.jpg"]
-previewImage: "/images/posts/routify_netlifycms/banner.webp"
-previewImageFallback: "/images/posts/routify_netlifycms/banner.jpg"
+images: ["/posts/routify_netlifycms/banner.jpg"]
+previewImage: "banner.webp"
+previewImageFallback: "banner.jpg"
 draft: false
 ---
 
-{{< banner
-    webpSrc="/images/posts/routify_netlifycms/banner.webp" 
-    fallbackSrc="/images/posts/routify_netlifycms/banner.jpg"
+{{< image_bundle
+    webpSrc="banner.webp" 
+    fallbackSrc="banner.jpg"
     alt="Netlify CMS' logo with an arrow pointing to Routify's logo"
 >}}
 
@@ -99,9 +99,9 @@ To accept your invitation, you must have Netlify's Identity Widget running on yo
  
 Now, when you click the invitation link you've sent yourself, you should see this popup:
 
-{{< image 
-    webpSrc="/images/posts/routify_netlifycms/signup_popup.webp" 
-    fallbackSrc="/images/posts/routify_netlifycms/signup_popup.jpg"
+{{< image_bundle
+    webpSrc="signup_popup.webp" 
+    fallbackSrc="signup_popup.jpg"
     alt="Popup that reads 'Complete your signup' with a password prompt."
     lazy="true"
 >}}
