@@ -11,7 +11,12 @@ previewImage: "https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f
 previewImageFallback: "https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.1/v1589654862/felixparadis.com/ergodox/hero_d5uqdm.jpg"
 ---
 
-![Half a Raise next to half an Ergodox](https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589654862/felixparadis.com/ergodox/hero_d5uqdm.jpg)
+{{< image 
+    src="https://res.cloudinary.com/felixparadis-com/image/upload/q_auto,f_auto,w_0.2/v1589654862/felixparadis.com/ergodox/hero_d5uqdm.jpg" 
+    alt="Half a Raise next to half an Ergodox"
+    width="921"
+    height="691"
+>}}
 
 # Introductory rant
 
@@ -29,9 +34,9 @@ My point is, your keyboard sucks. The good news is that better solutions exists.
 
 My first decent keyboard was the Ergodox EZ, almost a year later I got a Dygma Raise.
 
-### [Full Review of the Ergodox EZ](https://medium.com/tech-reviews/ergodox-ez-review-thoughts-after-3-months-of-regular-use-370fd00cdaa2?source=friends_link&sk=363a8728b44f994241fd7b1acc7ba018)
+## [Full Review of the Ergodox EZ](https://medium.com/tech-reviews/ergodox-ez-review-thoughts-after-3-months-of-regular-use-370fd00cdaa2?source=friends_link&sk=363a8728b44f994241fd7b1acc7ba018)
 
-### [Full Review of the Dygma Raise](https://medium.com/@FelixParadis/dygma-raise-review-thoughts-after-3-months-of-regular-use-41b19e91d357?source=friends_link&sk=d8a9c5437f4f04d2e78e070835929b3f)
+## [Full Review of the Dygma Raise](https://medium.com/@FelixParadis/dygma-raise-review-thoughts-after-3-months-of-regular-use-41b19e91d357?source=friends_link&sk=d8a9c5437f4f04d2e78e070835929b3f)
 
 And the winner is...
 
@@ -89,6 +94,8 @@ I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little
     caption="High res picture⌝"
     lazy="true"
     extraBR="true"
+    width="921"
+    height="691"
 >}}
 
 {{< image 
@@ -98,6 +105,8 @@ I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little
     caption="High res picture⌝"
     lazy="true"
     extraBR="true"
+    width="921"
+    height="691"
 >}}
 
 {{< image 
@@ -107,6 +116,8 @@ I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little
     caption="High res picture⌝"
     lazy="true"
     extraBR="true"
+    width="921"
+    height="691"
 >}}
 
 {{< image 
@@ -116,6 +127,8 @@ I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little
     caption="High res picture⌝"
     lazy="true"
     extraBR="true"
+    width="921"
+    height="691"
 >}}
 
 {{< image 
@@ -125,6 +138,8 @@ I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little
     caption="High res picture⌝"
     lazy="true"
     extraBR="true"
+    width="921"
+    height="691"
 >}}
 
 {{< image 
@@ -134,6 +149,8 @@ I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little
     caption="High res picture⌝"
     lazy="true"
     extraBR="true"
+    width="921"
+    height="691"
 >}}
 
 It's not extremely satisfying, but good enough for now.
