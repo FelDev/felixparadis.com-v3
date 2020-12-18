@@ -3,15 +3,15 @@ title: "Solving design problems caused by i18n with pure CSS"
 date: 2019-06-09T13:57:04-04:00
 slug: "solving-design-problems-caused-by-i18n-with-pure-css"
 tags: ["tutorial"]
-images: ["/posts/i18n_css.jpg"]
-previewImage: "/posts/i18n_css.jpg"
-previewImageFallback: "/posts/i18n_css.jpg"
+images: ["/posts/solving-design-problems-caused-by-i18n-with-pure-css/banner.jpg"]
+previewImage: "/posts/banner.jpg"
+previewImageFallback: "/posts/banner.jpg"
 description: "If you ever managed a multilingual website, you surely ran into issues that were language specific; your site is a responsive heaven in language X, but then you switch to language Y and the design is broken on mobile"
 ---
 
 {{< image_bundle
-    webpSrc="i18n_css.webp" 
-    fallbackSrc="i18n_css.jpg" 
+    webpSrc="banner.webp" 
+    fallbackSrc="banner.jpg" 
     alt="A design working well in English but broken in French"
 >}}
 

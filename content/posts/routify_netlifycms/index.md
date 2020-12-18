@@ -4,7 +4,7 @@ date: 2020-12-14T11:30:49-04:00
 slug: "integrating-netlify-cms-with-routify"
 tags: ["tutorial"]
 description: ""
-images: ["/posts/routify_netlifycms/banner.jpg"]
+images: ["/posts/integrating-netlify-cms-with-routify/banner.jpg"]
 previewImage: "banner.webp"
 previewImageFallback: "banner.jpg"
 draft: false

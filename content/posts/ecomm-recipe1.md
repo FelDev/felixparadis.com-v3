@@ -13,6 +13,8 @@ previewImageFallback: "https://res.cloudinary.com/felixparadis-com/image/upload/
     src="https://res.cloudinary.com/felixparadis-com/image/upload/v1589901361/felixparadis.com/ecommerce_xjpn8n.jpg" 
     alt="picture of someone buying something online"
     caption="Photo by [rupixen.com](https://unsplash.com/@rupixen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/ecommerce?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+    width="640"
+    height="427"
 >}}
 
 # The Ingredients:

@@ -2,9 +2,9 @@
 title: "How to Batch Convert Images to .avif"
 date: 2020-08-29
 lastmod: 2020-11-10
-slug: "How-to-Batch-Convert-Images-to-.avif"
+slug: "how-to-batch-convert-images-to-.avif"
 tags: ["tutorial"]
-images: ["/posts/avif/banner.jpg"]
+images: ["/posts/how-to-batch-convert-images-to-.avif/banner.jpg"]
 description: "Convert multiple images to the .avif format using the awesome open-source cli tool Colorist."
 previewImage: "banner.avif"
 previewImageFallback: "/posts/avif/banner.jpg"

@@ -5,7 +5,7 @@ lastmod: 2020-11-21
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
-images: ["/posts/arc/banner.png?updateYourCacheTwitter"]
+images: ["/posts/arc-dot-io-review/banner.png"]
 previewImage: "banner.webp"
 previewImageFallback: "/posts/arc/banner.png"
 ---

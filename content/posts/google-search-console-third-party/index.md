@@ -1,10 +1,10 @@
 ---
 title: "How to Revoke Third Party Authorization to Google Search Console"
 date: 2020-08-12T19:08:10-04:00
-slug: "How-to-Revoke-Third-Party-Authorization-to-Google-Search-Console" 
+slug: "how-to-revoke-third-party-authorization-to-google-search-console" 
 tags: ["tutorial"]
 description: "It's easy to remove third party authorization to your Google account, even if the third party isn't helpful!"
-images: ["/posts/search_console/banner.jpg"]
+images: ["/posts/how-to-revoke-third-party-authorization-to-google-search-console/banner.jpg"]
 previewImage: "banner.webp"
 previewImageFallback: "/posts/search_console/banner.jpg"
 ---

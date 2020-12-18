@@ -5,7 +5,7 @@ lastmod: "2020-11-25"
 slug: "nuggets-of-wisdom-i-like"
 tags: ["motivation"]
 description: "A collection of short quotes I particularly like and wish to remember."
-images: ["/posts/wisdom/thinking_monkey.png"]
+images: ["/posts/nuggets-of-wisdom-i-like/thinking_monkey.png"]
 previewImage: "thinking_monkey.avif"
 previewImageFallback: "/posts/wisdom/thinking_monkey.png"
 ---
