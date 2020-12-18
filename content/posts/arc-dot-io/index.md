@@ -5,14 +5,14 @@ lastmod: 2020-11-21
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
-images: ["/images/posts/arc/banner.png?updateYourCacheTwitter"]
-previewImage: "/images/posts/arc/banner.webp"
-previewImageFallback: "/images/posts/arc/banner.png"
+images: ["/posts/arc/banner.png?updateYourCacheTwitter"]
+previewImage: "banner.webp"
+previewImageFallback: "/posts/arc/banner.png"
 ---
 
-{{< image 
-    webpSrc="/images/posts/arc/banner.webp" 
-    fallbackSrc="/images/posts/arc/banner.png"
+{{< image_bundle
+    webpSrc="banner.webp" 
+    fallbackSrc="banner.png"
     alt="Arc's logo"
 >}}
 # What's [Arc.io](https://arc.io/) ?
@@ -57,9 +57,9 @@ I ran Lighthouse tests before and after implementing Arc. Sadly, it doesn't look
 
 My score before implementing Arc:
 
-{{< image 
-    webpSrc="/images/posts/arc/lighthouse_1.webp" 
-    fallbackSrc="/images/posts/arc/lighthouse_1.png"
+{{< image_bundle 
+    webpSrc="lighthouse_1.webp" 
+    fallbackSrc="lighthouse_1.png"
     alt="Lighthouse test showing a score of 100 for Performance, Accessibility, Best Practices and SEO."
     caption="Yeah, I'm that good."
     lazy="true"
@@ -67,18 +67,18 @@ My score before implementing Arc:
 
 After implementing Arc:
 
-{{< image 
-    webpSrc="/images/posts/arc/lighthouse_2.webp" 
-    fallbackSrc="/images/posts/arc/lighthouse_2.png"
+{{< image_bundle
+    webpSrc="lighthouse_2.webp" 
+    fallbackSrc="lighthouse_2.png"
     alt="Lighthouse test showing a score of 81 for Performance, 96 for Accessibility, 93 for Best Practices and 100 for SEO."
     caption="Yikes!"
     lazy="true"
 >}}
 Then I noticed errors were being logged in the console...
 
-{{< image 
-    webpSrc="/images/posts/arc/console.webp"
-    fallbackSrc="/images/posts/arc/console.png"
+{{< image_bundle
+    webpSrc="console.webp"
+    fallbackSrc="console.png"
     alt="Developer console showing \"Uncaught DOMException: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.\" All errors come from https://static.arc.io/something"
     caption="Yuck!"
     lazy="true"
@@ -101,17 +101,17 @@ To be fair, I cannot say that I notice slower performances now that Arc is on my
 
 My website is, for the moment, pretty low traffic. Here is a screenshot of my Google Analytics homepage for the past 28 days.
 
-{{< image 
-    webpSrc="/images/posts/arc/analytics.webp" 
-    fallbackSrc="/images/posts/arc/analytics.png"
+{{< image_bundle
+    webpSrc="analytics.webp" 
+    fallbackSrc="analytics.png"
     alt="Google Analytics screenshot showing 282 users, 293 sessions, 89.42% bounce rate and 17 seconds as the average session duration"
     lazy="true"
 >}}
 Yeah, this blog has room for growth. The traffic is so low that I couldn't possibly be accepted by any decent ad network at the moment. And yet... even with such a humble amount of visitors, felixparadis.com is now a source of passive income!
 
-{{< image 
-    webpSrc="/images/posts/arc/earnings.webp" 
-    fallbackSrc="/images/posts/arc/earnings.png" 
+{{< image_bundle 
+    webpSrc="earnings.webp" 
+    fallbackSrc="earnings.png" 
     alt="Graphic of my earnings through Arc.io. Some days are as low as not even a penny, but some are above 0.10$ and one day even got to 0.24$"
     caption="I implemented Arc on the 4th of August."
     lazy="true"
