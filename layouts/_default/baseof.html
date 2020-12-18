@@ -167,16 +167,12 @@
         let body = document.getElementsByTagName("body")[0];
         let theme = body.className == "colorscheme-dark" ? "colorscheme-light" : "colorscheme-dark";
         body.className = ''
-        if (event) { // prevents flash of incorrect theme on page load
+        if (event) { // Means button was pressed by user - prevents flash of incorrect theme on page load
           body.style.transition = "0.5s";
+          fetch("https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i=darkmode")
         }
         body.classList.add(theme)
         localStorage.setItem('theme', theme);
-      }
-      try {
-        fetch("https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i=darkmode")
-      } catch (err) {
-        console.log('@err: ', err);
       }
     </script>
     
