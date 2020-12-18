@@ -82,14 +82,20 @@
               <figure>
                 <picture>
                   {{ $ext := substr (path.Ext .Params.previewImage) 1 }} 
-                  <source 
-                    srcset='{{.Params.previewImage}}'
-                    type="image/{{$ext}}"
-                  >
-                  <img 
-                    src='{{.Params.previewImageFallback }}' 
-                    alt=''
-                  >
+                  {{ with .Page.Resources.GetMatch .Params.previewImage }}
+                    <source 
+                      srcset='{{ .RelPermalink }}'
+                      type="image/{{$ext}}"
+                    >
+                  {{ end }}
+                  {{ with .Page.Resources.GetMatch .Params.previewImageFallback }}
+                    <img 
+                      src='{{ .RelPermalink }}' 
+                      width='{{ .Width }}'
+                      height='{{ .Height }}'
+                      alt=""
+                    >
+                  {{ end }}
                 </picture>
               </figure>
               <!-- <img src="{{ .Params.previewImage }}" alt=""> -->

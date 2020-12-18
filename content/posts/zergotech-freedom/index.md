@@ -1,40 +1,28 @@
 ---
 title: "Zergotech Freedom Review — The Ergonomic Keyboard for the Masses?"
 date: 2020-10-26T19:39:49-04:00
-slug: "zergotech-freedom-review—--the-ergonomic-keyboard-for-the-masses"
+slug: "zergotech-freedom-review-the-ergonomic-keyboard-for-the-masses"
 tags: ["keyboards", "product review"]
 description: "The philosophy behind this keyboard is to give as much ergonomic benefits to its users while minimizing the learning curve of a new design."
-images: ["/images/posts/zergotech/preview.jpg"]
-previewImage: "/images/posts/zergotech/preview.webp"
-previewImageFallback: "/images/posts/zergotech/preview.jpg"
+images: ["/posts/zergotech-freedom-review-the-ergonomic-keyboard-for-the-masses/preview.jpg"]
+previewImage: "preview.webp"
+previewImageFallback: "preview.jpg"
 ---
 
-<figure>
-  <picture>
-  <source 
-    srcset='/images/posts/zergotech/banner.avif'
-    type="image/avif"
-  >
-  <source 
-    srcset='/images/posts/zergotech/banner.webp'
-    type="image/webp"
-  >
-  <img 
-    src='/images/posts/zergotech/banner.jpg' 
-    alt='The Zergotech Freedom, over a cheering crowd.' 
-  >
-  </picture>  
-  <figcaption>
-    <span>Crowd photo by <a href="https://unsplash.com/@wrwhite3">William White</a> on <a href="https://unsplash.com/s/photos/crowd">Unsplash</a> Amazing editing by me.</span>
-  </figcaption>
-</figure>
-
+{{< image_bundle
+    avifSrc="banner.avif"
+    webpSrc="banner.webp"
+    fallbackSrc="banner.jpg"
+    alt="The Zergotech Freedom, over a cheering crowd."
+    caption=`<span>Crowd photo by <a href="https://unsplash.com/@wrwhite3">William White</a> on <a href="https://unsplash.com/s/photos/crowd">Unsplash</a> Amazing editing by me.</span>`
+    lazy="true"
+>}}
 
 My quest for the perfect keyboard continues… In early 2019 I got the Ergodox EZ, then I tried the Dygma Raise but went back to the Ergodox.
 
-### [Full Review of the Ergodox EZ](https://medium.com/tech-reviews/ergodox-ez-review-thoughts-after-3-months-of-regular-use-370fd00cdaa2?source=friends_link&sk=363a8728b44f994241fd7b1acc7ba018)
+## [Full Review of the Ergodox EZ](https://medium.com/tech-reviews/ergodox-ez-review-thoughts-after-3-months-of-regular-use-370fd00cdaa2?source=friends_link&sk=363a8728b44f994241fd7b1acc7ba018)
 
-### [Full Review of the Dygma Raise](https://medium.com/@FelixParadis/dygma-raise-review-thoughts-after-3-months-of-regular-use-41b19e91d357?source=friends_link&sk=d8a9c5437f4f04d2e78e070835929b3f)
+## [Full Review of the Dygma Raise](https://medium.com/@FelixParadis/dygma-raise-review-thoughts-after-3-months-of-regular-use-41b19e91d357?source=friends_link&sk=d8a9c5437f4f04d2e78e070835929b3f)
 
 Onto my third ergonomic keyboard: [the Zergotech Freedom](https://www.zergotech.com/). The philosophy behind this keyboard is to give as much ergonomic benefits to its users while minimizing the learning curve of a new design. I was intrigued.
 
@@ -76,9 +64,9 @@ I was skeptical about the configurator. The team over at Zergotech believed that
 
 Anyways, I remapped my first 2 keys and quickly realized the keyboard was outputting text on my screen in a cool, hacker-terminal fashion.
 
-{{< image 
-    webpSrc="/images/posts/zergotech/keycortex.webp" 
-    fallbackSrc="/images/posts/zergotech/keycortex.jpg"
+{{< image_bundle
+    webpSrc="keycortex.webp" 
+    fallbackSrc="keycortex.jpg"
     alt="An output of instructions in simple text to remap keys."
     caption="Just follow the instructions on screen. Easy, right?"
     lazy="true"
@@ -113,9 +101,9 @@ Ok, I’m being **real picky** here, for most people all the following is **very
 * There is a bit of wasted space on the keyboard.
 
 
-{{< image 
-    webpSrc="/images/posts/zergotech/wasted_space.webp" 
-    fallbackSrc="/images/posts/zergotech/wasted_space.jpg"
+{{< image_bundle 
+    webpSrc="wasted_space.webp" 
+    fallbackSrc="wasted_space.jpg"
     alt="Highlighting spaces that could be used for extra keys next to the letters 'g' and 'h'."
     caption="There is room for **at least** two macro keys right there! Missed opportunity 😞"
     lazy="true"
