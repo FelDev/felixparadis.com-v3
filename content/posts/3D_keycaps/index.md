@@ -4,14 +4,14 @@ date: 2020-10-01
 lastmod: 2020-11-26
 slug: "3d-printing-custom-keycaps-for-the-ergodox"
 tags: ["keyboards"]
-images: ["/images/posts/3D_keycaps/banner.jpg"]
-previewImage: "/images/posts/3D_keycaps/banner.webp"
-previewImageFallback: "/images/posts/3D_keycaps/banner.jpg"
+images: ["/posts/3d-printing-custom-keycaps-for-the-ergodox/banner.jpg"]
+previewImage: "banner.webp"
+previewImageFallback: "banner.jpg"
 description: "An introduction to 3D printing keycaps specifically to address the gap before the Ergodox's thumb cluster."
 ---
-{{< banner
-    webpSrc="/images/posts/3D_keycaps/banner.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/banner.jpg"
+{{< image_bundle
+    webpSrc="banner.webp" 
+    fallbackSrc="banner.jpg"
     alt="A custom, 3D printed keycap. Standing out on the keyboard, just before the thumb clusters."
 >}}
 
@@ -27,9 +27,9 @@ Lili 58 Pro. What else was I going to do with my money anyway?
 
 **Short version**: I dislike the gap between the main layout and the thumb clusters on the Ergodox.
 
-{{< image 
-    webpSrc="/images/posts/3D_keycaps/gap.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/gap.png"
+{{< image_bundle 
+    webpSrc="gap.webp" 
+    fallbackSrc="gap.png"
     alt="The gap I'm talking about."
     caption="Yeah, that gap."
     lazy="true"
@@ -54,16 +54,16 @@ I can't tell you much more about the printing process because I simply sent the 
 
 Anyways, here's what it looks like.
 
-{{< image 
-    webpSrc="/images/posts/3D_keycaps/first_attempt.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/first_attempt.jpg"
+{{< image_bundle 
+    webpSrc="first_attempt.webp" 
+    fallbackSrc="first_attempt.jpg"
     alt="The keycap occupies much of the gap I dislike, but is a little bit skewed."
     lazy="true"
 >}}
 
-{{< image 
-    webpSrc="/images/posts/3D_keycaps/banner.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/banner.jpg"
+{{< image_bundle 
+    webpSrc="banner.webp" 
+    fallbackSrc="banner.jpg"
     alt="The keycap on the ergodox, from above. It looks fine from that angle."
     lazy="true"
 >}}
@@ -73,9 +73,9 @@ The keycaps is fine except for one very important aspect: the mount (the cross-s
 
 BUT, being crafty and reckless I found an elegant solution... Melted wax!
 
-{{< image 
-    webpSrc="/images/posts/3D_keycaps/wax.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/wax.jpg"
+{{< image_bundle 
+    webpSrc="wax.webp" 
+    fallbackSrc="wax.jpg"
     alt="An opened switch with a keycap and wax pouring out the stem."
     caption="The keycap in this picture is from the second attempt; didn't take pictures the first time."
     lazy="true"
@@ -97,16 +97,16 @@ I modified the first model to make the top surface a bit bigger, reduce the size
 Sadly, the mount was still too big.
 I did the wax hack again, but with a different candle and it didn't work as well... Went back to the original candle and it's much better.
 
-{{< image 
-    webpSrc="/images/posts/3D_keycaps/second_attempt1.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/second_attempt1.jpg"
+{{< image_bundle 
+    webpSrc="second_attempt1.webp" 
+    fallbackSrc="second_attempt1.jpg"
     alt="The keycap is still slightly skewed."
     lazy="true"
 >}}
 
-{{< image 
-    webpSrc="/images/posts/3D_keycaps/second_attempt2.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/second_attempt2.jpg"
+{{< image_bundle 
+    webpSrc="second_attempt2.webp" 
+    fallbackSrc="second_attempt2.jpg"
     alt="Seen from above, the gap is even smaller."
     lazy="true"
 >}}
@@ -121,17 +121,17 @@ The acrylic resin is much smoother, transparent and twice the price. Nylon 12 fe
 
 - 3D printing those keycaps was worth it. My Ergodox is comfier.
 
-{{< image 
-    webpSrc="/images/posts/3D_keycaps/evolution.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/evolution.jpg"
+{{< image_bundle 
+    webpSrc="evolution.webp" 
+    fallbackSrc="evolution.jpg"
     alt="My sculpted 1.5U keycap next to the 2 3D printed ones.."
-    caption="Evolution of my pre-thumb cluster keycaps."
+    caption="Evolution of my pre-thumb-cluster keycaps."
     lazy="true"
 >}}
 
-{{< image 
-    webpSrc="/images/posts/3D_keycaps/full_ergo.webp" 
-    fallbackSrc="/images/posts/3D_keycaps/full_ergo.jpg"
+{{< image_bundle 
+    webpSrc="full_ergo.webp" 
+    fallbackSrc="full_ergo.jpg"
     alt="The full ergodox, seen from above."
     caption="I'm going to rock those new keycaps for a while now. Even though they're ugly."
     lazy="true"
