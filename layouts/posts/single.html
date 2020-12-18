@@ -2,7 +2,7 @@
 {{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "content" }}
-<section class="container post">
+<section id="{{ replace (lower .Title) " " "-" }}" class="container post">
 
   <article>
     <header>
