@@ -17,6 +17,6 @@
 @import "footer_dark";
 
 // Custom
-@import "custom";
-@import "custom_dark";
-@import "page-specific";
+@import "__custom";
+@import "__custom_dark";
+@import "__page-specific";

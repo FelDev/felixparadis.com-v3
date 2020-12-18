@@ -22,8 +22,42 @@ It’s not very complex, but if you’ve never used JSON Web Tokens before, you 
 I’m using the [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) npm package, but you could use an alternative.
 
 Without further ado, the snippet you need to get going quickly:
+<!-- {{< gist feldev 50d969fe7249da949ed966538929310b >}} -->
+```js
+console.log("🏃 appStoreConnectAPIFromNode.js running 🏃‍")
 
-{{< gist feldev 50d969fe7249da949ed966538929310b >}}
+const fs   = require('fs');
+const jwt  = require('jsonwebtoken'); // npm i jsonwebtoken
+// You get privateKey, apiKeyId and issuerId from your Apple App Store Connect account
+const privateKey = fs.readFileSync("./AuthKey_123456789Z.p8") // this is the file you can only download once and should treat like a real, very precious key.
+const apiKeyId = "123456789Z"
+const issuerId = "12345678-CLAP-FORR-THIS-GIBBERISHLOLz"
+let now = Math.round((new Date()).getTime() / 1000); // Notice the /1000 
+let nowPlus20 = now + 1199 // 1200 === 20 minutes
+
+let payload = {
+    "iss": issuerId,
+    "exp": nowPlus20,
+    "aud": "appstoreconnect-v1"
+}
+
+let signOptions = {
+    "algorithm": "ES256", // you must use this algorythm, not jsonwebtoken's default
+    header : {
+        "alg": "ES256",
+        "kid": apiKeyId,
+        "typ": "JWT"
+    }
+};
+
+let token = jwt.sign(payload, privateKey, signOptions);
+console.log('@token: ', token);
+
+// Congrats! the token printed can now be tested with the curl command below
+// curl -v https://api.appstoreconnect.apple.com/v1/apps --Header "Authorization: Bearer <YOUR TOKEN>"
+// (no '<>' in the curl command)
+```
+
 
 Of course, you’ll want to use something else than curl once you authenticate successfully. You’ll probably want to avoid hosting your secret key (the .p8 file) on your server nor commit it as well, but those are considerations for when you can use the API!
 

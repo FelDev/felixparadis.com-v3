@@ -4,15 +4,15 @@ date: 2020-08-29
 lastmod: 2020-11-10
 slug: "How-to-Batch-Convert-Images-to-.avif"
 tags: ["tutorial"]
-images: ["/images/posts/avif/banner.jpg"]
+images: ["/posts/avif/banner.jpg"]
 description: "Convert multiple images to the .avif format using the awesome open-source cli tool Colorist."
-previewImage: "/images/posts/avif/banner.avif"
-previewImageFallback: "/images/posts/avif/banner.jpg"
+previewImage: "banner.avif"
+previewImageFallback: "/posts/avif/banner.jpg"
 ---
 
-{{< banner
-    avifSrc="/images/posts/avif/banner.avif" 
-    fallbackSrc="/images/posts/avif/banner.jpg"
+{{< image_bundle
+    avifSrc="banner.avif" 
+    fallbackSrc="banner.jpg"
     alt="AV1's logo"
 >}}
 
