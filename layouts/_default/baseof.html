@@ -154,35 +154,34 @@
       {{- partial "analytics/fathom" . -}}
     {{ end }}
 
-  </body>
-  
-  <script>
-    const toggleSwitch = document.querySelector('#theme-toggle input[type="checkbox"]');
-    toggleSwitch.addEventListener('change', switchTheme, false);
-  
-    if(localStorage.getItem('theme') == "colorscheme-light") {
-      toggleSwitch.checked = false;
-      switchTheme()
-    }
-  
-    function switchTheme(event) {
-      let body = document.getElementsByTagName("body")[0];
-      let theme = body.className == "colorscheme-dark" ? "colorscheme-light" : "colorscheme-dark";
-      body.className = ''
-      if (event) { // prevents flash of incorrect theme on page load
-        body.style.transition = "0.5s";
+    <script>
+      const toggleSwitch = document.querySelector('#theme-toggle input[type="checkbox"]');
+      toggleSwitch.addEventListener('change', switchTheme, false);
+    
+      if(localStorage.getItem('theme') == "colorscheme-light") {
+        toggleSwitch.checked = false;
+        switchTheme()
       }
-      body.classList.add(theme)
-      localStorage.setItem('theme', theme);
-    }
-    try {
-      fetch("https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i=darkmode")
-    } catch (err) {
-      console.log('@err: ', err);
-    }
-  </script>
-  
-  {{ if not .Site.IsServer }}
-    <img src="https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i={{ .Page.RelPermalink }}" alt="" width="1" height="1"/>
-  {{ end }}
+    
+      function switchTheme(event) {
+        let body = document.getElementsByTagName("body")[0];
+        let theme = body.className == "colorscheme-dark" ? "colorscheme-light" : "colorscheme-dark";
+        body.className = ''
+        if (event) { // prevents flash of incorrect theme on page load
+          body.style.transition = "0.5s";
+        }
+        body.classList.add(theme)
+        localStorage.setItem('theme', theme);
+      }
+      try {
+        fetch("https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i=darkmode")
+      } catch (err) {
+        console.log('@err: ', err);
+      }
+    </script>
+    
+    {{ if not .Site.IsServer }}
+      <img src="https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i={{ .Page.RelPermalink }}" alt="" width="1" height="1"/>
+    {{ end }}
+  </body>
 </html>
