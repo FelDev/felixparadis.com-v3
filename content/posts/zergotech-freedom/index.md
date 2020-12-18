@@ -15,7 +15,6 @@ previewImageFallback: "preview.jpg"
     fallbackSrc="banner.jpg"
     alt="The Zergotech Freedom, over a cheering crowd."
     caption=`<span>Crowd photo by <a href="https://unsplash.com/@wrwhite3">William White</a> on <a href="https://unsplash.com/s/photos/crowd">Unsplash</a> Amazing editing by me.</span>`
-    lazy="true"
 >}}
 
 My quest for the perfect keyboard continues… In early 2019 I got the Ergodox EZ, then I tried the Dygma Raise but went back to the Ergodox.

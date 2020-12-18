@@ -6,7 +6,7 @@ tags: ["tutorial"]
 description: "It's easy to remove third party authorization to your Google account, even if the third party isn't helpful!"
 images: ["/posts/how-to-revoke-third-party-authorization-to-google-search-console/banner.jpg"]
 previewImage: "banner.webp"
-previewImageFallback: "/posts/search_console/banner.jpg"
+previewImageFallback: "banner.jpg"
 ---
 
 {{< image_bundle

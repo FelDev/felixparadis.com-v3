@@ -4,8 +4,8 @@ date: 2019-06-09T13:57:04-04:00
 slug: "solving-design-problems-caused-by-i18n-with-pure-css"
 tags: ["tutorial"]
 images: ["/posts/solving-design-problems-caused-by-i18n-with-pure-css/banner.jpg"]
-previewImage: "/posts/banner.jpg"
-previewImageFallback: "/posts/banner.jpg"
+previewImage: "banner.webp"
+previewImageFallback: "banner.jpg"
 description: "If you ever managed a multilingual website, you surely ran into issues that were language specific; your site is a responsive heaven in language X, but then you switch to language Y and the design is broken on mobile"
 ---
 

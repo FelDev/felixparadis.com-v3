@@ -7,7 +7,7 @@ tags: ["tutorial"]
 images: ["/posts/how-to-batch-convert-images-to-.avif/banner.jpg"]
 description: "Convert multiple images to the .avif format using the awesome open-source cli tool Colorist."
 previewImage: "banner.avif"
-previewImageFallback: "/posts/avif/banner.jpg"
+previewImageFallback: "banner.jpg"
 ---
 
 {{< image_bundle

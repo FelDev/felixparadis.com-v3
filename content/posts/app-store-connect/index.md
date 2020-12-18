@@ -5,7 +5,7 @@ tags: ["tutorial"]
 slug: "authenticating-to-apples-app-store-connect-api-from-node.js-using-jwt"
 images: ["/posts/authenticating-to-apples-app-store-connect-api-from-node.js-using-jwt/banner.jpeg" ]
 previewImage: "banner.avif"
-previewImageFallback: "posts/app_store_connect/banner.jpeg"
+previewImageFallback: "banner.jpeg"
 description: "Without further ado, the snippet you need to get going quickly:"
 ---
 
