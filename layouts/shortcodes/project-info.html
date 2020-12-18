@@ -1,3 +1,6 @@
+{{ $alt := .Get "alt" }}
+{{ $lazy := .Get "lazy" }}
+
 <figure class="project-figure">
   <picture>
     {{ if .Get "avifSrc"}}
@@ -12,10 +15,17 @@
         type="image/webp"
       >
     {{ end }}
-    <img 
-      src='{{.Get "fallbackSrc" }}' 
-      alt='{{.Get "alt" }}' 
-    >
+    {{ with .Page.Resources.GetMatch (.Get "fallbackSrc") }}
+      <img 
+        src='{{ .RelPermalink }}' 
+        alt='{{ $alt }}' 
+        width='{{ .Width }}'
+        height='{{ .Height }}'
+        {{ if $lazy }}
+          loading="lazy"
+        {{end}}
+      >
+    {{ end }}
   </picture>  
 </figure>
 

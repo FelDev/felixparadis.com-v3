@@ -7,8 +7,8 @@ ui_component: ""
 
 ## [Simple Timeline](https://timeline.felixparadis.com/)
 {{< project-info
-    webpSrc="/images/projects/simple_timeline.webp" 
-    fallbackSrc="/images/projects/simple_timeline.png"
+    webpSrc="simple_timeline.webp" 
+    fallbackSrc="simple_timeline.png"
     alt="Screenshot of Simple Timeline"
     status="MVP available, but unfinished 🚧" 
     kindOfProject="Webapp,SAAS"
@@ -23,8 +23,8 @@ The older I get, the harder it is to remember where I was X years ago. This tool
 
 ## [Artsy Hams](https://boutique.felixparadis.com/)
 {{< project-info
-    webpSrc="/images/projects/artsy_hams.webp" 
-    fallbackSrc="/images/projects/artsy_hams.png"
+    webpSrc="artsy_hams.webp" 
+    fallbackSrc="artsy_hams.png"
     alt="Screenshot of Artsy Hams"
     status="Never-ending 🎨" 
     kindOfProject="Art,E-commerce"
@@ -39,8 +39,8 @@ I did write a blog post about the tech behind the store: [My Recipe for a 0$/mon
 
 ## [Ask Sagan](https://v2.felixparadis.com/ask-sagan)
 {{< project-info
-webpSrc="/images/projects/ask_sagan.webp" 
-    fallbackSrc="/images/projects/ask_sagan.png"
+    webpSrc="ask_sagan.webp" 
+    fallbackSrc="ask_sagan.png"
     alt="Screenshot of Ask Sagan"
     status="Done ✅" 
     kindOfProject="Webapp,Joke"
@@ -53,12 +53,13 @@ What if Carl Sagan himself could answer your questions? Just fill the text box a
 
 ## [Photography 365](https://365.felixparadis.com/)
 {{< project-info
-webpSrc="/images/projects/365.webp" 
-    fallbackSrc="/images/projects/365.png"
+    webpSrc="365.webp" 
+    fallbackSrc="365.png"
     alt="Screenshot of 365.felixparadis.com"
     status="Done ✅" 
     kindOfProject="Art"
     openSourceRepo="https://github.com/FelDev/365"
+    lazy="true"
 >}}
 
 A photography project I did during my gap year in 2012-2013. The challenge was to take a (good) picture everyday for a year.
@@ -67,12 +68,13 @@ A photography project I did during my gap year in 2012-2013. The challenge was t
 
 ## [Morem](https://morem.netlify.app/)
 {{< project-info
-webpSrc="/images/projects/morem.webp" 
-    fallbackSrc="/images/projects/morem.png"
+    webpSrc="morem.webp" 
+    fallbackSrc="morem.png"
     alt="Screenshot of Morem"
     status="Abandoned 🏚" 
     kindOfProject="Webapp,PWA"
     openSourceRepo="https://github.com/FelDev/morem"
+    lazy="true"
 >}}
 
 Morem is for **MORE M**editation. I learned about Progressive Web Apps, got excited and decided to make a meditation timer that increases itself everyday. It was fun and got to the MVP stage, but I ended up bumping into limitations of PWAs (Looking at you, Screen Wake Lock API.) and lost interest.
@@ -81,12 +83,13 @@ Morem is for **MORE M**editation. I learned about Progressive Web Apps, got exci
 
 ## [The First Version of this Website](https://v1.felixparadis.com/)
 {{< project-info
-webpSrc="/images/projects/v1.felixparadis.com.webp" 
-    fallbackSrc="/images/projects/v1.felixparadis.com.png"
+    webpSrc="v1.felixparadis.com.webp" 
+    fallbackSrc="v1.felixparadis.com.png"
     alt="Screenshot of v1.felixparadis.com"
     status="Done ✅" 
     kindOfProject="Website,Joke"
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v1"
+    lazy="true"
 >}}
 
 A single index.html file! It sure is fast to load and contains a fun easter egg and a half 🥚
@@ -95,12 +98,13 @@ A single index.html file! It sure is fast to load and contains a fun easter egg 
 
 ## [The Second Version of this Website](https://v2.felixparadis.com/)
 {{< project-info
-webpSrc="/images/projects/v2.felixparadis.com.webp" 
-    fallbackSrc="/images/projects/v2.felixparadis.com.png"
+    webpSrc="v2.felixparadis.com.webp" 
+    fallbackSrc="v2.felixparadis.com.png"
     alt="Screenshot of v2.felixparadis.com"
     status="Done ✅" 
     kindOfProject="Website"
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v2"
+    lazy="true"
 >}}
 
 I challenged myself to build the second version with nothing but pure HTML, CSS and JS. No framework, no librairies. It's fairly simple, but has light and dark mode + instant language switching.
