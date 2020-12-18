@@ -4,15 +4,15 @@ date: 2019-05-03
 lastmod: 2020-08-26
 slug: "fongo-review-can-it-be-your-only-phone-number"
 tags: ["product review"]
-images: ["/images/posts/fongo/banner.png" ]
-previewImage: "/images/posts/fongo/banner.avif"
-previewImageFallback: "/images/posts/fongo/banner.png"
+images: ["/posts/fongo/banner.png"]
+previewImage: "banner.avif"
+previewImageFallback: "/posts/fongo/banner.png"
 description: "I’ve been using a Fongo number as my only phone number for just over 2 years. Do I recommend Fongo after that experience? Maybe..."
 ---
 
-{{< banner
-    avifSrc="/images/posts/fongo/banner.avif" 
-    fallbackSrc="/images/posts/fongo/banner.png"
+{{< image_bundle
+    avifSrc="banner.avif" 
+    fallbackSrc="banner.png"
     alt="Fongo's logo with a skeptical emoji looking at it"
 >}}
 
@@ -55,10 +55,10 @@ Speaking of wifi, here is an annoying scenario you’ll bump into with Fongo: yo
 
 And sometimes, for no apparent reason, this:
 
-{{< image 
-    avifSrc="/images/posts/fongo/system_ui.avif" 
-    webpSrc="/images/posts/fongo/system_ui.webp" 
-    fallbackSrc="/images/posts/fongo/system_ui.jpeg" 
+{{< image_bundle 
+    avifSrc="system_ui.avif"
+    webpSrc="system_ui.webp" 
+    fallbackSrc="system_ui.jpeg" 
     alt="A phone's homescreen showing 'Fongo connection failed'"
     lazy="true"
 >}}   
