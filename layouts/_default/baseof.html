@@ -131,13 +131,6 @@
     {{ $csClass = "colorscheme-auto" }}
   {{ end }}
   <body class="{{ $csClass }}">
-    <!-- <script>
-      // #TODO: avoid flash of dark theme when light theme preferred
-      if(localStorage.getItem('theme') == "colorscheme-light") {
-        console.log('@oui');
-        document.getElementsByTagName("body")[0].classList.add("colorscheme-light")
-      }
-    </script> -->
     <main class="wrapper">
       {{ partial "header.html" . }}
 
