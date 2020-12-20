@@ -71,7 +71,7 @@
       }
     </style>
     {{ if eq .Page.Slug "referral-links" }}
-      {{ partial "referrals-css" . }}
+      <style>{{ (resources.Get "scss/referrals.scss" | toCSS | minify ).Content | safeCSS }}</style>
     {{ end }}
     <!-- Locally imported those under assets/scss -->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" /> -->
