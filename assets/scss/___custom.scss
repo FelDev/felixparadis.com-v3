@@ -37,46 +37,6 @@
   }
 }
 
-#referrals {
-  .ref-section {
-    border-bottom: 2px solid $link-color-dark;
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    &:first-of-type {
-      border-top: 2px solid $link-color-dark;
-    }
-
-    &:last-of-type {
-      padding: 2rem;
-    }
-
-    p {
-      margin-top: 0;
-    }
-
-  }
-
-  .ref-image {
-    max-height: 12rem;
-    max-width: 40rem;
-    background: white;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 0.5rem;
-    object-fit: contain;
-  }
-
-  .ref-link {
-    text-align: center;
-    margin: 1rem;
-    font-size: 1.25em;
-  }
-}
-
-
 figure img {
   height: auto;
   max-height: 100vh;
@@ -192,10 +152,6 @@ footer {
   >div {
     p:first-of-type {
       margin-top: 0;
-    }
-
-    h6 {
-      margin: 0;
     }
 
     form {
@@ -360,10 +316,6 @@ footer {
   }
 }
 
-.twitter-tweet {
-  margin: 10px auto !important;
-}
-
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 // * Code Highlighting: dirty hack to override "dracula"'s comment color (not enough contrast)
@@ -373,6 +325,9 @@ footer {
 }
 
 
+.twitter-tweet {
+  margin: 10px auto !important;
+}
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 // * Twitter's follow button
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
