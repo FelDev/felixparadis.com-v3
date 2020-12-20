@@ -29,5 +29,8 @@ body.colorscheme-dark {
       }
     }
   }
-
+  
+  .content .emphasis {
+    background-color: $emphasis-bg-dark;
+  }
 }

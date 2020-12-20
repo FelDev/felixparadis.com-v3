@@ -18,9 +18,13 @@ draft: false
 
 I chose Routify for a project and found close to zero doc on CMS integrations. After a bit of tinkering with Strapi, I figured I didn't want to spin up a heroku dyno just for the CMS of a jamstack site and decided to give Netlify CMS a try. The integration process was much smoother. 
 
-I made a repository to demo the final result of this tutorial: [github.com/FelDev/routify-netlifycms](https://github.com/FelDev/routify-netlifycms)
+{{< emphasis >}}
+  Repository to demo the final result of this tutorial: [github.com/FelDev/routify-netlifycms](https://github.com/FelDev/routify-netlifycms)
 
-And the live site of that demo repo is available at [routify-netlifycms.netlify.app](https://routify-netlifycms.netlify.app)
+  Live site of that demo repo: [routify-netlifycms.netlify.app](https://routify-netlifycms.netlify.app)
+{{< /emphasis >}}
+
+
 
 ## Getting set up
 

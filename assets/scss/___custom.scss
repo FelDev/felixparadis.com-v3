@@ -449,3 +449,39 @@ footer {
 .twitter-wrapper-custom {
   text-align: center;
 }
+.content .emphasis {
+  background-color: $emphasis-bg;
+  border-top: .1rem solid $emphasis-border;
+  border-bottom: .1rem solid $emphasis-border;
+  border-radius: 1.2rem;
+  padding: 0 1.4rem;
+  text-align: left;
+  position: relative;
+  width: 95%;
+  margin: auto;
+  i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    &:first-of-type {
+      left: -2rem;
+    }
+    &:last-of-type {
+      right: -2rem;
+    }
+  }
+  p {
+    text-align: left;
+  }
+}
+// meh... tried something.
+// animation: emphasis-right 2s ease-in-out infinite alternate;
+// animation: emphasis 2s ease-in-out infinite alternate;
+// @keyframes emphasis-right {
+  // from {left: -20px}
+  // to {left: -25px}
+// }
+// @keyframes emphasis {
+  // from {right: -25px}
+  // to {right: -20px}
+// }
