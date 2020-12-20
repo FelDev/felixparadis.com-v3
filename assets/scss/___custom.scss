@@ -163,7 +163,6 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
 
       input {
         width: 100%;
@@ -234,10 +233,6 @@ footer {
     background-color: #fafafa;
     padding: 1.25rem 2rem;
     border-radius: 1rem;
-
-    p:first-of-type {
-      margin-top: 0;
-    }
   }
 }
 
