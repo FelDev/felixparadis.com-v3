@@ -85,7 +85,6 @@ form {
   }
 }
 
-
 #social-links {
   position: relative;
   list-style: none;
@@ -97,7 +96,7 @@ form {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -2em;
+    bottom: -1.6em;
     transition: 0.2s;
     opacity: 0;
     white-space: nowrap;
@@ -117,13 +116,9 @@ form {
       &:focus {
         color: $link-color;
       }
-
-      @media only screen and (max-width : 768px) {
-        font-size: 1.4rem;
-      }
-
-      i {
-        font-size: 3.2rem;
+      svg {
+        width: 3rem;
+        height: 3rem;
       }
     }
   }

@@ -25,11 +25,11 @@
 {{ with .Site.Params.social }}
 <ul id="social-links">
   {{ range sort . "weight" }}
-    {{ if .icon }}
+    {{ if .svg }}
     <li>
       <a href="{{ .url }}" aria-label="{{ .name }}" rel="noopener" target="_blank" {{ if .type }}type="{{ .type }}"
         {{ end }}>
-        <i class="{{ .icon }}" aria-hidden="true"></i>
+        {{ .svg | safeHTML }}
       </a>
       <span>{{ .name }}</span>
     </li>
