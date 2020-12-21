@@ -73,8 +73,7 @@
     {{ if eq .Page.Slug "referral-links" }}
       <style>{{ (resources.Get "scss/referrals.scss" | toCSS | minify ).Content | safeCSS }}</style>
     {{ end }}
-    <!-- Locally imported those under assets/scss -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" /> -->
+    <!-- Locally importing that under assets/scss -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" /> -->
 
     {{ if .Site.IsServer }}
