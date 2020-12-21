@@ -124,7 +124,7 @@
               target="_blank" 
               {{ if .type }}type="{{ .type }}"{{ end }}
             >
-              <i class="{{ .icon }}" aria-hidden="true"></i>
+              {{ .svg | safeHTML }}
             </a>
             <span>{{ .name }}</span>
           </li>
@@ -141,6 +141,7 @@
           </li>
         {{ end }}
       {{ end }}
+      
     </ul>
     {{ end }} -->
 
