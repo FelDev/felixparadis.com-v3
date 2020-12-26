@@ -75,6 +75,13 @@
   #menu-toggle {
     display: none;
     @media only screen and (max-width : 446px) {
+      + label {
+        display: flex;
+        height: 6rem;
+        svg {
+          width: 3rem;
+        }
+      }
       &:checked + label {
         color: $alt-bg-color;
       }
