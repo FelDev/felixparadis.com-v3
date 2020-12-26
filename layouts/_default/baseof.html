@@ -170,6 +170,24 @@
         body.classList.add(theme);
         localStorage.setItem('theme', theme);
       }
+      
+      const menuToggle = document.getElementById("menu-toggle");
+      menuToggle.addEventListener('change', function() {
+        if(this.checked) {
+          document.addEventListener('click', detect);
+        } else {
+          document.removeEventListener('click', detect);
+        }
+      });
+      function detect(event) {
+        let navigationList = document.getElementById('navigation-list');
+        let label = document.querySelector('#menu-toggle + label svg');
+        let isClickInsideElement = navigationList.contains(event.target) || label.contains(event.target);
+        if (!isClickInsideElement) {
+          menuToggle.checked = false;
+          document.removeEventListener('click', detect);
+        }
+      }
     </script>
     
     {{ if not .Site.IsServer }}

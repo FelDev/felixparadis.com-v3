@@ -21,7 +21,7 @@
     letter-spacing: 0.1rem;
     text-transform: uppercase;
   }
-  .navigation-list {
+  #navigation-list {
     float: right;
     list-style: none;
     margin-bottom: 0;
@@ -30,19 +30,21 @@
     align-items: center;
     @media only screen and (max-width : 446px) {
       position: absolute;
-      top: 6.0rem;
+      top: -25rem;
       right: 0;
       z-index: 5;
-      visibility: hidden;
       opacity: 0;
       padding: 0 0 0.75em 0;
-      max-height: 0;
-      width: 100%;
+      width: 100vw;
+      visibility: hidden;
       background-color: $bg-color;
       border-top: solid 2px $alt-bg-color;
       border-bottom: solid 2px $alt-bg-color;
-      transition: opacity 0.25s, max-height 0.15s linear;
       flex-direction: column;
+      transition: 0.5s;
+      @media (prefers-reduced-motion: reduce) {
+        transition: opacity 0.25s;
+      }
     }
     .navigation-item {
       float: left;
@@ -72,39 +74,47 @@
       }
     }
   }
-  #menu-toggle {
-    display: none;
-    @media only screen and (max-width : 446px) {
+  #menu-toggle-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    #menu-toggle {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      display: none;
       + label {
-        display: flex;
-        height: 6rem;
-        svg {
-          width: 3rem;
+        display: none;
+      }
+      @media only screen and (max-width : 446px) {
+        display: block;
+        + label {
+          display: flex;
+          cursor: pointer;
+          height: 6rem;
+          margin-right: 2rem;
+          font-size: 2.4rem;
+          font-weight: 400;
+          line-height: 6.0rem;
+          &:hover,
+          &:focus-visible {
+            color: $link-color;
+          }
+          svg {
+            width: 3rem;
+          }
         }
-      }
-      &:checked + label {
-        color: $alt-bg-color;
-      }
-      // #TODO: Make burger menu POP.
-      &:checked + label + ul {
-        visibility: visible;
-        opacity: 1;
-        max-height: 100rem;
-      }
-    }
-  }
-  .menu-button {
-    display: none;
-    @media only screen and (max-width : 446px) {
-      display: block;
-      font-size: 2.4rem;
-      font-weight: 400;
-      line-height: 6.0rem;
-      color: $fg-color;
-      cursor: pointer;
-      &:hover,
-      &:focus {
-        color: $link-color
+        &:checked + label {
+          color: $alt-bg-color;
+          + ul {
+            visibility: visible;
+            opacity: 1;
+            top: 6rem;
+          }
+        }
+        &:focus-visible + label {
+          color: $link-color
+        }
       }
     }
   }
