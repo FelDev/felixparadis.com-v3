@@ -17,7 +17,7 @@ previewImageFallback: "https://res.cloudinary.com/felixparadis-com/image/upload/
     height="427"
 >}}
 
-# The Ingredients:
+## The Ingredients:
 
 * Netlify as a hosting solution (I heard Vercel is just as tasty.)
 
@@ -31,7 +31,7 @@ previewImageFallback: "https://res.cloudinary.com/felixparadis-com/image/upload/
 
 * Cloudinary to host images (Optional)
 
-# Wanna Taste?
+## Wanna Taste?
 
 Live demo: [https://free-ecommerce.netlify.app/](https://free-ecommerce.netlify.app/)
 
@@ -39,7 +39,7 @@ Live demo: [https://free-ecommerce.netlify.app/](https://free-ecommerce.netlify.
 
 Source code: [https://github.com/FelDev/free-ecom](https://github.com/FelDev/free-ecom)
 
-# Where’s the catch?
+## Where’s the catch?
 
 Stripe will charge you 2,9 % + 0,30$ on every transaction, but only if you make sales. Fine by me!
 
@@ -47,7 +47,7 @@ For all the other service providers, you’ll notice that they all have a pricin
 
 More than enough to test your market.
 
-# Is this good though?
+## Is this good though?
 
 This is more a proof of concept than a battle-tested solution like Shopify and the likes. The major downsides are:
 
@@ -59,7 +59,7 @@ This is more a proof of concept than a battle-tested solution like Shopify and t
 
 Apart from that, you’ll get excellent loading times, it’s very secure and highly customizable. 
 
-# Ever tested in production?
+## Ever tested in production?
 
 I used it to sell my paintings over at [boutique.felixparadis.com](https://boutique.felixparadis.com/) and it got through the challenge with only two problems: 
 
@@ -71,7 +71,7 @@ I thought the chances of that happening were so low that I could afford the risk
 
 One thing I learned with this experiment is that Hotmail users are harder to reach. [Apparently](https://www.reddit.com/r/webdev/comments/amzfhg/outlookhotmail_blocking_my_sendgrid_emails/), SendGrid uses a separate IP range for emails sent from the free tier. Sometimes, email providers will block the free plan range as spammers are more likely to use it. You get what you pay for!
 
-# Conclusion
+## Conclusion
 
 I tried to come up with the cheapest possible e-commerce solution and I’d say it’s half a success. 
 

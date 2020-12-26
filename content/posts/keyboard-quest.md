@@ -18,7 +18,7 @@ previewImageFallback: "https://res.cloudinary.com/felixparadis-com/image/upload/
     height="691"
 >}}
 
-# Introductory rant
+## Introductory rant
 
 Great design rarely comes from a eureka moment. It's usually a long process of many iterations that finally yields the best possible design. Alas, the modern keyboard is rather the result of technical debt and path dependence.
 
@@ -30,13 +30,13 @@ The QWERTY layout and staggering of keys both solve the same problem: back in th
 
 My point is, your keyboard sucks. The good news is that better solutions exists. They're just a few hundred bucks away, down a long rabbit hole.
 
-# What I've tried so far
+## What I've tried so far
 
 My first decent keyboard was the Ergodox EZ, almost a year later I got a Dygma Raise.
 
-## [Full Review of the Ergodox EZ](https://medium.com/tech-reviews/ergodox-ez-review-thoughts-after-3-months-of-regular-use-370fd00cdaa2?source=friends_link&sk=363a8728b44f994241fd7b1acc7ba018)
+### [Full Review of the Ergodox EZ](https://medium.com/tech-reviews/ergodox-ez-review-thoughts-after-3-months-of-regular-use-370fd00cdaa2?source=friends_link&sk=363a8728b44f994241fd7b1acc7ba018)
 
-## [Full Review of the Dygma Raise](https://medium.com/@FelixParadis/dygma-raise-review-thoughts-after-3-months-of-regular-use-41b19e91d357?source=friends_link&sk=d8a9c5437f4f04d2e78e070835929b3f)
+### [Full Review of the Dygma Raise](https://medium.com/@FelixParadis/dygma-raise-review-thoughts-after-3-months-of-regular-use-41b19e91d357?source=friends_link&sk=d8a9c5437f4f04d2e78e070835929b3f)
 
 And the winner is...
 
@@ -72,19 +72,19 @@ And the winner is...
 
 🥁
 
-# THE BUTCHERED ERGODOX! 
+## THE BUTCHERED ERGODOX! 
 
 The Raise is superior in many aspects: aesthetics, usage of USB-C, smaller size, the possibility to put the two halves together... and it's even cheaper! In fact, if you're buying your first split keyboard, the Raise might be a better option simply because it will be much, much easier getting used to.
 
 But I missed the ortholinear layout too much to not go back to my Ergodox. Also, at the time of writing, the Ergodox's configurator is clearly better. You can fine-tune your layout in ways that are probably not even near Dygma's development branch yet.
 
 
-## Why "butchered"?
+### Why "butchered"?
 
 I still hate the huge gap on my Ergodox. I hate it a lot.
 The real winner is probably the [Redox](https://www.reddit.com/r/MechanicalKeyboards/comments/afk6ix/wireless_redox_endgame/), but I don't feel like spending another massive amount of dollars on a keyboard right now. So, I found a solution...
 
-## My elegant solution to the Ergodox's silly gap
+### My elegant solution to the Ergodox's silly gap
 I sculpted two 1.5u keys on my Ergodox to fill the gap and make my life a little bit better. (Better by 0.25u  per hand, precisely.) 
 
 {{< image 
@@ -160,6 +160,6 @@ Someday I'll take the time to find friends with a 3D printer and figure out a wa
 **EDIT: I did 3D print custom keycaps:** [**3D Printing Custom Keycaps for the Ergodox**
 ](/posts/3d-printing-custom-keycaps-for-the-ergodox/)
 
-# Conclusion 
+## Conclusion 
 
 If you're getting your first fancy keyboard, the Raise is a safer option. But if you want the real deal, I think an ortholinear keyboard is the way to go. Whether that means an Ergodox, a Redox or [ZSA's new moonlander](https://www.zsa.io/moonlander/) 👀 (I'm not buying the moonlander because it does look like an improved version of the ergodox, but the improvements don't look like they're worth 500$CAD.)

@@ -22,10 +22,10 @@ So I was pretty excited by the promise of Fongo: a dedicated Canadian Phone numb
 
 And so, I’ve been using a Fongo number as my only phone number for just over 2 years. Do I recommend Fongo after that experience? **Maybe**.
 
-# TLDR
+## TLDR
 
 Fongo **does work** and **it is cheaper** than any phone plan a classic carrier will ever give you. But **it’s also less reliable**.
-# Numbers first 💰
+## Numbers first 💰
 
 Before Fongo:
 
@@ -43,11 +43,11 @@ Quick calculation:
 ```
 Over 2 years, it’s safe to assume I saved at least 600$ thanks to Fongo. So far, so good.
 
-# The quality of the service
+## The quality of the service
 
 To put it simply, Fongo is OK.
 
-## Reliability
+### Reliability
 
 For calls, it usually works just fine, but I often had people telling me they had a hard time understanding my voice. Usually, I solved the problem by disabling WiFi on my phone and then it would work better on 4G. Usually.
 
@@ -65,26 +65,26 @@ And sometimes, for no apparent reason, this:
 
 For texting, again, it usually works just fine, but on some rare occasions, I’ve received text messages days after they were sent. **DAYS**. Again, that happened only twice in two years as far as I can tell and maybe it’s not even a Fongo problem, but I highly suspect it is.
 
-# Unexpected Benefit: less scammy calls
+## Unexpected Benefit: less scammy calls
 I’m not sure why, but it seems like scammers don’t call VOIP numbers as much as regular numbers. In the past 2 years I had ONE scammer calling me on my Fongo phone number.
 
-# Limitations
+## Limitations
 
 Here’s what really sucks when you only have a Fongo phone number.
 
-## 2 Step Authentication/Verification
+### 2 Step Authentication/Verification
 Many websites will give you the option to use your phone number as a backup if you forget your password and/or as an extra security layer. With Fongo, it fails most of the time because VOIP numbers are less trusted. [This limitation is documented here](https://support.fongo.com/hc/en-us/articles/212434926-SMS-short-codes-activations-and-verifications).
-## MMS
+### MMS
 
 I sent a picture to a friend once. He will never receive it… 😢 [This limitation is documented here](https://support.fongo.com/hc/en-us/articles/212434946-Fongo-Messaging-and-Multimedia-Messaging-Service-MMS-limitations).
-## Others?
+### Others?
 
 From my experience, that’s all the limitations I’ve encountered. There are others, for instance “[You cannot send more than 10 messages to non-Fongo numbers within a 1 minute span.](https://support.fongo.com/hc/en-us/articles/212434566-Purchase-unlimited-texting-SMS-)”, but I doubt that's a problem for many people.
 
-# Ease of use
+## Ease of use
 The app itself is pretty straightforward and well made. However, it’s definitely not as good as whatever UI/UX your phone already has built-in. For one, you constantly have the “Fongo is running in the background” notification on your home screen. It does kinda remind you how the whole thing is kind of a clever hack.
 
-# Conclusion
+## Conclusion
 **I DO recommend Fongo IF:**
 
 - You dislike speaking on the phone anyway.

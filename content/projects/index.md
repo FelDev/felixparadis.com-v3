@@ -5,7 +5,7 @@ type: "page"
 ui_component: ""
 ---
 
-## [Simple Timeline](https://timeline.felixparadis.com/)
+## [Simple Timeline](https://www.simple-timeline.com/)
 {{< project-info
     webpSrc="simple_timeline.webp" 
     fallbackSrc="simple_timeline.png"
