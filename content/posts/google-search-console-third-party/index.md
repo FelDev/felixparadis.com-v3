@@ -15,7 +15,7 @@ previewImageFallback: "banner.jpg"
     alt="Google's Search Console logo with a padlock right next to it."
 >}}
 
-# Introduction 
+## Introduction 
 I decided to give [Ezoic](https://ezoic.com/) a try the other day. To see its full potential, I had to give them access to Google Search Console. 
 
 Now, even though Ezoic is nice and all, I don't feel like using it yet. So, let's revoke that authorization for now.
@@ -30,7 +30,7 @@ Now, even though Ezoic is nice and all, I don't feel like using it yet. So, let'
 
 Fear not, you can remove any third party authorization directly from your Google account.
 
-# The Solution
+## The Solution
 
 Login your Google account and click "manage your Google account". This could be done from Gmail, Google Search Console, or any other Google product.
 

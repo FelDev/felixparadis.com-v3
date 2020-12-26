@@ -50,7 +50,7 @@ html:lang(de) {
 
 This is much, much cleaner than using something like a `.frException` class you apply only when the page is rendered in French (not that I ever did that…).
 
-# Genesis of this article…
+##  Genesis of this article…
 
 I discovered `:lang()` when I had to use it in a very, very hacky way.
 

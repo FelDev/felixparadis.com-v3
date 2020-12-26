@@ -15,7 +15,7 @@ previewImageFallback: "banner.png"
     fallbackSrc="banner.png"
     alt="Arc's logo"
 >}}
-# What's [Arc.io](https://arc.io/) ?
+## What's [Arc.io](https://arc.io/) ?
 
 In their own words, "Arc is a peer-to-peer Content Delivery Network". Basically, a tiny portion of your users' bandwidth and CPU will be used to power Arc's CDN. Arc promises that "it never impacts the user experience" and anyone can join the network, whether you have a single or a million monthly visitors.
 
@@ -29,7 +29,7 @@ Note that I'm not using Arc as a way to serve my assets, so this blog post is no
 
 This website is currently running Arc.
 
-# Getting started with Arc
+## Getting started with Arc
 
 Setting up Arc was fairly easy. The whole process, from signing up to testing in production, took me less than an hour. It may take you a little longer if you're not comfortable copy/pasting a few lines of code, but I think anyone tech savvy enough to have a website will be able to get around the challenge. 
 
@@ -51,7 +51,7 @@ My website is built with Hugo as a Static Site Generator and hosted on Netlify. 
 
 Then I provided an email address to receive PayPal payments and that was pretty much it.
 
-# Impact on the user experience
+## Impact on the user experience
 
 I ran Lighthouse tests before and after implementing Arc. Sadly, it doesn't look like injecting Arc's code is impact-less ☹️
 
@@ -97,7 +97,7 @@ So I don't know how short "shortly" is going to be.
 
 To be fair, I cannot say that I notice slower performances now that Arc is on my website. When I browse it as an average user, the only noticeable difference is the blue circle with two white lines in the bottom left corner. 
 
-# Is this generating income?
+## Is this generating income?
 
 My website is, for the moment, pretty low traffic. Here is a screenshot of my Google Analytics homepage for the past 28 days.
 
@@ -128,7 +128,7 @@ Also, Ralf has something to add:
 
 {{< tweet 1306455670376497152 >}}
 
-# Is this ethical though?
+## Is this ethical though?
 
 When I entered "arc.io review" in Google Search, the first result was [a post on Hacker News](https://news.ycombinator.com/item?id=20105509) where almost everyone said they wouldn't use it, even though some admitted it's a cool technology. 
 
@@ -138,7 +138,7 @@ You definitely should be wary of anyone asking you to inject their code into you
 
 So, there is room for personal opinions here. But Arc is very legit when it comes to privacy and they only rent out users' bandwidth if they're on wifi. To me, it sounds like a good deal as a user too; I give money to people creating content I enjoy without actually giving them money. It's a win-win, no?
 
-# Conclusion
+## Conclusion
 
 I think Arc is bringing an innovative solution to a real problem: creators like to get paid but users don't like to pay. There are still some rough edges around their technology, but this should get better... "shortly".
 

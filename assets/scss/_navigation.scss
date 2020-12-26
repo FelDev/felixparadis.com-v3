@@ -85,6 +85,7 @@
       &:checked + label {
         color: $alt-bg-color;
       }
+      // #TODO: Make burger menu POP.
       &:checked + label + ul {
         visibility: visible;
         opacity: 1;
