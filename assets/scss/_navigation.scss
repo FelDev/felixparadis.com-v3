@@ -5,11 +5,15 @@
 
   a, span {
     display: inline;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-family: $heading-font-family;
     font-weight: 700;
     line-height: 6.0rem;
     color: $fg-color;
+    @media only screen and (max-width : 446px) {
+      font-size: 2rem;
+      margin: 0.2rem;
+    }
   }
   a {
     &:hover,

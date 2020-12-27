@@ -86,13 +86,6 @@
       <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
     {{ end }}
 
-    {{ range .Site.Params.custom_css }}
-      <link rel="stylesheet" href="{{ . | relURL }}" />
-    {{ end }}
-
-    {{ range .Site.Params.custom_js }}
-      <script src="{{ . | relURL }}"></script>
-    {{ end }}
 
     {{ range .Site.Params.custom_scss }}
       {{/* We don't change the targetPath to because it's transparent to users */}}
@@ -118,10 +111,6 @@
       <script async src="https://arc.io/widget.min.js#jf2aUNG1"></script>
     {{ end }}
     <meta name="monetization" content="$ilp.uphold.com/Zn2iQrmHPB3W">
-    <!-- Google adSense -->
-    <!-- <script data-ad-client="ca-pub-9292989102900534" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-    <!-- purpleAds -->
-    <!-- <script src="https://cdn.purpleads.io/load.js" id="purpleads-client" data-publisher="9ecfcf834494171f4be8893d8bbaf547:4cfda9fdb9bf40c2b2f4515fdfbc9563aaf166c1ac6cdbf92b0bc6a6f5620b4205f6f4943e4af2cc4ce0a722ca46d8a87da92ab1a2f3573f077750b013273b1c"></script> -->
     <noscript><style> #filters, #theme-toggle { display: none !important;} </style></noscript>
   </head>
 
@@ -142,55 +131,16 @@
       {{ partial "footer.html" . }}
     </main>
 
-    {{ template "_internal/google_analytics.html" . }}
-
+    
     {{ if and .Site.Params.fathomAnalytics .Site.Params.fathomAnalytics.siteID }}
-      {{- partial "analytics/fathom" . -}}
+    {{- partial "analytics/fathom" . -}}
     {{ end }}
-
-    <script>
-      const toggleSwitch = document.querySelector('#theme-toggle input[type="checkbox"]');
-      toggleSwitch.addEventListener('change', switchTheme, false);
     
-      if(localStorage.getItem('theme') == "colorscheme-light") {
-        toggleSwitch.checked = false;
-        switchTheme()
-      }
-    
-      function switchTheme(event) {
-        let body = document.getElementsByTagName("body")[0];
-        let theme = body.className == "colorscheme-dark" ? "colorscheme-light" : "colorscheme-dark";
-        body.className = ''
-        if (event) { // Means button was pressed by user - prevents flash of incorrect theme on page load
-          body.style.transition = "0.5s";
-          {{ if not .Site.IsServer }}
-            fetch("https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i=darkmode")
-          {{ end }}
-        }
-        body.classList.add(theme);
-        localStorage.setItem('theme', theme);
-      }
-      
-      const menuToggle = document.getElementById("menu-toggle");
-      menuToggle.addEventListener('change', function() {
-        if(this.checked) {
-          document.addEventListener('click', detect);
-        } else {
-          document.removeEventListener('click', detect);
-        }
-      });
-      function detect(event) {
-        let navigationList = document.getElementById('navigation-list');
-        let label = document.querySelector('#menu-toggle + label svg');
-        let isClickInsideElement = navigationList.contains(event.target) || label.contains(event.target);
-        if (!isClickInsideElement) {
-          menuToggle.checked = false;
-          document.removeEventListener('click', detect);
-        }
-      }
-    </script>
+    {{ $mainJS := (resources.Get "js/index.js") | resources.ExecuteAsTemplate "index.js" . | minify }}
+    <script>{{ $mainJS.Content | safeJS }}</script>
     
     {{ if not .Site.IsServer }}
+    {{ template "_internal/google_analytics.html" . }}
       <img src="https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i={{ .Page.RelPermalink }}" alt="" width="1" height="1"/>
     {{ end }}
   </body>

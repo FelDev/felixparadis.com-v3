@@ -44,9 +44,6 @@ googleAnalytics = "UA-109396923-1"
   # "light" (light background, dark foreground) (default)
   colorscheme = "dark"
 
-  custom_css = []
-  custom_js = []
-
 [taxonomies]
   category = "categories"
   series = "series"
