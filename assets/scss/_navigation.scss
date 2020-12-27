@@ -3,6 +3,10 @@
   width: 100%;
   box-shadow: 0 0 0.8rem #9090902b;
 
+  .container {
+    position: relative;
+  }
+
   a, span {
     display: inline;
     font-size: 1.8rem;
