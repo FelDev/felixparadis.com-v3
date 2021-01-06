@@ -64,5 +64,7 @@ I found this quote particularly relevant when doing video editing.
 ## If you have a problem and there is a solution, why worry? If you have a problem and there is no solution... why worry?
 \- The Dalaï Lama
 
+## Cultivate compassion for those less intelligent than you. Many people, through no fault of their own, can’t handle forms, scammers, or complex situations. Be kind to them because the world is not. 
+\- ideopunk 
 <!-- ## Des fois ça en prend beaucoup pour avoir besoin de rien...
 \- Maxime Pelletier ..? Kamou 2020-->
