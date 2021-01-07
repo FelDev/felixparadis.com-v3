@@ -33,11 +33,13 @@ previewImageFallback: "https://res.cloudinary.com/felixparadis-com/image/upload/
 
 ## Wanna Taste?
 
-Live demo: [https://free-ecommerce.netlify.app/](https://free-ecommerce.netlify.app/)
+{{< emphasis >}}
+  Live demo: [https://free-ecommerce.netlify.app/](https://free-ecommerce.netlify.app/)
 
-(Use card `4242 4242 4242 4242` with an expiration date somewhere in the future to go through the whole checkout process.)
+  (Use card `4242 4242 4242 4242` with an expiration date somewhere in the future to go through the whole checkout process.)
 
-Source code: [https://github.com/FelDev/free-ecom](https://github.com/FelDev/free-ecom)
+  Source code: [https://github.com/FelDev/free-ecom](https://github.com/FelDev/free-ecom)
+{{< /emphasis >}}
 
 ## Where’s the catch?
 
