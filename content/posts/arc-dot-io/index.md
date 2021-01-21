@@ -1,7 +1,7 @@
 ---
 title: "Arc.io Review - A Way to Monetize Any Website"
 date: 2020-08-18
-lastmod: 2020-11-21
+lastmod: 2021-01-21
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
@@ -66,6 +66,12 @@ My score before implementing Arc:
 >}}
 
 After implementing Arc:
+
+{{< emphasis >}}
+  **UPDATE:** Things got much better since I wrote this.
+
+  For an amazingly up to date version of the 2 screenshots below, I invite you to pop open DevTools right here and run Lighthouse tests yourself. Take a look at the console too.
+{{< /emphasis >}}
 
 {{< image_bundle
     webpSrc="lighthouse_2.webp" 

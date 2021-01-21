@@ -45,7 +45,7 @@ A split design is a must-have feature for ergonomic keyboards. Don’t be intimi
 
 Probably the most unique feature of the Zergotech Freedom, the sliding palm rests truly are a stroke of genius. When you try it, you quickly go from “Oh this amazing!” to “Well, in fact, it just makes sense.”. That’s genius design to me; so good you forget it’s there.
 
-Beyond the idea of *sliding* palm rests, the quality of the cushioning is the best I’ve had ever. Period. Sometimes I use them as a fiddle toy when thinking…
+Beyond the idea of *sliding* palm rests, the quality of the cushioning is the best I’ve ever had. Period. Sometimes I use them as a fiddle toy when thinking…
 
 ## The Layout
 
