@@ -2,9 +2,8 @@
 {{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "content" }}
-<section id="{{ replace (lower .Title) " " "-" }}" class="container post">
 
-  <article>
+  <article id="{{ replace (lower .Title) " " "-" }}" class="container post">
     <header>
       <div class="post-title">
         <h1 class="title">{{ .Title }}</h1>
@@ -92,5 +91,4 @@
   </article>
 
   {{ partial "posts/math.html" . }}
-</section>
 {{ end }}
