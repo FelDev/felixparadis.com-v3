@@ -17,7 +17,7 @@
               </li>
             {{ end }}
           {{ end }}
-          {{ if .Site.IsMultiLingual }}
+          <!-- {{ if .Site.IsMultiLingual }}
             {{ $node := . }}
             {{ .Scratch.Set "separator" true }}
             {{ range .Site.Home.AllTranslations }}
@@ -33,7 +33,7 @@
                 </li>
               {{ end }}
             {{ end }}
-          {{ end }}
+          {{ end }} -->
           <li class="navigation-item">
             <div id="theme-toggle" title="Switch visual theme (dark or light)">
               <input type="checkbox" id="toggle" aria-label="Switch visual theme (dark or light)" checked/>

@@ -118,24 +118,25 @@ googleAnalytics = "UA-109396923-1"
 
 
 
-    # [languages.fr-ca]
-    #     languagename = "Français"
-    #     title = "Félix Paradis"
+    [languages.fr-ca]
+        languagename = "Français"
+        title = "Félix Paradis"
 
-    #     [languages.fr-ca.params]
-    #         author = "Félix Paradis"
-    #         info = "Enchanté"
-    #         description = "Site personnel de Félix Paradis"
-    #         keywords = "blog,code,personnel"
-    #         footercontent = "Super nice."
+        [languages.fr-ca.params]
+            author = "Félix Paradis"
+            hello = "Salut, moi c'est Félix 👋"
+            info = "Enchanté"
+            description = "Site personnel de Félix Paradis"
+            keywords = "blog,code,personnel"
+            # footercontent = "Super nice."
 
     #     # Menu links
-    #     [languages.fr-ca.menu]
+        [languages.fr-ca.menu]
 
-    #         # [[languages.fr-ca.menu.main]]
-    #         # name = "À propos"
-    #         # weight = 1
-    #         # url = "about/"
+            # [[languages.fr-ca.menu.main]]
+            # name = "À propos"
+            # weight = 1
+            # url = "about/"
 
     #         # [[languages.fr-ca.menu.main]]
     #         # name = "Blog"
