@@ -2,32 +2,30 @@
 {{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "content" }}
-<section class="container post">
 
-  <article>
+  <article id="{{ replace (lower .Title) " " "-" }}" class="container post">
     <header>
       <div class="post-title">
         <h1 class="title">{{ .Title }}</h1>
       </div>
       <div class="post-meta">
-        <div class="date">
-          <span class="posted-on">
-            <i class="fas fa-calendar"></i>
-            <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
-              {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
-              {{ if gt .Page.Lastmod .Date }}
-              - updated on {{ .Page.Lastmod.Format "Jan 2, 2006"}}
-              {{ end }}
-            </time>
-          </span>
-          <br>
-          <span class="reading-time">
-            <i class="fas fa-clock"></i>
-            {{ i18n "reading_time" .ReadingTime }}
-          </span>
-        </div>
+        <p class="posted-on">
+          <svg aria-labelledby="fa-calendar-label" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title id="fa-calendar-label">Posted on:</title><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path fill="currentColor" d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"/></svg>
+          <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+            {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+            {{ if gt .Page.Lastmod .Date }}
+            - updated on {{ .Page.Lastmod.Format "Jan 2, 2006"}}
+            {{ end }}
+          </time>
+        </p>
+        <p class="reading-time">
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path fill="currentColor" d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z"/></svg>
+          {{ i18n "reading_time" .ReadingTime }}
+        </p>
+        {{ with .Page.Params.Tags }}
+          {{ partial "taxonomy/tags.html" . }}
+        {{ end }}
         {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
-        {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
       </div>
     </header>
 
@@ -42,81 +40,6 @@
 
     <footer>
       <hr>
-      <style>
-        .twitter-follow-button-custom span b {
-          font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
-          user-select: none;
-          font-size: 13px;
-          line-height: 26px;
-          text-align: left;
-          color: #fff;
-          cursor: pointer;
-          font-weight: 500;
-          white-space: nowrap;
-        }
-        .twitter-follow-button-custom span {
-          font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
-          user-select: none;
-          font-size: 13px;
-          line-height: 26px;
-          text-align: left;
-          color: #fff;
-          font-weight: 500;
-          cursor: pointer;
-          display: inline-block;
-          vertical-align: top;
-          zoom: 1;
-          white-space: nowrap;
-          margin-left: 4px;
-          text-shadow: 0px 0px 4px #333;
-        }
-        .twitter-follow-button-custom i {
-          font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
-          user-select: none;
-          font-size: 13px;
-          line-height: 26px;
-          white-space: nowrap;
-          text-align: left;
-          color: #fff;
-          font-weight: 500;
-          cursor: pointer;
-          position: relative;
-          display: inline-block;
-          background: transparent 0 0 no-repeat;
-          background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2072%2072%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h72v72H0z%22%2F%3E%3Cpath%20class%3D%22icon%22%20fill%3D%22%23fff%22%20d%3D%22M68.812%2015.14c-2.348%201.04-4.87%201.744-7.52%202.06%202.704-1.62%204.78-4.186%205.757-7.243-2.53%201.5-5.33%202.592-8.314%203.176C56.35%2010.59%2052.948%209%2049.182%209c-7.23%200-13.092%205.86-13.092%2013.093%200%201.026.118%202.02.338%202.98C25.543%2024.527%2015.9%2019.318%209.44%2011.396c-1.125%201.936-1.77%204.184-1.77%206.58%200%204.543%202.312%208.552%205.824%2010.9-2.146-.07-4.165-.658-5.93-1.64-.002.056-.002.11-.002.163%200%206.345%204.513%2011.638%2010.504%2012.84-1.1.298-2.256.457-3.45.457-.845%200-1.666-.078-2.464-.23%201.667%205.2%206.5%208.985%2012.23%209.09-4.482%203.51-10.13%205.605-16.26%205.605-1.055%200-2.096-.06-3.122-.184%205.794%203.717%2012.676%205.882%2020.067%205.882%2024.083%200%2037.25-19.95%2037.25-37.25%200-.565-.013-1.133-.038-1.693%202.558-1.847%204.778-4.15%206.532-6.774z%22%2F%3E%3C%2Fsvg%3E);
-          top: 4px;
-          height: 18px;
-          width: 18px;
-        }
-        .twitter-follow-button-custom {
-          font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
-          user-select: none;
-          font-size: 13px;
-          line-height: 26px;
-          white-space: nowrap;
-          text-align: left;
-          outline: 0;
-          text-decoration: none;
-          display: inline-block;
-          vertical-align: top;
-          zoom: 1;
-          position: relative;
-          box-sizing: border-box;
-          background-color: #0c7abf;
-          color: #fff;
-          font-weight: 500;
-          cursor: pointer;
-          height: 28px;
-          border-radius: 4px;
-          padding: 1px 10px 1px 9px;
-        }
-        .twitter-follow-button-custom:hover {
-          background-color: #135177;
-        }
-        .twitter-wrapper-custom {
-          text-align: center;
-        }
-      </style>
       <div class="twitter-wrapper-custom">
         <a 
         class="twitter-follow-button-custom" 
@@ -138,49 +61,28 @@
           <p>Pssst!</p>
           <strong>I'm starting a newsletter about my Indie Hacking journey.</strong>
           <p>Simple and fun concept: I start with no job and 10 000$, hoping it will be enough to support myself until I start generating decent income. Follow along?</p>
-          <style>
-            .email-octopus-form-wrapper form {text-align: center;} .email-octopus-success-message{text-align: center!important;font-size: 2em;}
-            .email-octopus-form-wrapper h2{font-size:20px;margin:0 0 25px}.email-octopus-form-row{margin-bottom:15px}.email-octopus-form-row label{display:block}.email-octopus-form-row input{width:100%;max-width:400px;padding:8px;height:32px;border:1px solid #ccc}.email-octopus-form-row-consent{margin-top:20px}.email-octopus-form-row-consent label{vertical-align:top}.email-octopus-form-row-subscribe{margin-top:20px}.email-octopus-form-row-subscribe button{background-color:#e0e0e0;padding:6px 12px;border:0;font-weight:700}.email-octopus-form-row-hp{position:absolute;left:-5000px}.email-octopus-error-message{color:#e74c3c}.email-octopus-referral,.email-octopus-rewards{margin-top:20px}
-          </style>
-          <div class="email-octopus-form-wrapper">
-            <p class="email-octopus-success-message"></p>
-            <p class="email-octopus-error-message"></p>
-            <form method="post"
-              action="https://emailoctopus.com/lists/04332982-e1c1-11ea-a3d0-06b4694bee2a/members/embedded/1.3/add"
-              class="email-octopus-form"
-              data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6"
-            >
-              <div class="email-octopus-form-row">
-                  <label for="field_0">Email address</label>
-                  <input id="field_0" name="field_0" type="email" placeholder="">
-              </div>
-      
-              <div class="email-octopus-form-row-hp" aria-hidden="true">
-                  <!-- Do not remove this field, otherwise you risk bot sign-ups -->
-                  <input type="text" name="hp04332982-e1c1-11ea-a3d0-06b4694bee2a"
-                    tabindex="-1"
-                    autocomplete="nope">
-              </div>
-      
-              <div class="email-octopus-form-row-subscribe">
-                  <input type="hidden"
-                    name="successRedirectUrl"
-                    value="">
-                  <button type="submit">Subscribe</button>
-              </div>
 
-            <div class="email-octopus-rewards">
+          <form name="newsletterSignup" netlify netlify-honeypot="money">
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" />
+            <p style="display: none;">
+              <label for="money">Name </label>
+              <input type="text" name="money" id="money" />
+              <input type="text" name="page" id="page" value="{{ .Title }}"/>
+            </p>
+            <div>
+              <button type="submit">Subscribe</button>
+            </div>
+            <div class="">
               Powered by <a
                 href="https://emailoctopus.com/?urli=lWf4V&amp;utm_medium=user_referral&amp;utm_source=builder"
                 target="_blank"
                 rel="noopener"
                 >EmailOctopus</a>
             </div>
-
-          </div>
+          </form>
         </div>
       </section>
-      <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.5/formEmbed.js"></script>
       {{ partial "posts/series.html" . }}
       {{ partial "posts/disqus.html" . }}
       {{ partial "posts/commento.html" . }}
@@ -189,5 +91,4 @@
   </article>
 
   {{ partial "posts/math.html" . }}
-</section>
 {{ end }}

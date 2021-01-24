@@ -70,9 +70,10 @@
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
       }
     </style>
-
-    <!-- Locally imported those under assets/scss -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" /> -->
+    {{ if eq .Page.Slug "referral-links" }}
+      <style>{{ (resources.Get "scss/referrals.scss" | toCSS | minify ).Content | safeCSS }}</style>
+    {{ end }}
+    <!-- Locally importing that under assets/scss -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" /> -->
 
     {{ if .Site.IsServer }}
@@ -85,13 +86,6 @@
       <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
     {{ end }}
 
-    {{ range .Site.Params.custom_css }}
-      <link rel="stylesheet" href="{{ . | relURL }}" />
-    {{ end }}
-
-    {{ range .Site.Params.custom_js }}
-      <script src="{{ . | relURL }}"></script>
-    {{ end }}
 
     {{ range .Site.Params.custom_scss }}
       {{/* We don't change the targetPath to because it's transparent to users */}}
@@ -113,12 +107,10 @@
     {{ end -}}
 
     {{ hugo.Generator }}
-    <script async src="https://arc.io/widget.js#jf2aUNG1"></script>
+    {{ if not .Site.IsServer }}
+      <script async src="https://arc.io/widget.min.js#jf2aUNG1"></script>
+    {{ end }}
     <meta name="monetization" content="$ilp.uphold.com/Zn2iQrmHPB3W">
-    <!-- Google adSense -->
-    <!-- <script data-ad-client="ca-pub-9292989102900534" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-    <!-- purpleAds -->
-    <!-- <script src="https://cdn.purpleads.io/load.js" id="purpleads-client" data-publisher="9ecfcf834494171f4be8893d8bbaf547:4cfda9fdb9bf40c2b2f4515fdfbc9563aaf166c1ac6cdbf92b0bc6a6f5620b4205f6f4943e4af2cc4ce0a722ca46d8a87da92ab1a2f3573f077750b013273b1c"></script> -->
     <noscript><style> #filters, #theme-toggle { display: none !important;} </style></noscript>
   </head>
 
@@ -139,29 +131,18 @@
       {{ partial "footer.html" . }}
     </main>
 
-    {{ template "_internal/google_analytics.html" . }}
-
+    
     {{ if and .Site.Params.fathomAnalytics .Site.Params.fathomAnalytics.siteID }}
-      {{- partial "analytics/fathom" . -}}
+    {{- partial "analytics/fathom" . -}}
     {{ end }}
-
+    
+    {{ $mainJS := (resources.Get "js/index.js") | resources.ExecuteAsTemplate "index.js" . | minify }}
+    <script>{{ $mainJS.Content | safeJS }}</script>
+    
+    {{ if not .Site.IsServer }}
+    {{ template "_internal/google_analytics.html" . }}
+      <img src="https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i={{ .Page.RelPermalink }}" alt="" style="display:none"/>
+    {{ end }}
+    <!-- <script async defer src="https://your-analytics.org/ya.js" data-domain="felixparadis.com"></script> -->
   </body>
-  
-  <script>
-    const toggleSwitch = document.querySelector('#theme-toggle input[type="checkbox"]');
-    toggleSwitch.addEventListener('change', switchTheme, false);
-  
-    if(localStorage.getItem('theme') == "colorscheme-light") {
-      toggleSwitch.checked = false;
-      switchTheme()
-    }
-  
-    function switchTheme() {
-      let body = document.getElementsByTagName("body")[0];
-      let theme = body.className == "colorscheme-dark" ? "colorscheme-light" : "colorscheme-dark";
-      body.className = ''
-      body.classList.add(theme)
-      localStorage.setItem('theme', theme);
-    }
-  </script>
 </html>

@@ -20,7 +20,12 @@
           srcset="images/profile_mobile.webp"
           type="image/webp"
         >
-        <img src="images/profile.png" alt="avatar">
+        <img 
+          src="images/profile.png" 
+          alt="avatar"
+          width="328"
+          height="328"
+          >
       </picture>
     </div>
     {{ with .Site.Params.gravatar }}
@@ -32,22 +37,44 @@
     <br>
 
     <p>
-      A freelance web developer with a keen interest in the Jamstack ecosystem and <a href="https://boutique.felixparadis.com">ham paintings</a>. 
-    </p>
-    <!-- <p> -->
-      <!-- I like to create. Whether it's an elegant piece of code, a witty joke or a couscous. -->
-    <!-- </p> -->
-    <p>
-      Currently open to opportunities, feel free to <a href="/contact"> contact me</a>.
+      A <strong>freelance web developer</strong> with a keen interest in the Jamstack ecosystem and <a href="https://boutique.felixparadis.com">ham paintings</a>. 
     </p>
     
+    <p>
+      Currently busy turning Sketch files into fast, secure and responsive websites for a good client, but open to amazing opportunities. Feel free to <a href="/contact"> contact me</a>.
+    </p>
+    <hr>
+    <p>Technologies I'm most used to work with:</p>
+    <!-- #TODO: something nice like a 5 star rating about my skills and a 5 heart rating about my love for it-->
+    <ul>
+      <li>HTML, CSS & Javascript (Of course.)</li>
+      <li>SCSS</li>
+      <!-- <li>Typescript</li> -->
+      <li>Hugo (Static Site Generator)</li>
+      <li>Svelte</li>
+      <li>Angular.js (Version 1.x)</li>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>NPM</li>
+      <li>Bootstrap</li>
+      <li>Tailwind</li>
+      <li>Forestry (Git-based CMS)</li>
+      <li>Netlify CMS (Git-based CMS)</li>
+      <li>MongoDB</li>
+      <li>FaunaDB</li>
+      <li>Netlify</li>
+      <li>Heroku</li>
+      <li>Git</li>
+      <li>JQuery</li>
+    </ul>
+    <p>Very open to work with stuff not listed above, of course.</p>
+    <p>Bilingual, too. <span lang="fr">(Bonjour!)</span></p>
     <br>
 
     <!-- #TODO: include currently working on... project -->
 
     <section id="latest-blog-posts" class="colorful-section">
       <div>
-        <!-- #TODO: make "Blog" a link? <a href="/posts">Blog</a> -->
         <h2>Latest <br> <a href="/posts">Blog</a> <br> Posts</h2>
           {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
           <div class="latest-blog-post">
@@ -55,14 +82,20 @@
               <figure>
                 <picture>
                   {{ $ext := substr (path.Ext .Params.previewImage) 1 }} 
-                  <source 
-                    srcset='{{.Params.previewImage}}'
-                    type="image/{{$ext}}"
-                  >
-                  <img 
-                    src='{{.Params.previewImageFallback }}' 
-                    alt=''
-                  >
+                  {{ with .Page.Resources.GetMatch .Params.previewImage }}
+                    <source 
+                      srcset='{{ .RelPermalink }}'
+                      type="image/{{$ext}}"
+                    >
+                  {{ end }}
+                  {{ with .Page.Resources.GetMatch .Params.previewImageFallback }}
+                    <img 
+                      src='{{ .RelPermalink }}' 
+                      width='{{ .Width }}'
+                      height='{{ .Height }}'
+                      alt=""
+                    >
+                  {{ end }}
                 </picture>
               </figure>
               <!-- <img src="{{ .Params.previewImage }}" alt=""> -->
@@ -91,7 +124,7 @@
               target="_blank" 
               {{ if .type }}type="{{ .type }}"{{ end }}
             >
-              <i class="{{ .icon }}" aria-hidden="true"></i>
+              {{ .svg | safeHTML }}
             </a>
             <span>{{ .name }}</span>
           </li>
@@ -108,6 +141,7 @@
           </li>
         {{ end }}
       {{ end }}
+      
     </ul>
     {{ end }} -->
 

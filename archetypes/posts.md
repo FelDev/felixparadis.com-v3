@@ -6,6 +6,6 @@ slug: ""
 tags: []
 description: ""
 images: [""]
-previewImage: "/images/posts/arc/banner.webp"
-previewImageFallback: "/images/posts/arc/banner.png"
+previewImage: "banner.webp"
+previewImageFallback: "banner.png"
 ---

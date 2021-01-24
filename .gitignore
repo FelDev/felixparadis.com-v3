@@ -16,3 +16,6 @@ hugo.linux
 .DS_Store
 /.vscode
 /node_modules
+
+# Working files like .psd
+_graphics

@@ -1,15 +1,17 @@
-<!-- TODO: automatically get width and height -->
-{{ $.Scratch.Set "lazy" (.Get "lazy") }}
-{{ $lazy := $.Scratch.Get "lazy" }}
-
-{{ $.Scratch.Set "captionLink" (.Get "captionLink") }}
-{{ $captionLink := $.Scratch.Get "captionLink" }}
-
-{{ $.Scratch.Set "extraBR" (.Get "extraBR") }}
-{{ $extraBR := $.Scratch.Get "extraBR" }}
+{{ $lazy := .Get "lazy" }}
+{{ $captionLink := .Get "captionLink" }}
+{{ $extraBR := .Get "extraBR" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
 
 <figure>
   <picture>
+    {{ if .Get "avifSrc"}}
+      <source 
+        srcset='{{.Get "avifSrc"}}'
+        type="image/avif"
+      >
+    {{ end }}
     {{ if .Get "webpSrc"}}
       <source 
         srcset='{{.Get "webpSrc"}}'
@@ -27,6 +29,13 @@
       {{ if $lazy }}
         loading="lazy"
       {{end}}
+      {{ if $width }}
+        width="{{ $width }}"
+      {{end}}
+      {{ if $height }}
+        height="{{ $height }}"
+      {{end}}
+
     >
  </picture>
   <figcaption>
@@ -38,9 +47,8 @@
             target="_blank"
           >{{.Get "caption" }}</a>
         </p>
-    
     {{else}}
-      <p>{{.Get "caption" }}</p>
+      <p>{{.Get "caption" | markdownify }}</p>
     {{end}}
   </figcaption>
 </figure>

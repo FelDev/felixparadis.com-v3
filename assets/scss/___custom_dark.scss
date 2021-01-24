@@ -1,0 +1,36 @@
+body.colorscheme-dark {
+  form {
+    background: #1f1f1f;
+    box-shadow: 0em 0em 0.25em #414141;
+    button,
+    input,
+    textarea {
+      border: 0.1em solid #313131;
+    }
+  }
+
+  #social-links li a {
+    color: $fg-color-dark;
+
+    &:hover,
+    &:focus {
+      color: $link-color-dark;
+    }
+  }
+
+  .colorful-section>div {
+    background-color: #212121;
+  }
+
+  #latest-blog-posts>div {
+    h2 {
+      a {
+        color: #dadada;
+      }
+    }
+  }
+  
+  .content .emphasis {
+    background-color: $emphasis-bg-dark;
+  }
+}
