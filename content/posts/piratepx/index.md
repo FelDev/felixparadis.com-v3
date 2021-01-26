@@ -1,10 +1,10 @@
 ---
 title: "Piratepx Review: Analytics Without JS, Cookies or Legal Headache"
-date: 2021-01-23T11:30:49-04:00
+date: 2021-01-26T11:30:49-04:00
 slug: "piratepx-review-analytics-without-js-cookies-or-legal-headache"
 tags: ["product review"]
 description: "I've had Google Analytics running on this website alongside piratepx for almost 2 months, so we can compare the results."
-images: ["/posts/piratepx/banner.jpg"]
+images: ["/posts/piratepx-review-analytics-without-js-cookies-or-legal-headache/banner.jpg"]
 previewImage: "banner.webp"
 previewImageFallback: "banner.jpg"
 draft: false
@@ -27,7 +27,7 @@ If you want to start by looking at a real piratepx dashboard, here's mine: https
 (Cool feature, isn't it? You can share your dashboard with a public URL.)
 
 ## Who's behind piratepx and why does it exist?
-Good ol' [Justin](https://github.com/jstayton)(https://twitter.com/kidjustino) is behind it. 
+Good ol' [Justin](https://twitter.com/kidjustino) ([github.com/jstayton](https://github.com/jstayton)) is behind it. 
 Yep. A single dev. But maybe more in the future since [the repo for piratepx is open source](https://github.com/piratepx/app). 
 You'll probably see yourself in Justin. 
 He's a developer who wanted "a little analytics insight into my own personal and indie projects (like [Lateral.run](https://www.lateral.run/)) without having to resort to Google Analytics." ...or even JavaScript.
