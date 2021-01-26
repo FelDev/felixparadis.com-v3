@@ -5,50 +5,36 @@
   {{- end -}}"
 >
 <a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">
-  <div class="top">
-
+  <span class="post-link-wrapper">
     <figure>
       <picture>
-        {{ $ext := substr (path.Ext .Params.previewImage) 1 }} 
-        {{ $pi := .Page.Resources.GetMatch .Params.previewImage }}
         {{ $pif := .Page.Resources.GetMatch .Params.previewImageFallback }}
-        {{ if not $pi }}
-          {{ $pi = .Params.previewImage }}
-        {{ else }}
-          {{ $pi = $pi.RelPermalink }}
-        {{ end }}
+        {{ $height := "" }}
         {{ if not $pif }}
+          {{/* Must be on Cloudinary */}}
           {{ $pif = .Params.previewImageFallback }}
         {{ else }}
+          {{ $pif = $pif.Resize "250x jpg q100" }}
+          {{ $height = $pif.Height }}
           {{ $pif = $pif.RelPermalink }}
         {{ end }}
-        <source 
-          srcset='{{$pi}}'
-          type="image/{{$ext}}"
-        >
-        <div
-        {{/* 
-          height: 250px;
-           */}}
-          style="width: 250px;
-          display: flex;
-          "
-        >
-        <img 
-          src='{{ $pif }}' 
-          alt=''
-        >
+        <div>
+          <img 
+            src='{{ $pif }}' 
+            width="250"
+            {{ if ne $height "" }}
+              height="{{$height}}"
+            {{ end }}
+            alt=''
+          >
         </div>
       </picture>
     </figure>
     <div class="text">
       <h2>{{ .Title }}</h2>
       <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-      <!-- <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span> -->
       <!-- <p>{{ .Params.description }}</p> -->
     </div>
-  </div>
-
-  </a>
+  </span>
+</a>
 </li>
-<!-- <hr> -->

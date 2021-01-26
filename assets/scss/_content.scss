@@ -107,29 +107,19 @@
     margin: 3.2rem 0 3.2rem 0;
     list-style: none;
     padding: 0;
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-around;
     li {
       font-size: 1.8rem;
       margin: 5rem 0 0;
       transition: .75s;
       max-height: 25rem;
-      // overflow: hidden;
-      border-radius: 1rem;
-      box-shadow: 0 0 0.3rem 0.1rem #9090902b;
+
       &.hide {
         opacity: 0;
         max-height: 0;
         margin: 0;
         visibility: hidden;
-        // display: none;
-      }
-      .date {
-        font-size: 1.6rem;
       }
       a.title {
-
         font-size: 1.8rem;
         color: $fg-color;
         font-family: $heading-font-family;
@@ -138,29 +128,43 @@
         flex-direction: column;
         height: 100%;
         justify-content: center;
+        border-radius: 1rem;
+        box-shadow: 0 0 0.3rem 0.1rem #9090902b;
+        transition: .75s;
         &:hover,
-        &:focus {
+        &:focus-visible {
           color: $link-color;
+          box-shadow: 0 0 0.3rem 0.1rem #1565c08c;
+          outline: none;
+          img {
+            transform: scale(1.05);
+          }
         }
-        .top {
+        .post-link-wrapper {
           display: flex;
-
           figure {
             max-width: 35rem;
-            margin-right: 1.5rem;
+            margin-right: 0.5rem;
+            div {
+              display: flex;
+              width: 250px;
+              overflow: hidden;
+              border-radius: 1rem 0 0 1rem;
+              align-items: flex-start;
             img {
-              // border-radius: 1rem;
-              max-width: 100%;
+              transition: .75s;
+            }
             }
           }
           .text {
             display: flex;
             flex-direction: column;
-            // justify-content: space-between;
+            padding: 1rem;
             h2 {
-              margin: 0;
-              margin-right: 1.5rem;
-              // text-align: center;
+              margin: 1rem 0 0;
+            }
+            .date {
+              font-size: 1.6rem;
             }
           }
         }
@@ -170,8 +174,7 @@
       li {
         max-height: 42rem;
         a.title {
-  
-          .top {
+          .post-link-wrapper {
             flex-direction: column;
             figure {
               margin: auto;
@@ -181,10 +184,8 @@
               }
             }
             .text {
-              padding: 1rem;
               h2 {
                 margin: 0 0 1rem 0;
-                margin-right: 1.5rem;
                 text-align: center;
               }
             }
@@ -271,3 +272,5 @@
     }
   }
 }
+
+
