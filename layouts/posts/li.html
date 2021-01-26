@@ -10,31 +10,45 @@
     <figure>
       <picture>
         {{ $ext := substr (path.Ext .Params.previewImage) 1 }} 
+        {{ $pi := .Page.Resources.GetMatch .Params.previewImage }}
+        {{ $pif := .Page.Resources.GetMatch .Params.previewImageFallback }}
+        {{ if not $pi }}
+          {{ $pi = .Params.previewImage }}
+        {{ else }}
+          {{ $pi = $pi.RelPermalink }}
+        {{ end }}
+        {{ if not $pif }}
+          {{ $pif = .Params.previewImageFallback }}
+        {{ else }}
+          {{ $pif = $pif.RelPermalink }}
+        {{ end }}
         <source 
-        srcset='{{.Params.previewImage}}'
-        type="image/{{$ext}}"
+          srcset='{{$pi}}'
+          type="image/{{$ext}}"
         >
         <div
-        style="width: 250px;
-        height: 250px;
-        overflow: hidden;    position: relative;
-"
+        {{/* 
+          height: 250px;
+           */}}
+          style="width: 250px;
+          display: flex;
+          "
         >
-          <img 
-
-          src='{{.Params.previewImageFallback }}' 
+        <img 
+          src='{{ $pif }}' 
           alt=''
-          >
+        >
         </div>
       </picture>
     </figure>
     <div class="text">
       <h2>{{ .Title }}</h2>
+      <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
       <!-- <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span> -->
-      <p>{{ .Params.description }}</p>
+      <!-- <p>{{ .Params.description }}</p> -->
     </div>
   </div>
 
   </a>
 </li>
-<hr>
+<!-- <hr> -->

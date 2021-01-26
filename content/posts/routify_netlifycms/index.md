@@ -3,7 +3,7 @@ title: "Integrating Netlify CMS with Routify"
 date: 2020-12-14T11:30:49-04:00
 slug: "integrating-netlify-cms-with-routify"
 tags: ["tutorial"]
-description: ""
+description: "It's quite easy to add Netlify CMS to an already existing Routify project. A lot of the basics are pretty much what you'd find in Netlify CMS' docs."
 images: ["/posts/integrating-netlify-cms-with-routify/banner.jpg"]
 previewImage: "banner.webp"
 previewImageFallback: "banner.jpg"
