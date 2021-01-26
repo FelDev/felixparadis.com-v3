@@ -140,9 +140,9 @@
     <script>{{ $mainJS.Content | safeJS }}</script>
     
     {{ if not .Site.IsServer }}
-    {{ template "_internal/google_analytics.html" . }}
+      {{/*  {{ template "_internal/google_analytics.html" . }}  */}}
       <img src="https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i={{ .Page.RelPermalink }}" alt="" style="display:none"/>
+      <script async defer src="https://your-analytics.org/ya.js" data-domain="felixparadis.com"></script>
     {{ end }}
-    <!-- <script async defer src="https://your-analytics.org/ya.js" data-domain="felixparadis.com"></script> -->
   </body>
 </html>
