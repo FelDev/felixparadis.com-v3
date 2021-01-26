@@ -1,5 +1,5 @@
 ---
-title: "Piratepx review: Analytics without JS, Cookies or Legal Headache"
+title: "Piratepx Review: Analytics Without JS, Cookies or Legal Headache"
 date: 2021-01-23T11:30:49-04:00
 slug: "piratepx-review-analytics-without-js-cookies-or-legal-headache"
 tags: ["product review"]
@@ -32,13 +32,13 @@ Yep. A single dev. But maybe more in the future since [the repo for piratepx is 
 You'll probably see yourself in Justin. 
 He's a developer who wanted "a little analytics insight into my own personal and indie projects (like [Lateral.run](https://www.lateral.run/)) without having to resort to Google Analytics." ...or even JavaScript.
 
-You see, while most other privacy-respecting GA alternatives compete on **features**, piratepx competes on **simplicity**.
-Here is the cost of piratepx for your:
+You see, while most privacy-respecting GA alternatives compete on **features**, piratepx competes on **simplicity**.
+Here is the cost of piratepx for your...
 
-- Users: one extra request of 37 bytes.
-- Developers: between 1 and 10 lines of code.
-- Legal team: nothing.
-- Finance team: nothing.
+- **Users**: one extra request of 37 bytes.
+- **Developers**: between 1 and 10 lines of code.
+- **Legal team**: nothing.
+- **Finance team**: nothing.
 
 ## Piratepx vs Google Analytics
 
@@ -49,7 +49,7 @@ GA and piratepx constantly agree on which pages are the most popular.
 GA tends to report about 0.5 to 0.75 as much traffic as piratepx for any given page. 
 This is not surprising since my target audience is nerds, geeks and my mom.
 
-Nerds and geeks agressively blocking GA and third party cookies in general is very likely.
+Nerds and geeks aggressively blocking GA and third party cookies in general is very likely.
 
 ## Can piratepx replace Google Analytics?
 It depends what you do with GA. 

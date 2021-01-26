@@ -1,5 +1,5 @@
 [context.production.environment]
-  HUGO_VERSION = "0.78.2"
+  HUGO_VERSION = "0.80.0"
   NODE_VERSION = "14"
 
 [[redirects]]
