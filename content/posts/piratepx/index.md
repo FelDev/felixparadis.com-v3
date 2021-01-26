@@ -4,7 +4,7 @@ date: 2021-01-26T11:30:49-04:00
 slug: "piratepx-review-analytics-without-js-cookies-or-legal-headache"
 tags: ["product review"]
 description: "I've had Google Analytics running on this website alongside piratepx for almost 2 months, so we can compare the results."
-images: ["/posts/piratepx-review-analytics-without-js-cookies-or-legal-headache/banner.jpg"]
+images: ["/posts/piratepx-review-analytics-without-js-cookies-or-legal-headache/banner.jpg?twitcachetest"]
 previewImage: "banner.webp"
 previewImageFallback: "banner.jpg"
 draft: false
