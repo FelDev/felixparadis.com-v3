@@ -21,7 +21,7 @@ I've noticed 3 big trends in 2020:
 - Ditching Google Analytics
 
 If you're here, you certainly know why people are doing the latter, so I won't get into the whole "privacy is important and Google is evil" thing. 
-Let's just talk about one of the many alternatives: [Piratepx](https://www.piratepx.com/).
+Let's just talk about one of the many alternatives: [piratepx](https://www.piratepx.com/).
 
 If you want to start by looking at a real piratepx dashboard, here's mine: https://app.piratepx.com/shared/6PEV7Kwbkm3HZvaPVMVI5sHrFuJ06nUL4hb0vsdVj8_0dL9X7eZk1AyM-xEn8wW-
 (Cool feature, isn't it? You can share your dashboard with a public URL.)
