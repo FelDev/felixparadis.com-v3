@@ -26,6 +26,7 @@ a {
   font-weight: 300;
   color: $link-color;
   text-decoration: none;
+  word-break: break-word;
   &:focus,
   &:hover {
     text-decoration: underline;
