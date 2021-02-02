@@ -26,7 +26,7 @@ googleAnalytics = "UA-109396923-1"
   author = "Félix Paradis"
   hello = "Hello, I'm Félix Paradis 👋"
   info = "Or find me online at various places:"
-  description = "Felix Paradis's personal blog and homepage"
+  description = "Freelance web developer Félix Paradis's personal blog! Mostly about web developement and weird ergonomic keyboards."
   keywords = "blog,developer,tech"
   images = ["images/profile.png"] # for og:image
 

@@ -2,6 +2,7 @@
 title: "Projects"
 slug: "projects"
 type: "page"
+description: "Projects by freelance web developer Félix Paradis. Webapps, websites and a few pictures."
 ui_component: ""
 ---
 

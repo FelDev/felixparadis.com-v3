@@ -46,7 +46,7 @@ I've had Google Analytics running on this website alongside piratepx for almost 
 
 GA and piratepx constantly agree on which pages are the most popular. 
 (My [Dygma Raise vs Ergodox EZ article](/posts/quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise) is constantly the most popular.)
-GA tends to report about 0.5 to 0.75 as much traffic as piratepx for any given page. 
+GA tends to report about 0.5 to 0.9 as much traffic as piratepx for any given page. 
 This is not surprising since my target audience is nerds, geeks and my mom.
 
 Nerds and geeks aggressively blocking GA and third party cookies in general is very likely.
