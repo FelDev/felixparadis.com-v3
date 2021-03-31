@@ -1,7 +1,7 @@
 <nav class="navigation">
   <div class="container">
     <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
-      home 🏠
+      {{.Site.Params.homeLink}}
     </a>
     {{ if or .Site.Menus.main .Site.IsMultiLingual }}
       <div id="menu-toggle-wrapper">
@@ -17,7 +17,11 @@
               </li>
             {{ end }}
           {{ end }}
-          {{ if .Site.IsMultiLingual }}
+          {{/*  
+            #TODO: if false LOL
+            Include French in the header when it's...ready.
+          */}}
+          {{ if and .Site.IsMultiLingual false }}
             {{ $node := . }}
             {{ .Scratch.Set "separator" true }}
             {{ range .Site.Home.AllTranslations }}

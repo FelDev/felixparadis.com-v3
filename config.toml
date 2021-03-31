@@ -27,13 +27,12 @@ googleAnalytics = "UA-109396923-1"
   hello = "Hello, I'm Félix Paradis 👋"
   info = "Or find me online at various places:"
   description = "Freelance web developer Félix Paradis's personal blog! Mostly about web developement and weird ergonomic keyboards."
+  homeLink = "home 🏠"
   keywords = "blog,developer,tech"
   images = ["images/profile.png"] # for og:image
 
   # favicon_32 = "/img/favicon-32x32.png"
   # favicon_16 = "/img/favicon-16x16.png"
-
-  footercontent = ""
 
   hidecredits = false
   hidecopyright = false
@@ -91,7 +90,8 @@ googleAnalytics = "UA-109396923-1"
 [languages]
   [languages.en]
     languagename = "English"
-    
+    contentDir = "content"
+
     # Menu links
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -107,47 +107,25 @@ googleAnalytics = "UA-109396923-1"
         weight = 5
         url = "contact/"
       
-      # [[languages.en.menu.main]]
-        # name = "About"
-        # weight = 1
-        # url = "about/"
-      # [[languages.en.menu.main]]
-        # name = "Referral Links"
-        # weight = 2
-        # url = "referral-links/"
 
+    [languages.fr]
+        languagename = "Français"
+        title = "Félix Paradis"
+        contentDir = "contenu"
+        homeLink = "maison 🏠"
+        hello = "Salut! Moi c'est Félix 👋"
 
+        [languages.fr.params]
+            author = "Félix Paradis"
+            info = "Enchanté"
+            description = "Site personnel de Félix Paradis"
+            keywords = "blog,code,personnel"
+            images = ["images/profile.png"] # for og:image
+  
+        # Menu links
+        [languages.fr-ca.menu]
 
-    # [languages.fr-ca]
-    #     languagename = "Français"
-    #     title = "Félix Paradis"
-
-    #     [languages.fr-ca.params]
-    #         author = "Félix Paradis"
-    #         info = "Enchanté"
-    #         description = "Site personnel de Félix Paradis"
-    #         keywords = "blog,code,personnel"
-    #         footercontent = "Super nice."
-
-    #     # Menu links
-    #     [languages.fr-ca.menu]
-
-    #         # [[languages.fr-ca.menu.main]]
-    #         # name = "À propos"
-    #         # weight = 1
-    #         # url = "about/"
-
-    #         # [[languages.fr-ca.menu.main]]
-    #         # name = "Blog"
-    #         # weight = 2
-    #         # url = "posts/"
-
-    #         [[languages.fr-ca.menu.main]]
-    #         name = "Projets"
-    #         weight = 3
-    #         url = "projects/"
-
-    #         [[languages.fr-ca.menu.main]]
-    #         name = "Contact"
-    #         weight = 5
-    #         url = "contact/"
+            [[languages.fr-ca.menu.main]]
+              name = "Poésie"
+              weight = 1
+              url = "poesie/"

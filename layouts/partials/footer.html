@@ -1,8 +1,5 @@
 <footer class="footer">
   <div class="container">
-    {{ with .Site.Params.footercontent | safeHTML }}
-      <p>{{.}}</p>
-    {{ end }}
     {{ if not .Site.Params.hideCopyright }}
       {{ with .Site.Params.since }}
         © {{ if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year }}
@@ -13,8 +10,12 @@
     {{ end }}
     {{ if not .Site.Params.hideCredits }}
       {{ if not .Site.Params.hideCopyright }} · {{ end }}
-      {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & based on <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & {{ i18n "based_on" }} <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
     {{ end }}
+
+    {{/*  <span>|</span>  */}}
+    {{/*  <a href="/fr">Version Française</a>  */}}
+    
     {{ if .Site.Params.commit }}
       {{ if or (not .Site.Params.hideCredits) (not .Site.Params.hideCopyright) }} · {{ end }}
       [<a href="{{ .Site.Params.commit }}{{ getenv "GIT_COMMIT_SHA" }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>]

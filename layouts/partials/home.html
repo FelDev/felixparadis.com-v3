@@ -4,24 +4,24 @@
       <picture>
         <source 
           media="(min-width: 500px)"
-          srcset="images/profile.avif"
+          srcset="/images/profile.avif"
           type="image/avif"
         >
         <source 
           media="(min-width: 500px)"
-          srcset="images/profile.webp"
+          srcset="/images/profile.webp"
           type="image/webp"
         >
         <source
-          srcset="images/profile_mobile.avif"
+          srcset="/images/profile_mobile.avif"
           type="image/avif"
         >
         <source 
-          srcset="images/profile_mobile.webp"
+          srcset="/images/profile_mobile.webp"
           type="image/webp"
         >
         <img 
-          src="images/profile.png" 
+          src="/images/profile.png" 
           alt="avatar"
           width="328"
           height="328"
@@ -36,78 +36,6 @@
 
     <br>
 
-    <p>
-      A <strong>freelance web developer</strong> with a keen interest in the Jamstack ecosystem and <a href="https://boutique.felixparadis.com">ham paintings</a>. 
-    </p>
-    
-    <p>
-      Currently busy turning Sketch files into fast, secure and responsive websites for a good client, but open to amazing opportunities. Feel free to <a href="/contact"> contact me</a>.
-    </p>
-    <hr>
-    <p>Technologies I'm most used to work with:</p>
-    <!-- #TODO: something nice like a 5 star rating about my skills and a 5 heart rating about my love for it-->
-    <ul>
-      <li>HTML, CSS & Javascript (Of course.)</li>
-      <li>SCSS</li>
-      <!-- <li>Typescript</li> -->
-      <li>Hugo (Static Site Generator)</li>
-      <li>Svelte</li>
-      <li>Angular.js (Version 1.x)</li>
-      <li>Node.js</li>
-      <li>Express</li>
-      <li>NPM</li>
-      <li>Bootstrap</li>
-      <li>Tailwind</li>
-      <li>Forestry (Git-based CMS)</li>
-      <li>Netlify CMS (Git-based CMS)</li>
-      <li>MongoDB</li>
-      <li>FaunaDB</li>
-      <li>Netlify</li>
-      <li>Heroku</li>
-      <li>Git</li>
-      <li>JQuery</li>
-    </ul>
-    <p>Very open to work with stuff not listed above, of course.</p>
-    <p>Bilingual, too. <span lang="fr">(Bonjour!)</span></p>
-    <br>
-
-    <!-- #TODO: include currently working on... project -->
-
-    <section id="latest-blog-posts" class="colorful-section">
-      <div>
-        <h2>Latest <br> <a href="/posts">Blog</a> <br> Posts</h2>
-          {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
-          <div class="latest-blog-post">
-            <a href="{{.Permalink}}">
-              <figure>
-                <picture>
-                  {{ $ext := substr (path.Ext .Params.previewImage) 1 }} 
-                  {{ with .Page.Resources.GetMatch .Params.previewImage }}
-                    <source 
-                      srcset='{{ .RelPermalink }}'
-                      type="image/{{$ext}}"
-                    >
-                  {{ end }}
-                  {{ with .Page.Resources.GetMatch .Params.previewImageFallback }}
-                    <img 
-                      src='{{ .RelPermalink }}' 
-                      width='{{ .Width }}'
-                      height='{{ .Height }}'
-                      alt=""
-                    >
-                  {{ end }}
-                </picture>
-              </figure>
-              <!-- <img src="{{ .Params.previewImage }}" alt=""> -->
-              <h3>{{.Title}}</h3>
-            </a>
-            <!-- <span>{{.}}}</span> -->
-          </div>
-          {{ end }}
-      </div>
-    </section>
-
-    <br>
 
 <!-- 
     <h2>{{ .Site.Params.info }}</h2>
@@ -144,7 +72,17 @@
       
     </ul>
     {{ end }} -->
-
+    {{/*  
+      hurr. Can't call partial with a variable possible but uglier thant if/else
+      https://discourse.gohugo.io/t/string-variable-concatenation-to-build-path-for-partial/701/15
+      {{ $homePartial := print "home." .Site.Language.Lang ".html" }}  
+    */}}
+    
+    {{ if eq .Site.Language.Lang "en" }}
+      {{ partial "home.en.html" . }}
+    {{ else }}
+      {{ partial "home.fr.html" . }}
+    {{ end }}
 
   </div>
 </section>
