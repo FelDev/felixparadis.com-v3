@@ -66,6 +66,9 @@ I found this quote particularly relevant when doing video editing.
 
 ## Cultivate compassion for those less intelligent than you. Many people, through no fault of their own, can’t handle forms, scammers, or complex situations. Be kind to them because the world is not. 
 \- ideopunk 
+
+## Conflict is inevitable but combat is optional.
+\- Max Lucado 
 <!--
 
  ## Des fois ça en prend beaucoup pour avoir besoin de rien...
