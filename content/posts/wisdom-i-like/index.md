@@ -1,7 +1,7 @@
 ---
 title: "Nuggets of Wisdom I Like"
 date: 2020-08-03
-lastmod: "2020-11-25"
+lastmod: "2021-03-30"
 slug: "nuggets-of-wisdom-i-like"
 tags: ["motivation"]
 description: "A collection of short quotes I particularly like and wish to remember."
