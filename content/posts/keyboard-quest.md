@@ -1,6 +1,6 @@
 --- 
 date: "2020-05-16"
-lastmod: "2020-10-01"
+lastmod: "2021-04-11"
 title: "Quest for the Perfect Keyboard: Ergodox EZ vs. Dygma Raise"
 slug: "quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise" 
 tags: ["product review", "keyboards"]
@@ -17,6 +17,13 @@ previewImageFallback: "https://res.cloudinary.com/felixparadis-com/image/upload/
     width="921"
     height="691"
 >}}
+
+{{< emphasis >}}
+  **UPDATE!**
+
+  I've tried different keyboards since writing this and my new daily
+  driver is [the Lily58 Pro](/posts/lily58-pro-and-boardsource.xyz-review/).  
+{{< /emphasis >}}
 
 ## Introductory rant
 
