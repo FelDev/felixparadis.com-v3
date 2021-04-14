@@ -1,18 +1,18 @@
 ---
 title: "Arc.io Review - A Way to Monetize Any Website"
 date: 2020-08-18
-lastmod: 2021-01-21
+lastmod: 2021-04-13
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
-images: ["/posts/arc-dot-io-review/banner.png"]
+images: ["/posts/arc-dot-io-review/banner.jpg"]
 previewImage: "banner.webp"
-previewImageFallback: "banner.png"
+previewImageFallback: "banner.jpg"
 ---
 
 {{< image_bundle
     webpSrc="banner.webp" 
-    fallbackSrc="banner.png"
+    fallbackSrc="banner.jpg"
     alt="Arc's logo"
 >}}
 ## What's [Arc.io](https://arc.io/) ?
