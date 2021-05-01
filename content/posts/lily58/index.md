@@ -5,7 +5,7 @@ date: 2021-04-11T10:14:01-05:00
 slug: "lily58-pro-(and-boardsource.xyz)-review"
 tags: ["keyboards", "product review"]
 description: "My main motivations for getting the Lily58 Pro were having more comfortable thumb keys and a smaller keyboard, but a bunch of things are new for me with this keyboard"
-images: ["/posts/lily58-pro-(and-boardsource.xyz)-review/banner.jpg"]
+images: ["/posts/lily58-pro-and-boardsource.xyz-review/banner.jpg"]
 previewImage: "banner.webp"
 previewImageFallback: "banner.jpg"
 ---
@@ -13,7 +13,7 @@ previewImageFallback: "banner.jpg"
 {{< image_bundle
     webpSrc="banner.webp" 
     avifSrc="banner.avif" 
-    fallbackSrc="banner.jpeg"
+    fallbackSrc="banner.jpg"
     alt="The Lily58 pro, with blank keycaps."
 >}}
 
