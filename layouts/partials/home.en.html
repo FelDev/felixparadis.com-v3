@@ -53,14 +53,19 @@
             <a href="{{.Permalink}}">
               <figure>
                 <picture>
-                  {{ $ext := substr (path.Ext .Params.previewImage) 1 }} 
-                  {{ with .Page.Resources.GetMatch .Params.previewImage }}
-                    <source 
-                      srcset='{{ .RelPermalink }}'
-                      type="image/{{$ext}}"
-                    >
-                  {{ end }}
+                  {{/*  {{ $ext := substr (path.Ext .Params.previewImage) 1 }}   */}}
+                  {{/*  {{ with .Page.Resources.GetMatch .Params.previewImage }}  */}}
+                    {{/*  <source   */}}
+                      {{/*  srcset='{{ .RelPermalink }}'  */}}
+                      {{/*  type="image/{{$ext}}"  */}}
+                    {{/*  >  */}}
+                  {{/*  {{ end }}  */}}
                   {{ with .Page.Resources.GetMatch .Params.previewImageFallback }}
+                    {{ $webp := .Resize "304x q80 webp" }}
+                    <source 
+                      srcset='{{ $webp.RelPermalink }}'
+                      type="image/webp"
+                    >
                     <img 
                       src='{{ .RelPermalink }}' 
                       width='{{ .Width }}'
