@@ -244,17 +244,17 @@ footer {
   position: relative;
   width: 95%;
   margin: auto;
-  i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    &:first-of-type {
-      left: -2rem;
-    }
-    &:last-of-type {
-      right: -2rem;
-    }
-  }
+  // i {
+  //   position: absolute;
+  //   top: 50%;
+  //   transform: translateY(-50%);
+  //   &:first-of-type {
+  //     left: -2rem;
+  //   }
+  //   &:last-of-type {
+  //     right: -2rem;
+  //   }
+  // }
   p {
     text-align: left;
   }
