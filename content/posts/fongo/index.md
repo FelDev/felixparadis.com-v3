@@ -47,8 +47,8 @@ Over 2 years, it’s safe to assume I saved at least 600$ thanks to Fongo. So fa
   **Timely update:**
 
   The amazing data-only plan I was on with Fido no longer exists...
-  Unless you have a phone plan with them. (?!) Most big telecom companies I looked up
-  have similar policies. You might be able to get the data-only plan if you already have a phone plan
+  unless you have a phone plan with them. (?!) Most big telecom companies I looked up
+  have similar policies. You might be able to get a data-only plan if you already have a phone plan
   with them, then cancel the phone plan and keep the data-only plan.
 
   Personally, I've switched to Fizz and get 1GB/month for 16$/month. Good enough. 
