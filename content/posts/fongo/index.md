@@ -1,7 +1,7 @@
 ---
 title: "Fongo Review: Can It Be Your Only Phone Number?"
 date: 2019-05-03
-lastmod: 2020-08-26
+lastmod: 2021-07-02
 slug: "fongo-review-can-it-be-your-only-phone-number"
 tags: ["product review"]
 images: ["/posts/fongo-review-can-it-be-your-only-phone-number/banner.png"]
@@ -42,6 +42,18 @@ Quick calculation:
 16.66*24 ≃ 400$
 ```
 Over 2 years, it’s safe to assume I saved at least 600$ thanks to Fongo. So far, so good.
+
+{{< emphasis >}}
+  **Timely update:**
+
+  The amazing data-only plan I was on with Fido no longer exists...
+  Unless you have a phone plan with them. (?!) Most big telecom companies I looked up
+  have similar policies. You might be able to get the data-only plan if you already have a phone plan
+  with them, then cancel the phone plan and keep the data-only plan.
+
+  Personally, I've switched to Fizz and get 1GB/month for 16$/month. Good enough. 
+  Should you care for a referral code with Fizz: **7RC4P**
+{{< /emphasis >}}
 
 ## The quality of the service
 
@@ -109,9 +121,7 @@ I sincerely hope the company is going to keep on getting better because they are
 Fongo didn't get better. I had to call the government twice this year and both times the line dropped in the middle of the call. I now use Gmail to make phone calls when I can.
 
 ---
-**Full Disclosure**: I am not being paid or otherwise compensated by Fongo nor its competitors to write this article. All opinions expressed in this article are my own. No affiliate or referral links are used in this article.
-
-
-
-
-
+**Full Disclosure**: 
+I am not being paid or otherwise compensated by Fongo nor its competitors to write this article. 
+All opinions expressed in this article are my own. 
+The only affiliate/referral link used in this article is the Fizz referral code (7RC4P).
