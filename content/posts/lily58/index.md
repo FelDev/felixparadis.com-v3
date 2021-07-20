@@ -1,7 +1,7 @@
 ---
 title: "Lily58 Pro (and boardsource.xyz) Review"
 date: 2021-04-11T10:14:01-05:00
-# lastmod: 2021-02-04T17:14:01-05:00
+lastmod: 2021-07-20T10:14:01-05:00
 slug: "lily58-pro-(and-boardsource.xyz)-review"
 tags: ["keyboards", "product review"]
 description: "My main motivations for getting the Lily58 Pro were having more comfortable thumb keys and a smaller keyboard, but a bunch of things are new for me with this keyboard"
@@ -242,8 +242,8 @@ soldering didn't make it through shipping and contact wasn't happening.
 I asked for help in Boardsource's Discord and got good advice which allowed me to fix it.
 The fix was to push hard with my thumb so that the current could go through...
 Soldering with my bare hands, if you will. 
-That repair survived a good shake in the air, but I had to repeat the feat after
-changing the switch on that particular key.
+That repair survived a good shake in the air and then a couple of months, but 
+eventually, I had to re-solder the switch properly (took 1 minute once I found a solder gun).
 
 Besides this one misfortune, everything was dandy and I never had nicer looking 
 cables ✨
