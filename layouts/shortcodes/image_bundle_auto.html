@@ -1,0 +1,46 @@
+{{ $lazy := .Get "lazy" }}
+{{ $captionLink := .Get "captionLink" }}
+{{ $extraBR := .Get "extraBR" }}
+{{ $alt := .Get "alt" }}
+
+<figure>
+  <picture>
+    {{ with .Page.Resources.GetMatch .Params.src }}
+      {{ $webp := .Resize "660x q86 webp" }}
+      {{ $jpg := .Resize "660x q86 jpg" }}
+      <source 
+        srcset='{{ $webp.RelPermalink }}'
+        type="image/webp"
+      >
+      <source 
+        srcset='{{ $jpg.RelPermalink }}'
+        type="image/jpg"
+      >
+      <img 
+        src='{{ .RelPermalink }}' 
+        width='{{ .Width }}'
+        height='{{ .Height }}'
+        alt="{{ $alt }}"
+        {{ if $lazy }}
+          loading="lazy"
+        {{end}}
+      >
+    {{ end }}
+</picture>
+  <figcaption>
+    {{ if $captionLink }}
+      <p>
+        <a 
+          href='{{.Get "captionLink" }}' 
+          rel="noopener" 
+          target="_blank"
+        >{{.Get "caption" }}</a>
+      </p>
+    {{else}}
+      <p>{{.Get "caption" | markdownify }}</p>
+    {{end}}
+  </figcaption>
+</figure>
+{{ if $extraBR}}
+  <br>      
+{{end}}

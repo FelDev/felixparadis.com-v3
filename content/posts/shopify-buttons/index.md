@@ -10,10 +10,9 @@ previewImage: "banner.png"
 previewImageFallback: "banner.png"
 ---
 
-{{< image_bundle
-    webpSrc="banner.webp" 
-    fallbackSrc="banner.png"
-    alt="Piratepx's logo"
+{{< image_bundle_auto
+    src="banner.png"
+    alt="Shopify's logo with the standard language icon on it."
 >}}
 
 I had to setup Shopify Buy Buttons on a **multilingual** website and quickly
