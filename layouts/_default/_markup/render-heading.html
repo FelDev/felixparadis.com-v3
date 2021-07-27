@@ -1,12 +1,8 @@
-{{if eq .Page.Section "posts"}}
-  <h{{ .Level }} id="{{ .Anchor | safeURL }}">
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+  {{if eq .Page.Section "posts"}}
     <a class="heading-anchor" href="#{{ .Anchor | safeURL }}">
       {{ strings.Repeat .Level "#" }}
     </a>
-    {{ .Text | safeHTML }}
-  </h{{ .Level }}>
-{{ else }}
-  <h{{ .Level }} id="{{ .Anchor | safeURL }}">
-    {{ .Text | safeHTML }}
-  </h{{ .Level }}>
-{{ end }}
+  {{ end }}
+  {{ .Text | safeHTML }}
+</h{{ .Level }}>
