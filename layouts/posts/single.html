@@ -64,7 +64,11 @@
             about how to get people to sign up for your newsletters!
           </p>
 
-          <form name="newsletterSignup" netlify netlify-honeypot="money">
+          <form 
+            name="newsletterSignup" 
+            netlify netlify-honeypot="money" 
+            action="/newsletter-success"
+            >
             <label for="email">Email address</label>
             <input type="email" name="email" id="email" required />
             <p style="display: none;">
