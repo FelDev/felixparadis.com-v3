@@ -3,7 +3,7 @@
   publish = "public/"
 
 [context.production.environment]
-  HUGO_VERSION = "0.86.0"
+  HUGO_VERSION = "0.86.1"
   NODE_VERSION = "14"
 
 [[redirects]]
