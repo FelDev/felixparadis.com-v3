@@ -67,7 +67,9 @@
           <form 
             name="newsletterSignup" 
             netlify netlify-honeypot="money" 
-            action="/newsletter-success"
+            {{/* 
+              action="/newsletter-success"
+               */}}
             >
             <label for="email">Email address</label>
             <input type="email" name="email" id="email" required />
