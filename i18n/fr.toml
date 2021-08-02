@@ -20,8 +20,11 @@ other = "Désolé, cette page n'existe pas."
 [head_back]
 other = "Vous pouvez revenir à <a href=\"{{ . }}\">l'accueil</a>."
 
-[powered_by]
-other = "Propulsé par"
+[built_with]
+other = "Construit avec"
 
 [based_on]
-other = "basé sur"
+other = "Basé sur"
+
+[hosted_on]
+other = "Hébergé par"

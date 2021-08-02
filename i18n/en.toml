@@ -20,8 +20,11 @@ other = "Sorry, this page does not exist."
 [head_back]
 other = "You can head back to <a href=\"{{ . }}\">homepage</a>."
 
-[powered_by]
-other = "Powered by"
+[built_with]
+other = "Built with"
 
 [based_on]
-other = "based on"
+other = "Based on"
+
+[hosted_on]
+other = "Hosted on"

@@ -1,16 +1,14 @@
 <footer class="footer">
   <div class="container">
     {{ if not .Site.Params.hideCopyright }}
-      {{ with .Site.Params.since }}
-        © {{ if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year }}
-      {{ else }}
-        © {{ now.Year }}
-      {{ end }}
-      {{ if .Site.Params.Author }} {{ .Site.Params.Author }} {{ end }}
+      © {{ .Site.Params.Author }}, {{ now.Year }} 
     {{ end }}
     {{ if not .Site.Params.hideCredits }}
-      {{ if not .Site.Params.hideCopyright }} · {{ end }}
-      {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & {{ i18n "based_on" }} <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      {{ if not .Site.Params.hideCopyright }} <br> {{ end }}
+      {{ i18n "built_with" }} <a href="https://gohugo.io/">Hugo</a> ~
+      {{ i18n "based_on" }} <a href="https://github.com/luizdepra/hugo-coder/">Coder</a> ~
+      {{ i18n "hosted_on" }} <a href="https://netlify.com/">Netlify</a> ~
+      <a href="https://github.com/FelDev/felixparadis.com-v3">Open-source</a>
     {{ end }}
 
     {{/*  <span>|</span>  */}}
