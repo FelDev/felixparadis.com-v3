@@ -1,87 +1,78 @@
+<p>
+  A <strong>web developer</strong> with a keen interest in the Jamstack ecosystem and <a
+    href="https://boutique.felixparadis.com">ham paintings</a>.
+</p>
 
-    <p>
-      A <strong>web developer</strong> with a keen interest in the Jamstack ecosystem and <a href="https://boutique.felixparadis.com">ham paintings</a>. 
-    </p>
-    
-    <p>
-      Currently busy building fast, secure and responsive websites with Gatsby 
-      at my full-time job. Also busy revamping 
-      <a href="https://www.slacklinemtl.com">www.slacklinemtl.com</a>.
-      Probably not available for freelancing projects, but feel free to 
-      <a href="/contact"> contact me</a> anyway.
-    </p>
-    <hr>
-    <p>Technologies I'm most used to work with:</p>
-    <!-- #TODO: something nice like a 5 star rating about my skills and a 5 heart rating about my love for it-->
-    <ul>
-      <li>HTML, CSS & JavaScript (Of course.)</li>
-      <!-- <li>Typescript</li> -->
-      <li>Hugo</li>
-      <li>Eleventy</li>
-      <li>Gatsby</li>
-      <li>Svelte</li>
-      <li>React</li>
-      <li>Angular.js (Version 1.x)</li>
-      <li>Node.js</li>
-      <li>Express</li>
-      <li>SASS/SCSS</li>
-      <li>Bootstrap</li>
-      <li>Tailwind</li>
-      <li>Forestry (Git-based CMS)</li>
-      <li>Netlify CMS (Git-based CMS)</li>
-      <li>MongoDB</li>
-      <li>FaunaDB</li>
-      <li>Netlify</li>
-      <li>Heroku</li>
-      <li>Git</li>
-      <li>JQuery</li>
-    </ul>
-    <p>Very open to work with stuff not listed above, of course.</p>
-    <p>Bilingual, too. 
-      <span lang="fr">
-      (<a href="/fr">Bonjour!</a>)
-    </span></p>
-    <br>
+<p>
+  Currently busy building fast, secure and responsive websites with Gatsby
+  at my full-time job. Also busy revamping
+  <a href="https://www.slacklinemtl.com">www.slacklinemtl.com</a>.
+  Probably not available for freelancing projects, but feel free to
+  <a href="/contact"> contact me</a> anyway.
+</p>
+<hr>
+<p>Technologies I'm most used to work with:</p>
+<!-- #TODO: something nice like a 5 star rating about my skills and a 5 heart rating about my love for it-->
+<ul>
+  <li>HTML, CSS & JavaScript (Of course.)</li>
+  <!-- <li>Typescript</li> -->
+  <li>Hugo</li>
+  <li>Eleventy</li>
+  <li>Gatsby</li>
+  <li>Svelte</li>
+  <li>React</li>
+  <li>Angular.js (Version 1.x)</li>
+  <li>Node.js</li>
+  <li>Express</li>
+  <li>SASS/SCSS</li>
+  <li>Bootstrap</li>
+  <li>Tailwind</li>
+  <li>Forestry CMS</li>
+  <li>Netlify CMS</li>
+  <li>MongoDB</li>
+  <li>FaunaDB</li>
+  <li>Netlify</li>
+  <li>Firebase</li>
+  <li>Heroku</li>
+  <li>Git</li>
+</ul>
+<p>Very open to work with stuff not listed above, of course.</p>
+<p>Bilingual, too.
+  <span lang="fr">
+    (<a href="/fr">Bonjour!</a>)
+  </span>
+</p>
+<br>
 
-    <!-- #TODO: include currently working on... project -->
+<!-- #TODO: include currently working on... project -->
 
-    <section id="latest-blog-posts" class="colorful-section">
-      <div>
-        <h2>Latest <br> <a href="/posts">Blog</a> <br> Posts</h2>
-          {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
-          <div class="latest-blog-post">
-            <a href="{{.Permalink}}">
-              <figure>
-                <picture>
-                  {{/*  {{ $ext := substr (path.Ext .Params.previewImage) 1 }}   */}}
-                  {{/*  {{ with .Page.Resources.GetMatch .Params.previewImage }}  */}}
-                    {{/*  <source   */}}
-                      {{/*  srcset='{{ .RelPermalink }}'  */}}
-                      {{/*  type="image/{{$ext}}"  */}}
-                    {{/*  >  */}}
-                  {{/*  {{ end }}  */}}
-                  {{ with .Page.Resources.GetMatch .Params.previewImageFallback }}
-                    {{ $webp := .Resize "304x q80 webp" }}
-                    <source 
-                      srcset='{{ $webp.RelPermalink }}'
-                      type="image/webp"
-                    >
-                    <img 
-                      src='{{ .RelPermalink }}' 
-                      width='{{ .Width }}'
-                      height='{{ .Height }}'
-                      alt=""
-                    >
-                  {{ end }}
-                </picture>
-              </figure>
-              <!-- <img src="{{ .Params.previewImage }}" alt=""> -->
-              <h3>{{.Title}}</h3>
-            </a>
-            <!-- <span>{{.}}}</span> -->
-          </div>
-          {{ end }}
-      </div>
-    </section>
+<section id="latest-blog-posts" class="colorful-section">
+  <div>
+    <h2>Latest <br> <a href="/posts">Blog</a> <br> Posts</h2>
+    {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+    <div class="latest-blog-post">
+      <a href="{{.Permalink}}">
+        <figure>
+          <picture>
+            {{/* {{ $ext := substr (path.Ext .Params.previewImage) 1 }} */}}
+            {{/* {{ with .Page.Resources.GetMatch .Params.previewImage }} */}}
+            {{/*
+            <source */}} {{/* srcset='{{ .RelPermalink }}' */}} {{/* type="image/{{$ext}}" */}} {{/*> */}}
+            {{/* {{ end }} */}}
+            {{ with .Page.Resources.GetMatch .Params.previewImageFallback }}
+            {{ $webp := .Resize "304x q80 webp" }}
+            <source srcset='{{ $webp.RelPermalink }}' type="image/webp">
+            <img src='{{ .RelPermalink }}' width='{{ .Width }}' height='{{ .Height }}' alt="">
+            {{ end }}
+          </picture>
+        </figure>
+        <!-- <img src="{{ .Params.previewImage }}" alt=""> -->
+        <h3>{{.Title}}</h3>
+      </a>
+      <!-- <span>{{.}}}</span> -->
+    </div>
+    {{ end }}
+  </div>
+</section>
 
-    <br>
+<br>
