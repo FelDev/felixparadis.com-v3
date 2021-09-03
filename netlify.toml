@@ -3,7 +3,7 @@
   publish = "public/"
 
 [context.production.environment]
-  HUGO_VERSION = "0.86.1"
+  HUGO_VERSION = "0.88.0"
   NODE_VERSION = "14"
 
 [[redirects]]
@@ -19,5 +19,5 @@
   force = false
 [[redirects]]
   from = "/arc-sw.js"
-  to = "https://arc.io/arc-sw.js"  
+  to = "https://arc.io/arc-sw.js"
   status = 200
