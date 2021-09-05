@@ -1,23 +1,23 @@
 [build]
-  command = "hugo --minify"
-  publish = "public/"
+command = "hugo --minify"
+publish = "public/"
 
 [context.production.environment]
-  HUGO_VERSION = "0.88.0"
-  NODE_VERSION = "14"
+HUGO_VERSION = "0.88.1"
+NODE_VERSION = "14"
 
 [[redirects]]
-  from = "/wp-admin"
-  to = "/admin"
-  status = 301
-  force = false
+force = false
+from = "/wp-admin"
+status = 301
+to = "/admin"
 
 [[redirects]]
-  from = "/*.php"
-  to = "/admin"
-  status = 301
-  force = false
+force = false
+from = "/*.php"
+status = 301
+to = "/admin"
 [[redirects]]
-  from = "/arc-sw.js"
-  to = "https://arc.io/arc-sw.js"
-  status = 200
+from = "/arc-sw.js"
+status = 200
+to = "https://arc.io/arc-sw.js"

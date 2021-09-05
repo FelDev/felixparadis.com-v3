@@ -1,0 +1,36 @@
+{
+  "name": "felixparadis.com-v3",
+  "version": "1.0.0",
+  "description": "Built with [Hugo](https://gohugo.io/).",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "prettier-plugin-go-template": "0.0.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelDev/felixparadis.com-hugo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelDev/felixparadis.com-hugo/issues"
+  },
+  "homepage": "https://github.com/FelDev/felixparadis.com-hugo#readme",
+  "prettier": {
+    "overrides": [
+      {
+        "files": [
+          "*.html"
+        ],
+        "options": {
+          "parser": "go-template"
+        }
+      }
+    ]
+  }
+}

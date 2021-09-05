@@ -1,8 +1,9 @@
-<form 
-  name="contact" 
-  netlify netlify-honeypot="money"
+<form
+  name="contact"
+  netlify
+  netlify-honeypot="money"
   action="/contact-me-success"
-  >
+>
   <p>
     <label for="name">Name </label>
     <input type="text" name="name" id="name" />
@@ -27,23 +28,33 @@
 <h2 class="centered">{{ .Site.Params.info }}</h2>
 
 {{ with .Site.Params.social }}
-<ul id="social-links">
-  {{ range sort . "weight" }}
-    {{ if .svg }}
-    <li>
-      <a href="{{ .url }}" aria-label="{{ .name }}" rel="noopener" target="_blank" {{ if .type }}type="{{ .type }}"
-        {{ end }}>
-        {{ .svg | safeHTML }}
-      </a>
-      <span>{{ .name }}</span>
-    </li>
-    {{ else }}
-    <li>
-      <a href="{{ .url }}" aria-label="{{ .name }}" rel="noopener" target="_blank">
-        {{ .name }}
-      </a>
-    </li>
+  <ul id="social-links">
+    {{ range sort . "weight" }}
+      {{ if .svg }}
+        <li>
+          <a
+            href="{{ .url }}"
+            aria-label="{{ .name }}"
+            rel="noopener"
+            target="_blank"
+            {{ if .type }}type="{{ .type }}"{{ end }}
+          >
+            {{ .svg | safeHTML }}
+          </a>
+          <span>{{ .name }}</span>
+        </li>
+      {{ else }}
+        <li>
+          <a
+            href="{{ .url }}"
+            aria-label="{{ .name }}"
+            rel="noopener"
+            target="_blank"
+          >
+            {{ .name }}
+          </a>
+        </li>
+      {{ end }}
     {{ end }}
-  {{ end }}
-</ul>
+  </ul>
 {{ end }}
