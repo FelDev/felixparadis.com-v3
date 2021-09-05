@@ -116,15 +116,15 @@ googleAnalytics = "UA-109396923-1"
 
         [languages.fr.params]
             author = "Félix Paradis"
-            info = "Enchanté"
+            info = "Ou trouvez-moi ailleurs:"
             description = "Site personnel de Félix Paradis"
             keywords = "blog,code,personnel"
             images = ["images/profile.png"] # for og:image
   
         # Menu links
-        # [languages.fr.menu]
+        [languages.fr.menu]
 
-            # [[languages.fr.menu.main]]
-              # name = "Poésie"
-              # weight = 1
-              # url = "poesie/"
+            [[languages.fr.menu.main]]
+              name = "Contact"
+              weight = 1
+              url = "contact/"

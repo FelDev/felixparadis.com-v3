@@ -12,7 +12,7 @@
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 .content .project-figure {
   margin: 3rem 0;
-  
+
   img {
     border-radius: 1rem;
   }
@@ -46,16 +46,15 @@
 
 figure img {
   height: auto;
-  @media only screen and (min-width : 768px) {
+  @media only screen and (min-width: 768px) {
     max-width: 66rem;
   }
 }
 
-
 form {
   padding: 1.1em;
   box-shadow: 0em 0em 0.25em #313131;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   p {
     display: flex;
     flex-direction: column;
@@ -110,8 +109,8 @@ form {
 
     a {
       color: $fg-color;
-      margin-left: 1.0rem;
-      margin-right: 1.0rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
       font-size: 1.6rem;
 
       &:hover,
@@ -126,18 +125,16 @@ form {
   }
 
   li:hover span,
-  a:focus+span {
+  a:focus + span {
     opacity: 1;
   }
 
-  @media only screen and (max-width : 357px) {
+  @media only screen and (max-width: 357px) {
     li:last-of-type {
       padding-top: 2.5em;
     }
   }
-
 }
-
 
 footer {
   hr {
@@ -151,7 +148,7 @@ footer {
 }
 
 #newsletterSignup {
-  >div {
+  > div {
     p:first-of-type {
       margin-top: 0;
     }
@@ -174,12 +171,12 @@ footer {
   }
 }
 
-#latest-blog-posts>div {
+#latest-blog-posts > div {
   justify-content: center;
   display: grid;
   grid-template-columns: minmax(6rem, 32rem) minmax(6rem, 32rem);
 
-  @media only screen and (max-width :768px) {
+  @media only screen and (max-width: 768px) {
     grid-template-columns: minmax(6rem, 32rem);
   }
 
@@ -215,18 +212,22 @@ footer {
 
     h3 {
       margin: 0.1rem;
-
     }
   }
 }
 
 .colorful-section {
-  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%);
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 34%,
+    #2bff88 60%
+  );
   margin-top: 3rem;
   padding: 0.3rem;
   border-radius: 1rem;
 
-  >div {
+  > div {
     background-color: #fafafa;
     padding: 1.25rem 2rem;
     border-radius: 1rem;
@@ -239,8 +240,8 @@ footer {
 
 .content .emphasis {
   background-color: $emphasis-bg;
-  border-top: .1rem solid $emphasis-border;
-  border-bottom: .1rem solid $emphasis-border;
+  border-top: 0.1rem solid $emphasis-border;
+  border-bottom: 0.1rem solid $emphasis-border;
   border-radius: 1.2rem;
   padding: 0 1.4rem;
   text-align: left;
@@ -263,7 +264,6 @@ footer {
   }
 }
 
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 // * Theme toggle
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -272,7 +272,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  padding-right: 2rem;
+  margin-left: 1rem;
   label {
     position: relative;
     display: block;
@@ -297,12 +298,11 @@ footer {
       top: 50%;
       left: 0.3em;
       transform: translateY(-50%);
-      transition: .9s ease;
+      transition: 0.9s ease;
     }
 
     &:before {
       background-color: #ffa41b;
-
     }
 
     &:after {
@@ -319,9 +319,9 @@ footer {
     height: 2em;
     border-radius: 1em;
 
-    &:checked+label {
+    &:checked + label {
       &:before {
-        background-color: #FFF;
+        background-color: #fff;
         transform: translateY(-50%) translateX(1.4em);
       }
 
@@ -333,14 +333,12 @@ footer {
   }
 }
 
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 // * Code Highlighting: dirty hack to override "dracula"'s comment color (not enough contrast)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 .highlight span[style="color:#6272a4"] {
   color: #9aa5c7 !important;
 }
-
 
 .twitter-tweet {
   margin: 10px auto !important;
@@ -349,7 +347,7 @@ footer {
 // * Twitter's follow button
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 .twitter-follow-button-custom span b {
-  font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+  font: normal normal normal 11px/18px "Helvetica Neue", Arial, sans-serif;
   user-select: none;
   font-size: 13px;
   line-height: 26px;
@@ -360,7 +358,7 @@ footer {
   white-space: nowrap;
 }
 .twitter-follow-button-custom span {
-  font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+  font: normal normal normal 11px/18px "Helvetica Neue", Arial, sans-serif;
   user-select: none;
   font-size: 13px;
   line-height: 26px;
@@ -376,7 +374,7 @@ footer {
   text-shadow: 0px 0px 4px #333;
 }
 .twitter-follow-button-custom i {
-  font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+  font: normal normal normal 11px/18px "Helvetica Neue", Arial, sans-serif;
   user-select: none;
   font-size: 13px;
   line-height: 26px;
@@ -394,7 +392,7 @@ footer {
   width: 18px;
 }
 .twitter-follow-button-custom {
-  font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+  font: normal normal normal 11px/18px "Helvetica Neue", Arial, sans-serif;
   user-select: none;
   font-size: 13px;
   line-height: 26px;

@@ -1,5 +1,5 @@
 .navigation {
-  height: 6.0rem;
+  height: 6rem;
   width: 100%;
   box-shadow: 0 0 0.8rem #9090902b;
 
@@ -7,14 +7,15 @@
     position: relative;
   }
 
-  a, span {
+  a,
+  span {
     display: inline;
     font-size: 1.8rem;
     font-family: $heading-font-family;
     font-weight: 700;
-    line-height: 6.0rem;
+    line-height: 6rem;
     color: $fg-color;
-    @media only screen and (max-width : 446px) {
+    @media only screen and (max-width: 446px) {
       font-size: 2rem;
       margin: 0.2rem;
     }
@@ -22,7 +23,7 @@
   a {
     &:hover,
     &:focus {
-      color: $link-color
+      color: $link-color;
     }
   }
   .navigation-title {
@@ -36,7 +37,7 @@
     margin-top: 0;
     display: flex;
     align-items: center;
-    @media only screen and (max-width : 446px) {
+    @media only screen and (max-width: 446px) {
       position: absolute;
       top: -25rem;
       right: 0;
@@ -60,22 +61,25 @@
       position: relative;
       min-height: 50px;
       display: flex;
-      @media only screen and (max-width : 446px) {
+      @media only screen and (max-width: 446px) {
         float: none !important;
         text-align: center;
-        a, span {
-          line-height: 5.0rem;
+        a,
+        span {
+          line-height: 5rem;
         }
       }
-      a, span, div {
-        margin-left: 1.0rem;
-        margin-right: 1.0rem;
+      a,
+      span,
+      div {
+        margin-left: 1rem;
+        margin-right: 1rem;
       }
     }
     .menu-separator {
-      @media only screen and (max-width : 446px) {
+      @media only screen and (max-width: 446px) {
         border-top: 2px solid $fg-color;
-        margin: 0 8.0rem;
+        margin: 0 8rem;
         span {
           display: none;
         }
@@ -86,6 +90,10 @@
     position: absolute;
     top: 0;
     right: 0;
+    display: flex;
+    @media only screen and (max-width: 446px) {
+      flex-direction: row-reverse;
+    }
     #menu-toggle {
       width: 0;
       height: 0;
@@ -94,7 +102,7 @@
       + label {
         display: none;
       }
-      @media only screen and (max-width : 446px) {
+      @media only screen and (max-width: 446px) {
         display: block;
         + label {
           display: flex;
@@ -103,7 +111,7 @@
           margin-right: 2rem;
           font-size: 2.4rem;
           font-weight: 400;
-          line-height: 6.0rem;
+          line-height: 6rem;
           &:hover,
           &:focus-visible {
             color: $link-color;
@@ -121,7 +129,7 @@
           }
         }
         &:focus-visible + label {
-          color: $link-color
+          color: $link-color;
         }
       }
     }
