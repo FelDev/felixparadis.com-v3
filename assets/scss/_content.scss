@@ -7,8 +7,8 @@
     header {
       margin-top: 6.4rem;
       margin-bottom: 3.2rem;
-      @media only screen and (max-width : 446px) {
-        & { 
+      @media only screen and (max-width: 446px) {
+        & {
           margin-top: 3rem;
         }
       }
@@ -16,14 +16,14 @@
         font-size: 4.2rem;
         line-height: 4.6rem;
         margin: 0;
-        @media only screen and (max-width : 768px) {
-          font-size: 4.0rem;
+        @media only screen and (max-width: 768px) {
+          font-size: 4rem;
           line-height: 4.4rem;
         }
       }
     }
     footer {
-      margin-top: 4.0rem;
+      margin-top: 4rem;
       .see-also {
         margin: 3.2rem 0;
         h3 {
@@ -31,10 +31,14 @@
         }
       }
     }
-    p {
-      text-align: justify;
-      text-justify: auto;
-    }
+    // p {
+    //   text-align: justify;
+    //   text-justify: auto;
+    //   code {
+    //     text-justify: none;
+    //     text-align: unset;
+    //   }
+    // }
   }
   .post {
     .post-title {
@@ -78,11 +82,11 @@
   }
 }
 
-.avatar img{
+.avatar img {
   width: 20rem;
   height: auto;
   border-radius: 50%;
-  @media only screen and (max-width : 500px) {
+  @media only screen and (max-width: 500px) {
     width: 15rem;
   }
 }
@@ -92,13 +96,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    @media only screen and (max-width : 768px) {
+    @media only screen and (max-width: 768px) {
       justify-content: flex-start;
     }
   }
   label {
     margin: 0.6rem 1rem;
-    white-space:nowrap;
+    white-space: nowrap;
     input {
       margin-right: 0.5rem;
     }
@@ -110,7 +114,7 @@
     li {
       font-size: 1.8rem;
       margin: 5rem 0 0;
-      transition: .75s;
+      transition: 0.75s;
       max-height: 25rem;
 
       &.hide {
@@ -131,7 +135,7 @@
         justify-content: center;
         border-radius: 1rem;
         box-shadow: 0 0 0.3rem 0.1rem #9090902b;
-        transition: .75s;
+        transition: 0.75s;
         &:hover,
         &:focus-visible {
           color: $link-color;
@@ -152,9 +156,9 @@
               overflow: hidden;
               border-radius: 1rem 0 0 1rem;
               align-items: flex-start;
-            img {
-              transition: .75s;
-            }
+              img {
+                transition: 0.75s;
+              }
             }
           }
           .text {
@@ -205,7 +209,7 @@
     text-align: center;
     margin-top: 1.2rem;
     h1 {
-      margin-top: 2.0rem;
+      margin-top: 2rem;
       margin-bottom: 0.5rem;
     }
     // What's commented out was used for the social links
@@ -217,10 +221,11 @@
     //     font-size: 2.0rem;
     //   }
     // }
-    p,li {
+    p,
+    li {
       text-align: left;
     }
-    @media only screen and (min-width : 760px ) {
+    @media only screen and (min-width: 760px) {
       ul {
         column-count: 2;
       }
@@ -256,22 +261,20 @@
   .error {
     text-align: center;
     h1 {
-      margin-top: 2.0rem;
+      margin-top: 2rem;
       margin-bottom: 0.5rem;
       font-size: 4.6rem;
-      @media only screen and (max-width : 768px) {
+      @media only screen and (max-width: 768px) {
         font-size: 3.2rem;
       }
     }
     h2 {
-      margin-top: 2.0rem;
+      margin-top: 2rem;
       margin-bottom: 3.2rem;
       font-size: 3.2rem;
-      @media only screen and (max-width : 768px) {
+      @media only screen and (max-width: 768px) {
         font-size: 2.8rem;
       }
     }
   }
 }
-
-
