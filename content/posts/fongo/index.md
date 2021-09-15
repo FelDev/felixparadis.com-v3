@@ -52,7 +52,6 @@ Over 2 years, it’s safe to assume I saved at least 600$ thanks to Fongo. So fa
   with them, then cancel the phone plan and keep the data-only plan.
 
   Personally, I've switched to Fizz and get 1GB/month for 16$/month. Good enough. 
-  Should you care for a referral code with Fizz: **7RC4P**
 {{< /emphasis >}}
 
 ## The quality of the service
