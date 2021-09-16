@@ -122,5 +122,4 @@ Fongo didn't get better. I had to call the government twice this year and both t
 ---
 **Full Disclosure**: 
 I am not being paid or otherwise compensated by Fongo nor its competitors to write this article. 
-All opinions expressed in this article are my own. 
-The only affiliate/referral link used in this article is the Fizz referral code (7RC4P).
+All opinions expressed in this article are my own.
