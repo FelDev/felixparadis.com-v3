@@ -71,6 +71,9 @@ I found this quote particularly relevant when doing video editing.
 \- Max Lucado 
 <!--
 
+## Ça ne sert à rien de courir avec enthousiasme dans la mauvaise direction
+\- Francis Gendron
+
  ## Des fois ça en prend beaucoup pour avoir besoin de rien...
 \- Maxime Pelletier ..? Kamou 2020
 
