@@ -4,7 +4,7 @@ date: 2021-10-15T10:14:01-05:00
 # lastmod: 2021-07-20T10:14:01-05:00
 slug: "formatting-currencies-with-vanilla-js-for-multilingual-projects"
 tags: ["tutorial", "JavaScript", "e-commerce"]
-description: "Format money amounts based on any language and currency in pure, vanilla javascript."
+description: "How to format money amounts based on any language and currency using only pure, vanilla javascript."
 images: ["/posts/formatting-currencies-with-vanilla-js-for-multilingual-projects/banner.jpg"]
 previewImage: "banner.jpg"
 previewImageFallback: "banner.jpg"
