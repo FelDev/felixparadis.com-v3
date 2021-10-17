@@ -1,7 +1,7 @@
 ---
 title: "Formatting Currencies with Vanilla JS for Multilingual Projects"
 date: 2021-10-15T10:14:01-05:00
-# lastmod: 2021-07-20T10:14:01-05:00
+lastmod: 2021-10-16T10:14:01-05:00
 slug: "formatting-currencies-with-vanilla-js-for-multilingual-projects"
 tags: ["tutorial", "JavaScript", "e-commerce"]
 description: "How to format money amounts based on any language and currency using only pure, vanilla javascript."
@@ -16,7 +16,7 @@ previewImageFallback: "banner.jpg"
 >}}
 
 Here is a simple and flexible technique to format currencies with i18n in mind. 
-It can easily be adapted to work with any other front-end framework. 
+It can easily be adapted to work with any front-end framework. 
 (React, Svelte, Vue, Angular, keyword stuffing...)
 
 ## Basics first: work with cents
@@ -51,13 +51,13 @@ let lang =
     : 'fr-CA'
 ```
 
-Or maybe or you can get the `lang` attribute from the HTML document itself.
+Or maybe you can get the `lang` attribute from the HTML document itself.
 ```js
 document.documentElement.lang // Thank you Stack Overflow https://stackoverflow.com/a/949578/5941620
 ```
 
 Once you figured a way to get the current language of your page, feed it to a 
-[NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat) object.
+[NumberFormat object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat).
 
 ```js
 const formatter = Intl.NumberFormat(lang, { // notice the lang variable
@@ -101,39 +101,40 @@ If you have more than 2 languages and a single country, an object can be used to
 map the currency and the amount of cents to be used.
 Let's say `lang` could be any of `en-CA`, `en-US`, `fr-CA` and `es-CL`
 ```js
-const moneyValues = {
+const moneyFormattingValues = {
   "en-CA":{
     currency: "CAD", 
-    centDivider:100, 
-    subStringToRemove:""
+    centDivider: 100, 
+    subStringToRemove: ""
   },
   "en-US":{
     currency: "USD", 
-    centDivider:100}, 
-    subStringToRemove:""
-  , 
+    centDivider: 100, 
+    subStringToRemove: ""
+  },
   "fr-CA":{
     currency: "CAD", 
-    centDivider:100, 
-    subStringToRemove:"CA"
+    centDivider: 100, 
+    subStringToRemove: "CA"
   },
   "es-CL":{
     currency: "CLP", 
-    centDivider:1, 
-    subStringToRemove:""
+    centDivider: 1, 
+    subStringToRemove: ""
   },
 }
-const { currency, subStringToRemove, centDivider } = moneyValues[lang]
+const { currency, centDivider, subStringToRemove } = moneyFormattingValues[lang]
 
 const formatter = Intl.NumberFormat(lang, {
   style: "currency",
   currency,
 })
 
-function formatMoney(amount) {
+export default function formatMoney(amount) {
   const value = formatter.format(amount / centDivider)
   let formated = value.replace(subStringToRemove, '').trim()
   return formated
 }
 ```
+
 I hope this inspires you a solution!
