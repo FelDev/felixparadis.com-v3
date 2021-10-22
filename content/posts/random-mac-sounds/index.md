@@ -16,7 +16,7 @@ previewImageFallback: "banner.jpg"
   caption=`Soundwave image by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=medium&utm_medium=referral">Pawel Czerwinski</a> on <a href="https://unsplash.com/s/photos/map-sherbrooke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.`
 >}}
 
-Adding custom alert sounds to your mac is easy peasy ([see Step 0](#step-0-adding-custom-alert-sounds-to-yourmac)). But after a while of having a specific snippet from [this classic piece of Québécois culture](https://www.youtube.com/watch?v=aY3PqKkOXzg), I got kinda bored with it. What if I could get a different "tabarnak" everyday?
+Adding custom alert sounds to your mac is easy peasy ([see Step 0](#step-0-adding-custom-alert-sounds-to-yourmac)). But after a while of having a specific snippet from [this classic piece of Québécois culture](https://www.youtube.com/watch?v=aY3PqKkOXzg), I got kinda bored with it. What if I could get a different "tabarnak" everyday? Or add a few of Homer Simpsons' famous "D'ho!" in the mix?
 
 Well, a tiny Python script and a single cron job is all I needed to get not only one custom alert sound, but many custom alert sounds that change automagically.
 
