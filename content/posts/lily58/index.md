@@ -43,7 +43,7 @@ and we've been very happy together.
 
 My 2 main motivations for getting yet another keeb were:
 - Getting a more comfortable thumb cluster (You can read about [my half-success at 3D-printing keycaps that would fill that gap on the Ergodox](/posts/3d-printing-custom-keycaps-for-the-ergodox/).)
-- Having a smaller keyboard (for travelling (dawm pandemic's gonna end someday...))
+- Having a smaller keyboard (for travelling (damn pandemic's gonna end someday...))
 
 But a bunch of things are new for me with this keyboard:
 
@@ -90,7 +90,7 @@ I was with the many thumb keys of the Ergodox.
 There's no gap and all thumb keys are easy to reach. FINALLY 🎉
 
 ### The staggering (column-staggered)
-The one thing better than ortholinear is columnar staggerred.
+The one thing better than ortholinear is columnar staggered.
 But the Lily58's staggering is so subtle you can barely tell it's there!
 I wish the staggering was more aggressive. 
 Especially for the pinky columns, like the Kyria does.
@@ -144,13 +144,13 @@ The takeaway here is that you will need wrist rests. (I stole toys from the cat.
 >}}
 
 I'm quite happy with them.
-The travel distance is impresively not much shorter than what you get with 
+The travel distance is impressively not much shorter than what you get with 
 normal mechanical switches.
 There is a difference, but it's so tiny it does not bother me at all.
 
 HOWEVER. I first got **Choc Light Blue** switches.
 At a mere **20 grams of actuation force**, they're quite different than anything
-else I ever layed my hands on. 
+else I ever laid my hands on. 
 After years of Cherry MX-browns, it felt very weird at first. Just weird.
 
 Then I got used to it. 
@@ -168,7 +168,7 @@ So I ordered **Choc Pro Red** switches.
 **35 grams of actuation force**. 
 That's the sweet spot for me.
 They're super light and won't fatigue my fingers, but still offer enough
-resistance to feel like quality mechanical switces.
+resistance to feel like quality mechanical switches.
 
 I did keep Choc Light Blues for the last columns of the keyboard which I only access with my 
 stretched pinky fingers. (Except the caps lock and layer switching keys, which are 
@@ -256,7 +256,7 @@ Sent an email about my sorrow to the good people at Boardsource.xyz and they
 immediately agreed to refund the 2 missing switches. 
 
 That sums up my experience with Boardsource.xyz. 
-Would do busines again, but I cannot say it's been flawless.
+Would do business again, but I cannot say it's been flawless.
 
 
 ## OLED screens
