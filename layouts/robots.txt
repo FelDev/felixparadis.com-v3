@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /b/
+sitemap: https://www.felixparadis.com/sitemap.xml
