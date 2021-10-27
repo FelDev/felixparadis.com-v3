@@ -48,7 +48,7 @@ I did write a blog post about the tech behind the store: [My Recipe for a 0$/mon
     openSourceRepo="https://github.com/FelDev/felixparadis.com-v2/tree/master/ask-sagan"
 >}}
 
-What if Carl Sagan himself could answer your questions? Just fill the text box and press <kbd>enter</kbd>.
+What if Carl Sagan himself could answer your questions? Just fill the text box and press <kbd>enter</kbd> .
 
 <br/>
 

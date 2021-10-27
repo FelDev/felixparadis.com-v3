@@ -7,6 +7,29 @@
   font-size: 0.95em;
 }
 
+kbd {
+  // Thank you, https://dylanatsmith.com/wrote/styling-the-kbd-element
+  background-color: #e3e3e3;
+  color: #111;
+  transition: 0.2s;
+  border-radius: 0.25rem;
+  border: 1px solid #a7a7a7;
+  box-shadow: 0 2px 0 1px #a7a7a7;
+  cursor: default;
+  font-size: 0.75em;
+  line-height: 1;
+  min-width: 0.75rem;
+  display: inline-block;
+  text-align: center;
+  padding: 2px 5px;
+  position: relative;
+  top: -1px;
+  &:hover {
+    box-shadow: 0 1px 0 0.5px #a7a7a7;
+    top: 1px;
+  }
+}
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 // * Projects
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

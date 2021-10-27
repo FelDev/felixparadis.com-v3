@@ -97,9 +97,9 @@ MAILTO=""
 * * * * * python3 /Users/{yourName}/Library/Sounds/randomize.py
 ```
 
-Again, adapt the path (`{yourName}`) and press </kbd>ctrl</kbd> + </kbd>X</kbd> to exit nano. 
+Again, adapt the path (`{yourName}`) and press <kbd>ctrl</kbd> + <kbd>X</kbd> to exit nano. 
 It will prompt you to save or not. 
-Press <kbd>Y</kbd> to save and </kbd>enter</kbd> to accept the default file location. 
+Press <kbd>Y</kbd> to save and <kbd>enter</kbd> to accept the default file location. 
 
 At this point, you're calling the script every minute, which is perfect for testing. 
 I changed the `* * * * *` to `59 * * * *` so that the script only runs once per hour. 
