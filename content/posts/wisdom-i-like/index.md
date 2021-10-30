@@ -71,12 +71,6 @@ I found this quote particularly relevant when doing video editing.
 \- Max Lucado 
 <!--
 
-## Ça ne sert à rien de courir avec enthousiasme dans la mauvaise direction
-\- Francis Gendron
-
- ## Des fois ça en prend beaucoup pour avoir besoin de rien...
-\- Maxime Pelletier ..? Kamou 2020
-
 ## The main thing that I learned about conspiracy theory is that conspiracy theorists actually believe in a conspiracy because that is more comforting. The truth of the world is that it is chaotic. The truth is, that it is not the Jewish banking conspiracy or the grey aliens or the 12 foot reptiloids from another dimension that are in control. The truth is more frightening, nobody is in control. The world is rudderless.
 
 \- Alan Moore, snake wizard
