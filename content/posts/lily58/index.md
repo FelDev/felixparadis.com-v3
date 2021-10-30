@@ -180,6 +180,9 @@ Besides blank black or white keycaps, very, very few options are *sometimes* ava
 I've yet to come accros low profile artisans.
 Great hobby-business opportunity! Anyone?
 
+**Update on artisans**: someone pointed out [asymplex.xyz](https://www.asymplex.xyz/category/choc)
+to me.
+
 ### Is it harder to type on blank keycaps?
 Meh. I must've lost 5 seconds over the past 3 months. 
 But my layout barely changed from the layout I used on the Ergodox.
@@ -276,8 +279,6 @@ But really, I could've done it without the OLED.
 So, it's more useful than neons under a car, but definitely not necessary.
 One of my OLED screen keeps me informed of the current layer. 
 The other one displays a Bongo Cat typing along with me. 🐈
-
-
 
 
 ## Conclusion 
