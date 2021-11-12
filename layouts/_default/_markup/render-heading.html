@@ -1,8 +1,8 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
   {{if eq .Page.Section "posts"}}
-    <a class="heading-anchor" href="#{{ .Anchor | safeURL }}">
-      {{ strings.Repeat .Level "#" }}
-    </a>
+    <a 
+    class="heading-anchor" 
+    href="#{{ .Anchor | safeURL }}">{{ strings.Repeat .Level "#" }}</a>
   {{ end }}
   {{ .Text | safeHTML }}
 </h{{ .Level }}>
