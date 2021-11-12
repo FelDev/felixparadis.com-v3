@@ -1,7 +1,7 @@
 ---
 title: "Randomizing the Alert Sound on a Mac"
 date: 2021-09-11T10:14:01-05:00
-# lastmod: 2021-07-20T10:14:01-05:00
+lastmod: 2021-11-12T10:14:01-05:00
 slug: "randomizing-the-alert-sound-on-a-mac"
 tags: ["tutorial", "mac"]
 description: "How to set custom alert sounds and randomize which one plays"
@@ -122,3 +122,5 @@ The logic of *when* a cron job runs is this:
 Alert sounds can be annoying.
 But with this simple modification to my OS, I get a little giggle from what used to be ordinary and boring.
 
+I made [a public repository](https://github.com/FelDev/alert-sounds) containing 
+the script and my sound collection, should you find it inspiring.
