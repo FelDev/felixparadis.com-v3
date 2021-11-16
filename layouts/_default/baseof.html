@@ -115,11 +115,21 @@
     {{ end -}}
 
     {{ hugo.Generator }}
-    {{ if not .Site.IsServer }}
-      <script defer src="https://arc.io/widget.min.js#jf2aUNG1"></script>
-    {{ end }}
     <meta name="monetization" content="$ilp.uphold.com/Zn2iQrmHPB3W">
     <noscript><style> #filters, #theme-toggle { display: none !important;} </style></noscript>
+    {{ if not .Site.IsServer }}
+      <!-- <script defer src="https://arc.io/widget.min.js#jf2aUNG1"></script> -->
+      <script>
+        setTimeout(function() {
+          console.log(`@timeout...`)
+          var resource = document.createElement('script'); 
+          resource.async = "true";
+          resource.src = "https://arc.io/widget.min.js#jf2aUNG1";
+          var noscript = document.getElementsByTagName('noscript')[0];
+          noscript.parentNode.insertBefore(resource, noscript);
+        }, 3500)
+      </script>
+    {{ end }}
   </head>
 
   {{ $csClass := "colorscheme-light" }}
