@@ -1,9 +1,10 @@
 .footer {
-  width: 100%;
   text-align: center;
-  line-height: 2.0rem;
-  margin-bottom:1.0rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
   font-size: 0.9em;
+  max-width: 80vw;
+  align-self: center;
   a {
     color: $link-color;
   }
