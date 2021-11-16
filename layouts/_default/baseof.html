@@ -117,17 +117,6 @@
     {{ hugo.Generator }}
     <meta name="monetization" content="$ilp.uphold.com/Zn2iQrmHPB3W">
     <noscript><style> #filters, #theme-toggle { display: none !important;} </style></noscript>
-    {{ if not .Site.IsServer }}
-      <!-- <script defer src="https://arc.io/widget.min.js#jf2aUNG1"></script> -->
-      <script>
-        setTimeout(function() {
-          var resource = document.createElement('script'); 
-          resource.async = "true";
-          resource.src = "https://arc.io/widget.min.js#jf2aUNG1";
-          document.getElementsByTagName('head')[0].appendChild(resource);
-        }, 3000)
-      </script>
-      {{ end }}
   </head>
 
   {{ $csClass := "colorscheme-light" }}
@@ -159,6 +148,15 @@
       {{/*  {{ template "_internal/google_analytics.html" . }}  */}}
       <img src="https://app.piratepx.com/ship?p=4a819009-8828-4b89-8dc7-b0a547406820&i={{ .Page.RelPermalink }}" alt="" style="display:none" width="0" height="0"/>
       <script async defer src="https://your-analytics.org/ya.js" data-domain="felixparadis.com"></script>
+      <!-- <script defer src="https://arc.io/widget.min.js#jf2aUNG1"></script> -->
+      <script>
+        setTimeout(function() {
+          var resource = document.createElement('script'); 
+          resource.async = "true";
+          resource.src = "https://arc.io/widget.min.js#jf2aUNG1";
+          document.getElementsByTagName('head')[0].appendChild(resource);
+        }, 1000)
+      </script>
     {{ end }}
   </body>
 </html>
