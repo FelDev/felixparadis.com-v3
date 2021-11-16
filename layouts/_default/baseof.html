@@ -121,15 +121,13 @@
       <!-- <script defer src="https://arc.io/widget.min.js#jf2aUNG1"></script> -->
       <script>
         setTimeout(function() {
-          console.log(`@timeout...`)
           var resource = document.createElement('script'); 
           resource.async = "true";
           resource.src = "https://arc.io/widget.min.js#jf2aUNG1";
-          var noscript = document.getElementsByTagName('noscript')[0];
-          noscript.parentNode.insertBefore(resource, noscript);
-        }, 3500)
+          document.getElementsByTagName('head')[0].appendChild(resource);
+        }, 3000)
       </script>
-    {{ end }}
+      {{ end }}
   </head>
 
   {{ $csClass := "colorscheme-light" }}
