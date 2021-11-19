@@ -99,7 +99,12 @@
   label {
     margin: 0.6rem 1rem;
     white-space: nowrap;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
     input {
+      cursor: pointer;
       margin-right: 0.5rem;
     }
   }
