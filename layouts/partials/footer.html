@@ -1,22 +1,27 @@
 <footer class="footer">
   <div class="container">
     {{ if not .Site.Params.hideCopyright }}
-      © {{ .Site.Params.Author }}, {{ now.Year }} 
+      © {{ .Site.Params.Author }}, {{ now.Year }}
     {{ end }}
     {{ if not .Site.Params.hideCredits }}
-      {{ if not .Site.Params.hideCopyright }} <br> {{ end }}
+      {{ if not .Site.Params.hideCopyright }}<br />{{ end }}
       {{ i18n "built_with" }} <a href="https://gohugo.io/">Hugo</a> ~
-      {{ i18n "based_on" }} <a href="https://github.com/luizdepra/hugo-coder/">Coder</a> ~
+      {{ i18n "based_on" }}
+      <a href="https://github.com/luizdepra/hugo-coder/">Coder</a> ~
       {{ i18n "hosted_on" }} <a href="https://netlify.com/">Netlify</a> ~
-      <a href="https://github.com/FelDev/felixparadis.com-v3">Open-source</a>
+      <a href="https://github.com/FelDev/felixparadis.com-v3/">Open-source</a>
     {{ end }}
 
-    {{/*  <span>|</span>  */}}
-    {{/*  <a href="/fr">Version Française</a>  */}}
-    
+    {{/* <span>|</span> */}}
+    {{/* <a href="/fr">Version Française</a> */}}
+
     {{ if .Site.Params.commit }}
-      {{ if or (not .Site.Params.hideCredits) (not .Site.Params.hideCopyright) }} · {{ end }}
-      [<a href="{{ .Site.Params.commit }}{{ getenv "GIT_COMMIT_SHA" }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>]
+      {{ if or (not .Site.Params.hideCredits) (not .Site.Params.hideCopyright) }}
+        ·
+      {{ end }}
+      [<a href="{{ .Site.Params.commit }}{{ getenv "GIT_COMMIT_SHA" }}"
+        >{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a
+      >]
     {{ end }}
   </div>
 </footer>

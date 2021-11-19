@@ -23,7 +23,7 @@ failing the test of time; the wiggle got wigglier. So, I'm currently waiting for
 Lili 58 Pro. What else was I going to do with my money anyway?
 
 ## Why 3D print keycaps?
-**Long version**: [Quest for the Perfect Keyboard: Ergodox EZ vs. Dygma Raise](/posts/quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise) 
+**Long version**: [Quest for the Perfect Keyboard: Ergodox EZ vs. Dygma Raise](/posts/quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise/) 
 
 **Short version**: I dislike the gap between the main layout and the thumb clusters on the Ergodox.
 

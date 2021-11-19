@@ -45,7 +45,7 @@ Here is the cost of piratepx for your...
 I've had Google Analytics running on this website alongside piratepx for almost 2 months, so we can compare the results. Yay!
 
 GA and piratepx constantly agree on which pages are the most popular. 
-(My [Dygma Raise vs Ergodox EZ article](/posts/quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise) is constantly the most popular.)
+(My [Dygma Raise vs Ergodox EZ article](/posts/quest-for-the-perfect-keyboard-ergodox-ez-vs-dygma-raise/) is constantly the most popular.)
 GA tends to report about 0.5 to 0.9 as much traffic as piratepx for any given page. 
 This is not surprising since my target audience is nerds, geeks and my mom.
 

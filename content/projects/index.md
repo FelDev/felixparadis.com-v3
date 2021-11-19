@@ -38,7 +38,7 @@ I did write a blog post about the tech behind the store: [My Recipe for a 0$/mon
 
 <br/>
 
-## [Ask Sagan](https://v2.felixparadis.com/ask-sagan)
+## [Ask Sagan](https://v2.felixparadis.com/ask-sagan/)
 {{< project-info
     webpSrc="ask_sagan.webp" 
     fallbackSrc="ask_sagan.png"
