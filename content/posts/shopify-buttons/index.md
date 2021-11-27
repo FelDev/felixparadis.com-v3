@@ -4,7 +4,7 @@ date: 2021-07-24T10:14:01-05:00
 # lastmod: 2021-07-20T10:14:01-05:00
 slug: "localization-of-shopifys-buy-buttons"
 tags: ["tutorial", "e-commerce"]
-description: ""
+description: "Learn to integrate Shopify buy buttons with i18n in mind."
 images: ["/posts/localization-of-shopifys-buy-buttons/banner.png"]
 previewImage: "banner.png"
 previewImageFallback: "banner.png"
