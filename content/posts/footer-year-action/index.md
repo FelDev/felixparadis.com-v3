@@ -4,7 +4,7 @@ date: 2021-10-31T10:14:01-05:00
 # lastmod: 2021-10-16T10:14:01-05:00
 slug: "automatic-current-year-in-footer-year-with-a-github-action-a-build-hook-and-no-js"
 tags: ["tutorial", "jamstack"]
-description: ""
+description: "How to keep the date in your footer up to date without client-side JavaScript nor server-side code."
 images: ["/posts/up-to-date-footer-year-with-a-github-action-a-build-hook-and-no-js/banner.jpg"]
 previewImage: "banner.jpg"
 previewImageFallback: "banner.jpg"
