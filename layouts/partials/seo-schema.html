@@ -1,0 +1,48 @@
+{{ if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ .Site.BaseURL }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Author.name }}"
+  },
+  "description": "{{ .Site.Params.description }}",
+  {{/*
+    {{ with .Site.Params.image -}}
+  "image": "{{ .url | absURL }}",
+  {{- end }}
+  {{ with .Site.Params.logo -}}
+  "thumbnailUrl": "{{ .url | absURL }}",
+  {{- end }}
+  */}}
+  {{ with .Site.Copyright -}}
+  "license": "{{ . }}",
+  {{- end }}
+  "name": "{{ .Site.Title }}"
+}
+</script>
+{{ else if eq .Type "posts" }}
+<script type="application/ld+json">
+{
+  "@context" : "https://schema.org",
+  "@type" : "BlogPosting",
+  "name" : "{{ .Title }}",
+  "headline" : "{{ .Title }}",
+  "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+  "inLanguage" : "{{ .Site.Language.Lang }}",
+  "author": {
+    "@type": "Person",
+    "name": "Félix Paradis"
+  },
+  "copyrightHolder" : "Félix Paradis",
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+  "dateModified" : "{{ .Page.Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+  "url" : "{{ .Permalink }}",
+  "wordCount" : "{{ .WordCount }}",
+  "image" : [ {{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ],
+  "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ]
+}
+</script>
+{{ end }}
