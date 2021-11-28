@@ -3,44 +3,38 @@
 {{ $extraBR := .Get "extraBR" }}
 {{ $alt := .Get "alt" }}
 
+
 <figure>
   <picture>
     {{ with .Page.Resources.GetMatch .Params.src }}
-      {{ $webp := .Resize "660x q86 webp" }}
-      {{ $jpg := .Resize "660x q86 jpg" }}
-      <source 
-        srcset='{{ $webp.RelPermalink }}'
-        type="image/webp"
-      >
-      <source 
-        srcset='{{ $jpg.RelPermalink }}'
-        type="image/jpg"
-      >
-      <img 
-        src='{{ .RelPermalink }}' 
-        width='{{ .Width }}'
-        height='{{ .Height }}'
+      {{ $width := cond (gt .Width 660) 660 .Width }}
+      {{ $webp := .Resize (printf "%sx q86 webp"  (string $width)) }}
+      {{ $jpg := .Resize (printf "%sx q86 jpg"  (string $width)) }}
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp" />
+      <source srcset="{{ $jpg.RelPermalink }}" type="image/jpg" />
+      <img
+        src="{{ .RelPermalink }}"
+        width="{{ .Width }}"
+        height="{{ .Height }}"
         alt="{{ $alt }}"
         {{ if $lazy }}
           loading="lazy"
-        {{end}}
-      >
+        {{ end }}
+      />
     {{ end }}
-</picture>
+  </picture>
   <figcaption>
     {{ if $captionLink }}
       <p>
-        <a 
-          href='{{.Get "captionLink" }}' 
-          rel="noopener" 
-          target="_blank"
-        >{{.Get "caption" }}</a>
+        <a href="{{ .Get "captionLink" }}" rel="noopener" target="_blank"
+          >{{ .Get "caption" }}</a
+        >
       </p>
-    {{else}}
-      <p>{{.Get "caption" | markdownify }}</p>
-    {{end}}
+    {{ else }}
+      <p>{{ .Get "caption" | markdownify }}</p>
+    {{ end }}
   </figcaption>
 </figure>
-{{ if $extraBR}}
-  <br>      
-{{end}}
+{{ if $extraBR }}
+  <br />
+{{ end }}
