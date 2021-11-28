@@ -1,7 +1,7 @@
 ---
 title: "Set the Default Browser From the Command Line on a Mac — Properly"
 date: 2021-11-27T10:14:01-05:00
-# lastmod: 2021-10-16T10:14:01-05:00
+lastmod: 2021-11-28T00:10:01-05:00
 slug: "how-to-set-the-default-browser-from-the-command-line-on-a-mac"
 tags: ["tutorial", "mac"]
 description: "How to set a mac's default browser from the command line with ZERO mouse click."
@@ -98,15 +98,7 @@ https://apple.stackexchange.com/a/255947/264341
 
 `item 1 of argv` is going to be the first argument you give the script.
 
-You can test run the script right in Script Editor.
-
-{{< image_bundle_auto
-  src="run_from_script_editor.png"
-  alt="Location of the \"run the script\" button in Script Editor's UI"
-  caption=``
->}}
-
-Then, once your save it, you can run it with something like this:
+Once your save it, you can run it with something like this:
 
 ```
 osascript /Path/to/your/script/NameOfYourScript.scpt {a browser, could be "chrome"}
