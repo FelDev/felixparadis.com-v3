@@ -1,5 +1,5 @@
 ---
-title: "Set the Default Browser From the Command Line on a Mac - Properly"
+title: "Set the Default Browser From the Command Line on a Mac — Properly"
 date: 2021-11-27T10:14:01-05:00
 # lastmod: 2021-10-16T10:14:01-05:00
 slug: "how-to-set-the-default-browser-from-the-command-line-on-a-mac"
@@ -114,7 +114,7 @@ osascript /Path/to/your/script/NameOfYourScript.scpt {a browser, could be "chrom
 
 SUCCESS 🎉
 But this is a rather long line.
-I suggest making a few aliases in your .zprofile file. (It should be at `~/.zshrc`.)
+I suggest making a few aliases in your .zprofile file. (It should be at `~/.zprofile`.)
 For instance, I have these:
 
 ```
