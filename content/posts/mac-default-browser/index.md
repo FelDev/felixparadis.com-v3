@@ -2,10 +2,10 @@
 title: "Set the Default Browser From the Command Line on a Mac - Properly"
 date: 2021-11-27T10:14:01-05:00
 # lastmod: 2021-10-16T10:14:01-05:00
-slug: ""
+slug: "how-to-set-the-default-browser-from-the-command-line-on-a-mac"
 tags: ["tutorial", "mac"]
 description: "How to set a mac's default browser from the command line with ZERO mouse click."
-images: ["/posts//banner.jpg"]
+images: ["/posts/how-to-set-the-default-browser-from-the-command-line-on-a-mac/banner.jpg"]
 previewImage: "banner.jpg"
 previewImageFallback: "banner.jpg"
 ---
