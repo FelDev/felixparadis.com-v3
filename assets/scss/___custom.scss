@@ -442,3 +442,17 @@ footer {
 .twitter-wrapper-custom {
   text-align: center;
 }
+
+// Shooting Stars 💫
+body {
+  position: relative;
+}
+.star {
+  border: 1px solid #fff;
+  width: 35px;
+  position: absolute;
+  border-radius: 10px;
+  transform: rotate(-45deg);
+  transition: 2s;
+  z-index: -1;
+}

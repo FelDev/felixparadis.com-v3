@@ -37,3 +37,30 @@ function detect(event) {
     document.removeEventListener('click', detect);
   }
 }
+
+// Shooting Stars 💫
+document.addEventListener('click', shootStar);
+
+function shootStar(event) {
+  console.log('@event: ', event)
+  console.log('@event.x: ', event.x)
+  console.log('@event.y: ', event.y)
+  const star = document.createElement('span')
+  star.className = 'star'
+  star.style.left = `${event.x-20}px`
+  star.style.top = `${event.layerY-20}px`
+  star.style.opacity = '0.8'
+  console.log('@star: ', star)
+  document.querySelector('body').appendChild(star);
+  setTimeout(() => {
+    star.style.left = `${event.x-100}px`
+    star.style.top = `${event.layerY+100}px`
+    star.style.opacity = '0'
+    
+  }, 15);
+  setTimeout(() => {
+    star.style.opacity = '0'
+  }, 1999);
+
+  
+}
