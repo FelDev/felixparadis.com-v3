@@ -2,7 +2,9 @@
   {{if eq .Page.Section "posts"}}
     <a 
     class="heading-anchor" 
-    href="#{{ .Anchor | safeURL }}">{{ strings.Repeat .Level "#" }}</a>
+    title="Link to this heading"
+    href="#{{ .Anchor | safeURL }}">
+    <span aria-hidden="true">{{ strings.Repeat .Level "#" }}</span></a>
   {{ end }}
   {{ .Text | safeHTML }}
 </h{{ .Level }}>
