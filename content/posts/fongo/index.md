@@ -1,7 +1,7 @@
 ---
 title: "Fongo Review: Can It Be Your Only Phone Number?"
 date: 2019-05-03
-lastmod: 2021-07-02
+lastmod: 2022-01-10
 slug: "fongo-review-can-it-be-your-only-phone-number"
 tags: ["product review"]
 images: ["/posts/fongo-review-can-it-be-your-only-phone-number/banner.png"]
@@ -76,7 +76,11 @@ And sometimes, for no apparent reason, this:
 
 For texting, again, it usually works just fine, but on some rare occasions, I’ve received text messages days after they were sent. **DAYS**. Again, that happened only twice in two years as far as I can tell and maybe it’s not even a Fongo problem, but I highly suspect it is.
 
-## Unexpected Benefit: less scammy calls
+### Using Fongo abroad (outside Canada)
+I traveled to Mexico and was able to receive both text messages and phone calls.
+It's been very convenient for 2FA logins asking to answer your phone or enter a verification code.
+
+## Unexpected benefit: less scammy calls
 I’m not sure why, but it seems like scammers don’t call VOIP numbers as much as regular numbers. In the past 2 years I had ONE scammer calling me on my Fongo phone number.
 
 ## Limitations
