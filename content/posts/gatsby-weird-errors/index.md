@@ -20,7 +20,7 @@ But every now and then it throws a weird, unhelpful error
 message my way.
 
 So, here is a collection of weird errors and the solutions I found (collection of one, to start 🙄).
-For futur-me and, perhaps, present-you.
+For future-me and, perhaps, present-you.
 
 ## The result of this StaticQuery could not be fetched. This is likely a bug in Gatsby and if refreshing the page does not fix it, please open an issue in https://github.com/gatsbyjs/gatsby/issues
 
