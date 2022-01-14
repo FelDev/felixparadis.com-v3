@@ -69,6 +69,9 @@ I found this quote particularly relevant when doing video editing.
 
 ## Conflict is inevitable but combat is optional.
 \- Max Lucado 
+
+## If you do not make time for your wellness, you will be forced to make time for your illness.
+\- Unkown
 <!--
 
 ## The main thing that I learned about conspiracy theory is that conspiracy theorists actually believe in a conspiracy because that is more comforting. The truth of the world is that it is chaotic. The truth is, that it is not the Jewish banking conspiracy or the grey aliens or the 12 foot reptiloids from another dimension that are in control. The truth is more frightening, nobody is in control. The world is rudderless.
