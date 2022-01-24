@@ -78,4 +78,7 @@ I found this quote particularly relevant when doing video editing.
 
 \- Alan Moore, snake wizard
 
+What a gift you are making to yourself by doing what you truly want to be doing, instead of deferring that moment into the future.
+\- Maxime Dupré
+
 -->
