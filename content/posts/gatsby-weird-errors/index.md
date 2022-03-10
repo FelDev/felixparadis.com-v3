@@ -1,7 +1,7 @@
 ---
 title: "Weird Error Messages in Gatsby"
 date: 2022-01-14T10:14:01-05:00
-lastmod: 2022-01-17T10:14:01-05:00
+lastmod: 2022-03-10T10:14:01-05:00
 slug: "weird-unhelpful-error-messages-in-gatsby"
 tags: ["gatsby"]
 description: "A collection of weird, unhelpful errors from Gatsby and solutions to some of them."
@@ -29,7 +29,7 @@ For future-me and, perhaps, present-you.
 There are many possible reasons for this error to pop.
 It seems to pop whenever anything goes wrong and usually has nothing to do with the error message 🤷
 
-Here are two possible reasons:
+Here are three possible reasons:
 
 ### Having multiple static queries in a single file.
 
@@ -41,7 +41,7 @@ If you can't merge all queries into one, a simple solution is to extract the ext
 
 ### Using a filter AND not using edges
 
-No idea why, but on one of my collections, this works fine:
+Not sure why, but on one of my collections, this works fine:
 ```gql
 allFoo(filter: { language: { eq: "fr" } }) {
   nodes {
@@ -62,14 +62,25 @@ allFoo(filter: { language: { eq: "fr" } }) {
   }
 }
 ```
+### Changing the name of your query
 
+While refactoring, I changed one of my static query's name. 
 
+Something like going from:
 
-<!-- ## L'erreur weird de graphql si y manque une curly bracket -->
+```gql
+const { allMenus } = useStaticQuery(
+  graphql`
+    query FooQueryName {
+    allMenus(
+```
+to:
+```gql
+const { allMenus } = useStaticQuery(
+  graphql`
+    query BarQueryName {
+    allMenus(
+```
 
-
-
-
-
-
-
+And that was a no-go for gatsby.
+Restarting the development server wasn't enough, I had to run `gatsby clean` too.
