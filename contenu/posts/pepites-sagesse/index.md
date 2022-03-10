@@ -36,3 +36,6 @@ son corps et/ou de son esprit.
 
 ## Des fois ça en prend beaucoup pour avoir besoin de rien...
 \- Maxime Pelletier ..? Kamou 2020
+
+## Je me suis rendu compte que même si on me payait pour aller en prison, j'irais pas.
+\- Julien Desforges, sur le refus d'un contrat.
