@@ -3,7 +3,7 @@ title: "Avoiding Layout Shifts Caused by Disapearing Scrollbars"
 date: 2022-03-27T10:14:01-05:00
 # lastmod: 2022-01-17T10:14:01-05:00
 slug: "avoiding-layout-shifts-caused-by-disapearing-scrollbars"
-tags: ["tutorial"]
+tags: ["tutorial", "javascript"]
 description: ""
 images: ["/posts/avoiding-layout-shifts-caused-by-disapearing-scrollbars/banner.jpg"]
 previewImage: "banner.jpg"
@@ -26,10 +26,18 @@ But now you have an unpleasant visual effect, demonstrated in the CodePen below:
 
 {{< codepen id="NWXjrzw" >}}
 
-As you can see, the content behind the modal is shifting.
+As you can see*, the content behind the modal is shifting.
 This happens because when we set `overflow:hidden` on the `<body>`,
 the scrollbar disapears and the content adjusts to a new width.
 (A new `document.body.clientWidth`, to be exact.)
+
+*If you cannot see it, scrollbars must be automatically hidden by your OS.
+The setting looks like this on Mac and must be equally easy on Linux and Windows.
+
+{{< image_bundle_auto
+  src="preferences.png"
+  alt="Screenshot of \"Show scroll bars\" setting on MacOS, within System Preferences"
+>}}
 
 ## Prevent content shifting by replacing the scrollbar with padding
 
