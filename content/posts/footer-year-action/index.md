@@ -154,7 +154,7 @@ This means that the year in your footer will only change to the next year when
 the new year hits UTC, not your users' timezones.
 
 I cannot think of a way to set the year correctly according to the end user's
-timezone that does not involve client-side javascript, but I can live with up to
+timezone that does not involve client-side javaScript, but I can live with up to
 24 hours of wrong-year-in-the-footer for some users.
 
 ### 2. Make sure your production branch is deployable
