@@ -3,8 +3,8 @@ title: "Avoiding Layout Shifts Caused by Disapearing Scrollbars"
 date: 2022-03-27T10:14:01-05:00
 # lastmod: 2022-01-17T10:14:01-05:00
 slug: "avoiding-layout-shifts-caused-by-disapearing-scrollbars"
-tags: ["tutorial", "javascript"]
-description: ""
+tags: ["tutorial", "javaScript"]
+description: "When scrollbars disapear, they can cause a page's layout to shift. Learn how to avoid that with a few lines of JavaScript"
 images: ["/posts/avoiding-layout-shifts-caused-by-disapearing-scrollbars/banner.jpg"]
 previewImage: "banner.jpg"
 previewImageFallback: "banner.jpg"
@@ -32,7 +32,7 @@ the scrollbar disapears and the content adjusts to a new width.
 (A new `document.body.clientWidth`, to be exact.)
 
 *If you cannot see it, scrollbars must be automatically hidden by your OS.
-The setting looks like this on Mac and must be equally easy on Linux and Windows.
+The setting looks like this on Mac and must be equally to find easy on Linux and Windows.
 
 {{< image_bundle_auto
   src="preferences.png"
