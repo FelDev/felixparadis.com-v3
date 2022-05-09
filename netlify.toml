@@ -19,3 +19,9 @@ to = "/admin"
 from = "/arc-sw.js"
 status = 200
 to = "https://arc.io/arc-sw.js"
+
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"  
