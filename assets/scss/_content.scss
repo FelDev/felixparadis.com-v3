@@ -78,15 +78,42 @@
   }
 }
 
-.avatar img {
-  width: 20rem;
-  height: auto;
-  border-radius: 50%;
-  @media only screen and (max-width: 500px) {
-    width: 15rem;
+.avatar {
+  transition: 1.75s ease-out;
+  transform-style: preserve-3d;
+  max-width: 20rem;
+  margin: auto;
+  transform: rotateY(0deg);
+  cursor: pointer;
+  &.flip {
+    transform: rotateY(540deg);
+    @media (prefers-reduced-motion) {
+      transform: rotateY(180deg);
+    }
+  }
+  picture {
+    position: absolute;
+    top: 0;
+    backface-visibility: hidden;
+    left: 50%;
+    &:first-of-type {
+      transform: translateX(-50%);
+      z-index: 100;
+    }
+    &:last-of-type {
+      transform: translateX(-50%) rotateY(-180deg);
+    }
+  }
+  img {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+    max-width: none;
+    @media only screen and (max-width: 500px) {
+      width: 15rem;
+    }
   }
 }
-
 .list {
   #filters {
     display: flex;

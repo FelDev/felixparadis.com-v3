@@ -145,8 +145,13 @@
     {{- partial "analytics/fathom" . -}}
     {{ end }}
     
-    {{ $mainJS := (resources.Get "js/index.js") | resources.ExecuteAsTemplate "index.js" . | minify }}
-    <script>{{ $mainJS.Content | safeJS }}</script>
+    {{ $mainJS := (resources.Get "js/main.js") | resources.ExecuteAsTemplate "main.js" . | minify }}
+    {{ $homeJS := (resources.Get "js/home.js") | resources.ExecuteAsTemplate "home.js" . | minify }}
+    <script>{{ $mainJS.Content | safeJS }}
+      {{ if eq .Kind "home" }}
+        {{ $homeJS.Content | safeJS }}
+      {{ end }}
+    </script>
     
     {{ if not .Site.IsServer }}
       {{/*  {{ template "_internal/google_analytics.html" . }}  */}}
