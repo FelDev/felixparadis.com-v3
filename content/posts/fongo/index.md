@@ -1,7 +1,7 @@
 ---
 title: "Fongo Review: Can It Be Your Only Phone Number?"
 date: 2019-05-03
-lastmod: 2022-01-10
+lastmod: 2022-05-13
 slug: "fongo-review-can-it-be-your-only-phone-number"
 tags: ["product review"]
 images: ["/posts/fongo-review-can-it-be-your-only-phone-number/banner.png"]
@@ -51,7 +51,8 @@ Over 2 years, it’s safe to assume I saved at least 600$ thanks to Fongo. So fa
   have similar policies. You might be able to get a data-only plan if you already have a phone plan
   with them, then cancel the phone plan and keep the data-only plan.
 
-  Personally, I've switched to Fizz and get 1GB/month for 16$/month. Good enough. 
+  Personally, I've switched to [Fizz](https://fizz.ca/) and get 3GB/month for 21$/month. Good enough.
+  Should you care for a referral code with Fizz: **7RC4P**
 {{< /emphasis >}}
 
 ## The quality of the service
@@ -127,3 +128,4 @@ Fongo didn't get better. I had to call the government twice this year and both t
 **Full Disclosure**: 
 I am not being paid or otherwise compensated by Fongo nor its competitors to write this article. 
 All opinions expressed in this article are my own.
+The only affiliate/referral link used in this article is the Fizz referral code (7RC4P).
