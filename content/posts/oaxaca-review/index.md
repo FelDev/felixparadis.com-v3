@@ -1,6 +1,6 @@
 ---
 title: "Thoughts on Life in Oaxaca de Juarez, as a Remote Worker"
-date: 2021-10-22T10:14:01-05:00
+date: 2022-03-02T10:14:01-05:00
 # lastmod: 2021-10-16T10:14:01-05:00
 slug: "thoughts-on-life-in-oaxaca-de-juarez-as-a-remote-worker"
 tags: ["travelling", "mexico"]
@@ -45,7 +45,7 @@ to screw you over.
 You may not get 300 mb/s in every cheap hostel, but if you look for fast
 wifi, you will find fast wifi.
 
-I've worked at Convivio a ton, but also a decent setup and around 100 mb/s at
+I've worked at Convivio a ton, but we also had a decent setup and around 100 mb/s at
 an appartment we rented.
 
 ### 4. Lots of day trips and weekend trips
@@ -63,7 +63,7 @@ There are lots of remote workers and travellers in Oaxaca, but not so much that
 you feel like you are on a resort.
 
 We easily found a cool language exchange night, a coworking group and a 
-"let's do fun things" group. Whatsapp group are popular. 
+"let's do fun things" group. Whatsapp groups are popular. 
 
 
 ## Downsides of Oaxaca
@@ -101,11 +101,21 @@ The other common annoyance are dogs.
 Some Mexicans let their dog bark and whine all-day long. 
 Almost seems like animal cruelty to me, but it's just plain normal around here.
 
+## San Cristobal de las Casas
+
+About ameoba, symptoms begin to appear in about one to four weeks after ingestion of the cysts.
+Sounds like I got it in San Cristobal
 
 
-speed tests
-D 45.19
-U 4.93
+## "Developing countries" aren't the best to live in
 
-D 54.05
-U 4.84
+A big part of *digital nomading* is geo-arbitrage; earn a first-world income and spend it in a 
+place with a low cost of living.
+It's great to go to go the restaurants everyday because it's cheaper than making your groceries
+at home, but places with a lower cost of living tend to come with a few inconveniences too.
+
+Things I missed from my beloved Québec:
+
+- Drinking water from tap, without the shadow of a worry.
+- Feeling safe everywhere, even in the darkest alleys of Montréal.
+- Things and people being organi <!-- // wut? -->
