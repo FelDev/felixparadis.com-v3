@@ -39,3 +39,6 @@ son corps et/ou de son esprit.
 
 ## Je me suis rendu compte que même si on me payait pour aller en prison, j'irais pas.
 \- Julien Desforges, sur le refus d'un contrat.
+
+## On pense l’écologie en fonction des règles de l’économie alors que ça devrait être le contraire : on devrait réimaginer l’économie à partir de l’écologie.
+\- Timothée Parrique
