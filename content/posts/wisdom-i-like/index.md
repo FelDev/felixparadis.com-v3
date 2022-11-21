@@ -85,7 +85,8 @@ I found this quote particularly relevant when doing video editing.
 ## Regret is much more painful than failure.
 \- Some Twitter user...
 
-
+## When you stop sacrificing today for tomorrow. When today is complete, in and of itself, you’re retired
+\- Naval Ravikant
 
 <!--
 
