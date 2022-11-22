@@ -11,7 +11,7 @@ ui_component: ""
     webpSrc="simple_timeline.webp" 
     fallbackSrc="simple_timeline.png"
     alt="Screenshot of Simple Timeline"
-    status="MVP available, but unfinished 🚧" 
+    status="MVP available, kinda actively maintained 🏚" 
     kindOfProject="Webapp,SAAS"
     openSourceRepo="https://github.com/FelDev/nicetimeline"
 >}}
