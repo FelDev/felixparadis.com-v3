@@ -6,6 +6,20 @@ description: "Projects by freelance web developer Félix Paradis. Webapps, websi
 ui_component: ""
 ---
 
+<!-- ## [Slackline MTL](https://www.slacklinemtl.com/)
+{{< project-info
+    webpSrc="simple_timeline.webp" 
+    fallbackSrc="simple_timeline.png"
+    alt="Screenshot of SlacklineMTL.com"
+    status="Done ✅" 
+    kindOfProject="E-commerce,Jamstack"
+>}}
+
+An e-commerce website made for the best slackline company around.
+This is a Shopify store with a custom front-end built with Gatsby, Tailwind CSS and DatoCMS.
+
+<br/> -->
+
 ## [Simple Timeline](https://www.simple-timeline.com/)
 {{< project-info
     webpSrc="simple_timeline.webp" 
