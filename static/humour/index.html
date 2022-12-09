@@ -13,6 +13,7 @@
       main {
         max-width: 55rem;
         margin: 4rem auto;
+        padding: 0px 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -21,6 +22,19 @@
         font-size: 3.5em;
         text-align: center;
       }
+
+      @media screen and (min-width: 1000px) {
+        h1 {
+          font-size: 4.25em;
+        }
+      }
+      hr {
+        width: 100%;
+      }
+      .center {
+        text-align: center;
+      }
+
       p {
         font-size: 1.6rem;
         width: 100%;
@@ -55,10 +69,14 @@
   <body>
     <main>
       <h1>Open-mic d'humour à Sherbrooke</h1>
-      <p>Cette soirée là... on est en train de l'organiser!</p>
+      <p class="center">
+        Première édition le
+        <strong>mardi 31 janvier au bar Le Magog</strong>.
+      </p>
+      <hr />
       <p>
-        Pour savoir <strong>où</strong> et <strong>quand</strong> aura lieu la
-        première édition, laisse-nous ton adresse courriel ici 👇
+        Pour rester au courant des prochaines éditions, laisse ton adresse
+        courriel ici 👇
       </p>
       <div class="colorful-section">
         <script
