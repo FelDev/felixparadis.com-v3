@@ -2,7 +2,7 @@
 command = "hugo --minify"
 publish = "public/"
 
-environment = {HUGO_VERSION = "0.104.3", NODE_VERSION = "18"}
+environment = {HUGO_VERSION = "0.111.3", NODE_VERSION = "18"}
 
 [[redirects]]
 force = false
