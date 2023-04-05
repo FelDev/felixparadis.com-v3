@@ -39,16 +39,16 @@
       .center {
         text-align: center;
       }
-      .center:nth-of-type(2) {
-        text-align: center;
-        margin-top: 0;
-      }
+
       p {
         font-size: 1.6rem;
         width: 100%;
       }
       a {
         color: #80b4f1;
+      }
+      img {
+        margin: 0 0 3rem 0;
       }
 
       .colorful-section {
@@ -67,6 +67,9 @@
         padding: 1.25rem 2rem;
         border-radius: 1rem;
       }
+      .colorful-section > div.bg-dark {
+        background-color: #333;
+      }
       .img {
         font-size: 10rem;
         text-align: center;
@@ -76,7 +79,7 @@
   </head>
   <body>
     <main>
-      <h1>Open-mic d'humour à Sherbrooke</h1>
+      <h1>Nouvelle soirée d'humour à Sherbrooke!</h1>
       <img
         id="hero"
         src="/humour/mardicuzzi.jpg"
@@ -84,19 +87,24 @@
         width="750"
         height="750"
       />
-      <p class="center">
-        Troisième édition le
-        <strong>mardi 28 mars au bar Le Magog</strong>.
+      <p class="">
+        Faque, on a effectivement parti une soirée d'humour.
+        <br />
+        Ça se passe une couple de fois par mois, au bar Le Magog, les mardis
+        soir.
       </p>
-      <p class="center">
-        <a href="https://www.facebook.com/events/881931476441492"
-          >Lien vers l'événement Facebook.</a
-        >
-      </p>
-      <hr />
+      <div class="colorful-section">
+        <div class="bg-dark">
+          <p class="center">
+            Reste au courant des prochaines éditions via
+            <a href="https://www.facebook.com/mardicuzzi/events"
+              >la page Facebook des Mardicuzzi.</a
+            >
+          </p>
+        </div>
+      </div>
       <p>
-        Pour rester au courant des prochaines éditions, laisse ton adresse
-        courriel ici 👇
+        Si tu DÉTESTE Facebook, tu peux aussi nous laisser ton adresse courriel.
       </p>
       <div class="colorful-section">
         <script
@@ -105,10 +113,6 @@
           data-form="3b57733e-6940-11ed-b801-4f7c823282f0"
         ></script>
       </div>
-      <p>
-        Si tu veux monter sur scène ou t'impliquer autrement, tu peux
-        <a href="/fr/contact">me contacter</a>.
-      </p>
 
       <p>À bientôt!</p>
       <p>-Félix & Donavan</p>
