@@ -1,7 +1,7 @@
 ---
 title: "Citations que j'aime"
 date: 2021-10-30
-# lastmod: "2021-03-30"
+lastmod: "2023-04-07"
 slug: "citations-que-jaime"
 tags: ["motivation"]
 description: "Une collection of de citations que j'aime et dont j'ai envie de me rappeler."
@@ -19,6 +19,8 @@ previewImageFallback: "banner.png"
 
 
 Une petite collection de citations que je veux garder.
+
+Voir aussi, [des citations en anglais](/posts/nuggets-of-wisdom-i-like/).
 
 ## Ça ne sert à rien de courir avec enthousiasme dans la mauvaise direction
 \- Francis Gendron

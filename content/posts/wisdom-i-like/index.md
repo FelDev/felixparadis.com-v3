@@ -1,7 +1,7 @@
 ---
 title: "Nuggets of Wisdom I Like"
 date: 2020-08-03
-lastmod: "2022-01-14"
+lastmod: "2023-04-07"
 slug: "nuggets-of-wisdom-i-like"
 tags: ["motivation"]
 description: "A collection of short quotes I particularly like and wish to remember."
@@ -20,6 +20,8 @@ previewImageFallback: "thinking_monkey.png"
 I enjoy good advice, motivational content, self-help books and the likes.
 
 Here's a little collection of wisdom nuggets I want to keep. Some of it is paraphrased.
+
+See also, [some nuggets in French](/fr/posts/citations-que-jaime/).
 
 ## Action cures fear 
 \- David J. Schwartz
