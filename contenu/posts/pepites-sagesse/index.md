@@ -6,8 +6,8 @@ slug: "citations-que-jaime"
 tags: ["motivation"]
 description: "Une collection of de citations que j'aime et dont j'ai envie de me rappeler."
 images: ["/fr/posts/citations-que-jaime/banner.jpg"]
-previewImage: "thumbnail.avif"
-previewImageFallback: "thumbnail.png"
+previewImage: "banner.avif"
+previewImageFallback: "banner.png"
 ---
 {{< image_bundle
     avifSrc="banner.avif" 
