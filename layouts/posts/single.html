@@ -64,61 +64,63 @@
 
     <footer>
       <hr />
-      <div class="twitter-wrapper-custom">
-        <a
-          class="twitter-follow-button-custom"
-          title="Follow @felixs_username on Twitter"
-          rel="noopener"
-          target="_blank"
-          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.felixparadis.com%2Fposts%2Farc-dot-io-review%2F&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=felixs_username&amp;tw_p=followbutton"
-        >
-          <i></i
-          ><span class="label" id="l">Follow <b>@felixs_username</b></span>
-        </a>
-      </div>
-      <!-- #DELETE:  Twitter uses a massive amount of JS to render that button... my own version is above -->
-      <!-- <a href="https://twitter.com/felixs_username?ref_src=twsrc%5Etfw" class="twitter-follow-button" id="twitter-follow-button" data-size="large"
+      {{ if eq .Site.Language.Lang "en" }}
+        <div class="twitter-wrapper-custom">
+          <a
+            class="twitter-follow-button-custom"
+            title="Follow @felixs_username on Twitter"
+            rel="noopener"
+            target="_blank"
+            href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.felixparadis.com%2Fposts%2Farc-dot-io-review%2F&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=felixs_username&amp;tw_p=followbutton"
+          >
+            <i></i
+            ><span class="label" id="l">Follow <b>@felixs_username</b></span>
+          </a>
+        </div>
+        <!-- #DELETE:  Twitter uses a massive amount of JS to render that button... my own version is above -->
+        <!-- <a href="https://twitter.com/felixs_username?ref_src=twsrc%5Etfw" class="twitter-follow-button" id="twitter-follow-button" data-size="large"
         data-show-count="false">
         Follow @felixs_username
       </a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-      <section id="newsletterSignup" class="colorful-section">
-        <div>
-          <p>Pssst!</p>
-          <p>
-            <strong>Sign up</strong> to my newsletter and
-            <strong>get a free PDF</strong>
-            about how to get people to sign up for your newsletters!
-          </p>
-
-          <form
-            name="newsletterSignup"
-            netlify
-            netlify-honeypot="money"
-            action="/newsletter-success"
-          >
-            <label for="email">Email address</label>
-            <input type="email" name="email" id="email" required />
-            <p style="display: none;">
-              <label for="money">Name </label>
-              <input type="text" name="money" id="money" />
-              <input type="text" name="page" id="page" value="{{ .Title }}" />
+        <section id="newsletterSignup" class="colorful-section">
+          <div>
+            <p>Pssst!</p>
+            <p>
+              <strong>Sign up</strong> to my newsletter and
+              <strong>get a free PDF</strong>
+              about how to get people to sign up for your newsletters!
             </p>
-            <div>
-              <button type="submit">Subscribe</button>
-            </div>
-            <div class="">
-              Powered by
-              <a
-                href="https://emailoctopus.com/?urli=lWf4V&amp;utm_medium=user_referral&amp;utm_source=builder"
-                target="_blank"
-                rel="noopener"
-                >EmailOctopus</a
-              >
-            </div>
-          </form>
-        </div>
-      </section>
+
+            <form
+              name="newsletterSignup"
+              netlify
+              netlify-honeypot="money"
+              action="/newsletter-success"
+            >
+              <label for="email">Email address</label>
+              <input type="email" name="email" id="email" required />
+              <p style="display: none;">
+                <label for="money">Name </label>
+                <input type="text" name="money" id="money" />
+                <input type="text" name="page" id="page" value="{{ .Title }}" />
+              </p>
+              <div>
+                <button type="submit">Subscribe</button>
+              </div>
+              <div class="">
+                Powered by
+                <a
+                  href="https://emailoctopus.com/?urli=lWf4V&amp;utm_medium=user_referral&amp;utm_source=builder"
+                  target="_blank"
+                  rel="noopener"
+                  >EmailOctopus</a
+                >
+              </div>
+            </form>
+          </div>
+        </section>
+      {{ end }}
       {{/* {{ partial "posts/series.html" . }}
       {{ partial "posts/disqus.html" . }}
       {{ partial "posts/commento.html" . }}
