@@ -4,7 +4,7 @@ date: 2023-04-07
 # lastmod: "2021-03-30"
 slug: "montreal-a-gaspe-en-velo"
 tags: ["cyclotourisme"]
-description: ""
+description: "Récit de voyage cyclotouriste: pédaler de Montréal à Gaspé en solo."
 images: ["/fr/posts/montreal-a-gaspe-en-velo/banner.jpg"]
 previewImage: "banner.jpg"
 previewImageFallback: "banner.jpg"
