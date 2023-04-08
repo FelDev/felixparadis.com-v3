@@ -1,19 +1,47 @@
+<p>Et tu as trouvé la version francophone de mon site. Bien!</p>
 <p>
-  Et tu as trouvé la version francophone de mon site. Bien!
+  Contrairement à la version anglo qui est plutôt corpo, la version Française
+  est plutôt familiale. Donc, si tu es ici pour évaluer mes compétences et
+  intérêts professionels, retourne sur <a href="/">la version anglo</a>.
 </p>
 <p>
-  Contrairement à la version anglo qui est plutôt corpo, la version Française est plutôt familiale.
-  Donc, si tu es ici pour évaluer mes compétences et intérêts professionels, retourne sur <a href="/">la version anglo</a>. 
-</p>
-<p>
-  {{/*  Par contre, si tu veux voir comment que je cuisine bien ou mes écrits artistique, this is ze place.  */}}
+  {{/* Par contre, si tu veux voir comment que je cuisine bien ou mes écrits artistique, this is ze place. */}}
   Ici, c'est pour les chums.
 </p>
-<p>. . .</p>
 <p>
-  Bon. Pour l'instant, y a pas grand chose pour les chums. Mais euh... m'a faire dequoi à m'ment d'né.
+  Si tu cherche juste <strong>mes toiles de Jambons</strong>:
+  <a href="https://boutique.felixparadis.com">boutique.felixparadis.com</a>.
 </p>
-<hr>
-<p>
-  Si tu cherche juste <strong>mes toiles de Jambons</strong>: <a href="https://boutique.felixparadis.com">boutique.felixparadis.com</a>.
-</p>
+
+<section id="latest-blog-posts" class="colorful-section">
+  <div>
+    <h2>
+      Derniers <br />
+      Articles de <br />
+      <a href="/posts/">Blog</a>
+    </h2>
+    {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+      <div class="latest-blog-post">
+        <a href="{{ .Permalink }}">
+          <figure>
+            <picture>
+              {{ with .Page.Resources.GetMatch .Params.previewImageFallback }}
+                {{ $webp := .Resize "304x q80 webp" }}
+                <source srcset="{{ $webp.RelPermalink }}" type="image/webp" />
+                <img
+                  src="{{ .RelPermalink }}"
+                  width="{{ .Width }}"
+                  height="{{ .Height }}"
+                  alt=""
+                />
+              {{ end }}
+            </picture>
+          </figure>
+          <!-- <img src="{{ .Params.previewImage }}" alt=""> -->
+          <h3>{{ .Title }}</h3>
+        </a>
+        <!-- <span>{{ . }}}</span> -->
+      </div>
+    {{ end }}
+  </div>
+</section>

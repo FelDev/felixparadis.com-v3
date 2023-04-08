@@ -128,7 +128,7 @@ googleAnalytics = "UA-109396923-1"
               name = "Contact"
               weight = 1
               url = "contact/"
-            # [[languages.fr.menu.main]]
-            #   name = "Blog"
-            #   weight = 1
-            #   url = "posts/"
+            [[languages.fr.menu.main]]
+              name = "Blog"
+              weight = 1
+              url = "posts/"

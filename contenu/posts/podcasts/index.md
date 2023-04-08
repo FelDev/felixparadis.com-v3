@@ -8,6 +8,7 @@ description: "Liste de podcasts qui m'ont marqués et que je recommande, fort fo
 images: ["/fr/posts/podcasts-que-je-recommande-fort-fort-fort/"]
 previewImage: "banner.jpg"
 previewImageFallback: "banner.jpg"
+draft: true
 ---
 
 {{< image_bundle_auto
