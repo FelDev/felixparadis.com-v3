@@ -24,11 +24,11 @@
           </svg>
           <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
             {{ $dateFormat := i18n "date_format" }}
-            {{ .Date.Format $dateFormat }}
+            {{ time.Format $dateFormat .Date }}
             {{ if gt .Page.Lastmod .Date }}
               -
               {{ i18n "last_updated_on" }}
-              {{ .Page.Lastmod.Format ($dateFormat | default "Jan 2, 2006") }}
+              {{ time.Format $dateFormat .Page.Lastmod }}
             {{ end }}
           </time>
         </p>
