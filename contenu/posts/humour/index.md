@@ -1,7 +1,7 @@
 ---
 title: "Répertoire des Soirées d'Humour à Sherbrooke"
 date: 2023-04-08
-# lastmod: "2021-03-30"
+lastmod: 2023-05-05
 slug: "repertoire-des-soirees-dhumour-a-sherbrooke"
 tags: ["humour", "Sherbrooke", "standup"]
 description: "Liste des soirées d'humour à Sherbrooke, QC."
@@ -60,6 +60,10 @@ Pis c'est ben l'fun.
 Ça se passe au Refuge des Brasseurs, donc c'est la soirée la plus proche du campus de l'Université de Sherbrooke.
 
 Pour les prochaines date, voir [la page Facebook du Refuge des Blagueurs](https://www.facebook.com/refugedesblagueurs).
+
+La soirée fait relâche pendant l'été, 
+mais on me glisse à l'oreille que cette année, 
+Donavan Langlois va organiser une soirée estivale au Refuge, [Le Refuge des Campeurs](https://www.facebook.com/profile.php?id=100091375583478).
 
 ## Soirée Comedy Boq
 
