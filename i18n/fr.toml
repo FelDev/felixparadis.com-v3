@@ -1,3 +1,6 @@
+[date_format]
+other = "2 janvier 2006"
+
 [category]
 other = "catégorie"
 
@@ -10,6 +13,9 @@ other = "séries"
 [reading_time]
 one = "Une minute de lecture"
 other = "{{ .Count }} minutes de lecture"
+
+[last_updated_on]
+other = "dernière mise à jour le"
 
 [page_not_found]
 other = "Page Non Trouvée"
