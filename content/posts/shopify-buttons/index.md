@@ -1,7 +1,7 @@
 ---
 title: "Localization of Shopify's Buy Buttons"
 date: 2021-07-24T10:14:01-05:00
-# lastmod: 2021-07-20T10:14:01-05:00
+lastmod: 2023-05-13T10:14:01-05:00
 slug: "localization-of-shopifys-buy-buttons"
 tags: ["tutorial", "e-commerce"]
 description: "Learn to integrate Shopify buy buttons with i18n in mind."
@@ -14,6 +14,13 @@ previewImageFallback: "banner.png"
     src="banner.png"
     alt="Shopify's logo with the standard language icon on it."
 >}}
+
+{{< emphasis >}}
+  🚨 IMPORTANT UPDATE 🚨
+
+  Shopify moved things around and the solution outlined in this tutorial is no longer working.
+  If you happen to find a new solution, please let me know!
+{{< /emphasis >}}
 
 I had to setup Shopify Buy Buttons on a **multilingual** website and quickly
 started wondering if [Snipcart](https://snipcart.com/) would've been a better 
