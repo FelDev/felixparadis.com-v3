@@ -90,6 +90,9 @@ I found this quote particularly relevant when doing video editing.
 ## When you stop sacrificing today for tomorrow. When today is complete, in and of itself, you’re retired
 \- Naval Ravikant
 
+## Art should comfort the disturbed and disturb the comfortable 
+\- Cesar A. Cruz
+
 <!--
 
 ## Le manque de sens, le temps que je passais toute la journée à travailler, je trouvais que ç'a avait pas vraiment d'utilité sociale.
