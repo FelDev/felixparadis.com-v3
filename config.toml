@@ -111,13 +111,13 @@ googleAnalytics = "UA-109396923-1"
         languagename = "Français"
         title = "Félix Paradis"
         contentDir = "contenu"
-        homeLink = "maison 🏠"
-        hello = "Salut! Moi c'est Félix 👋"
 
         [languages.fr.params]
             author = "Félix Paradis"
             info = "Ou trouvez-moi ailleurs:"
             description = "Site personnel de Félix Paradis"
+            hello = "Salut! Moi c'est Félix 👋"
+            homeLink = "maison 🏠"
             keywords = "blog,code,personnel"
             images = ["images/profile.png"] # for og:image
   
