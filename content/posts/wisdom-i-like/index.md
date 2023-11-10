@@ -106,4 +106,14 @@ I found this quote particularly relevant when doing video editing.
 What a gift you are making to yourself by doing what you truly want to be doing, instead of deferring that moment into the future.
 \- Maxime Dupré
 
+Cringe Mountain
+\- le concept de Shaan Puri
+
+## La vie, c'est des problèmes. Le bonheur c'est résoudre des problèmes.
+Faut pas chercher à ne pas avoir de problème, faut chercher à régler des
+problèmes qui nous passionnent.
+
+\- Mark Manson, dans The Art of not Giving a Fuck
+
+
 -->
