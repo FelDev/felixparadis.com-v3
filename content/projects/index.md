@@ -51,6 +51,18 @@ When it comes to visual art, I was born gifted. Everything is sold out, of cours
 
 I did write a blog post about the tech behind the store: [My Recipe for a 0$/month e-commerce Website](/posts/my-recipe-for-a-0-dollar-per-month-e-commerce-website/)
 
+## [Daily Cartoons](https://github.com/FelDev/daily-cartoons)
+{{< project-info
+    webpSrc="daily_cartoons.webp"
+    fallbackSrc="daily_cartoons.png"
+    alt="Screenshot of the Daily Cartoons email"
+    status="Done ✅" 
+    kindOfProject="Web Scrapping,Fun"
+    openSourceRepo="https://github.com/FelDev/daily-cartoons"
+>}}
+
+Web scraping script running daily. It emails me political cartoons from a bunch of newspapers, plus [XKCD cartoons](https://xkcd.com/). Simple and fun. Almost a SaaS...
+
 <br/>
 
 ## [Ask Sagan](https://v2.felixparadis.com/ask-sagan/)
