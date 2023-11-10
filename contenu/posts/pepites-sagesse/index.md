@@ -44,3 +44,14 @@ son corps et/ou de son esprit.
 
 ## On pense l’écologie en fonction des règles de l’économie alors que ça devrait être le contraire : on devrait réimaginer l’économie à partir de l’écologie.
 \- Timothée Parrique
+
+## La rengaine voulant qu’il faut protéger l’environnement sans nuire à l’économie est justement la mentalité qui nous a mis dans la situation trouble actuelle. 
+Faut changer la cassette. Oui au développement économique, mais sans nuire à l’environnement. Il faut inverser la priorité.
+
+\- Mickaël Bergeron – La Tribune, 7 juin 2023
+
+## La vie, c'est des problèmes. Le bonheur c'est résoudre des problèmes.
+Faut pas chercher à ne pas avoir de problème, faut chercher à régler des
+problèmes qui nous passionnent.
+
+\- Mark Manson, dans The Art of not Giving a Fuck
