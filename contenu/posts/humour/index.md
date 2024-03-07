@@ -1,7 +1,7 @@
 ---
 title: "Répertoire des Soirées d'Humour à Sherbrooke"
 date: 2023-04-08
-lastmod: 2023-05-05
+lastmod: 2024-03-06
 slug: "repertoire-des-soirees-dhumour-a-sherbrooke"
 tags: ["humour", "Sherbrooke", "standup"]
 description: "Liste des soirées d'humour à Sherbrooke, QC."
@@ -25,24 +25,35 @@ Hésite pas à m'écire si il manque de l'information!
 
 L'ordre n'a pas vraiment d'importance.
 
-## Les Mardicuzzi
+## Le Bootlegger Comédie Club  
 
 {{< image_bundle_auto
-  src="mardicuzzi.jpg"
+  src="bootlegger.jpg"
   alt=""
 >}}
 
-Commençons quand même par MA soirée d'humour 😄
+Nouveauté 2024! 
 
-J'ai parti cette soirée en 2023 avec Donavan Langlois, un des rares humoristes actif à Sherbrooke.
+Oli Trotier & Donavan Langlois se s'ont entourés d'humoristes pros pour partir une nouvelle soirée au [Shaker](https://www.facebook.com/profile.php?id=100090139717768).
 
-Ça se passe un ou deux mardi par mois, au bar Le Magog, à 20h.
 
-La meilleure façon de rester au courant des prochaines soirées reste 
-[la page Facebook des Mardicuzzi](https://www.facebook.com/mardicuzzi/upcoming_hosted_events).
+À date les billets sont sold-out plusieurs jours avant le show, restez au courant en suivant [la page facebook du Bootlegger Comédie Club.](https://www.facebook.com/people/Bootlegger-Com%C3%A9die-Club/61556132883033/)
 
-C'est d'ailleurs la seule soirée d'humour à Sherbrooke qui est organisé par du monde de Sherbrooke.
-Avis aux chauvins...
+## L'open mic du refuge des brasseurs
+
+{{< image_bundle_auto
+  src="open_mic_refuge.jpg"
+  alt=""
+>}}
+
+Donavant Langlois & Bianca Baron organisent mensuellement un open mic d'humour au Refuge des Brasseurs.
+C'est surtout du monde de Montréal qui font la routes pour tester leurs jokes "en région".
+
+Mais c'est une très bonne place pour t'essayer aussi! 
+(Faut que tu sois booké d'avance, pense pas mettre ton nom dans un chapeau en arrivant.)
+
+10$ cash à la porte. Les dates sont annoncées sur la page Facebook de [L'open mic du refuge des brasseurs.](https://www.facebook.com/people/Lopen-mic-du-refuge-des-brasseurs/100091375583478/)
+
 
 ## Le Refuge des Blagueurs
 
@@ -57,7 +68,7 @@ par [Dhanaé Audet-Beaulieu](https://www.facebook.com/dhanaebeaulieu/).
 J'ai eu la chance d'y jouer pas moins de DEUX fois!
 Pis c'est ben l'fun.
 
-Ça se passe au Refuge des Brasseurs, donc c'est la soirée la plus proche du campus de l'Université de Sherbrooke.
+Ça se passe au Refuge des Brasseurs, proche du campus de l'Université de Sherbrooke.
 
 Pour les prochaines date, voir [la page Facebook du Refuge des Blagueurs](https://www.facebook.com/refugedesblagueurs).
 
@@ -92,17 +103,35 @@ Le marketing a l'air de se faire via [Event Brite](https://www.eventbrite.ca/e/b
 
 L'ambiance est cool, la bière est bonne & youpi!
 
+---
+
+
+## Soirées Défuntes 🪦
+
+### Les Mardicuzzi
+
+{{< image_bundle_auto
+  src="mardicuzzi.jpg"
+  alt=""
+>}}
+
+
+C'était MA soirée d'humour 😄
+J'ai parti cette soirée en 2023 avec Donavan Langlois, un des rares humoristes actif à Sherbrooke.
+
+Ça se passait un mardi par mois, au défunt bar Le Magog.
+
+Si jamais ça renaît... la meilleure façon de rester au courant c'est probablement 
+[la page Facebook des Mardicuzzi](https://www.facebook.com/mardicuzzi/upcoming_hosted_events).
+
+C'était la seule soirée d'humour à Sherbrooke organisé par du monde de Sherbrooke.
+On étais ben fiers pis c'était ben l'fun. Pis c'est fini!
+
+
 ## En conclusion, les soirées d'humour à Sherbrooke...
 
-Y en a pas ben ben.
+Y en a!
 
-C'est d'ailleurs pour ça qu'on a créé les Mardicuzzi.
-Notre but c'est de semer les graines d'une scène locale.
-
-Que des humoristes Estriens puissent se faire les dents sans faire 4 heures de chars pour jouer sur un open-mic Montréalais.
-À date on est satisfait de notre petit succès.
-Le public est au rendez-vous.
-Les humoristes aiment venir y jouer.
-Et le bar fait de l'argent!
+Pas autant qu'à Montréal, mais si tu trouve qui en manque, fais comme j'ai fait et pars ta soirée!
 
 Au plaisir de te voir dans une soirée d'humour Sherbrookoise!
