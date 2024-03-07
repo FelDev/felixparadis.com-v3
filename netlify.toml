@@ -6,6 +6,12 @@ environment = {HUGO_VERSION = "0.120.4", NODE_VERSION = "18"}
 
 [[redirects]]
 force = false
+from = "/humour"
+status = 301
+to = "/fr/posts/repertoire-des-soirees-dhumour-a-sherbrooke"
+
+[[redirects]]
+force = false
 from = "/wp-admin"
 status = 301
 to = "/admin"
