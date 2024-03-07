@@ -132,6 +132,6 @@ On étais ben fiers pis c'était ben l'fun. Pis c'est fini!
 
 Y en a!
 
-Pas autant qu'à Montréal, mais si tu trouve qui en manque, fais comme j'ai fait et pars ta soirée!
+Pas autant qu'à Montréal, mais si tu trouve qui en manque, fais comme j'ai fait et pars ta soirée 😄
 
-Au plaisir de te voir dans une soirée d'humour Sherbrookoise!
+Au plaisir de te voir dans une soirée d'humour Sherbrookoise ✨
