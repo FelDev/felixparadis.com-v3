@@ -1,7 +1,7 @@
 ---
 title: "Répertoire des Soirées d'Humour à Sherbrooke"
 date: 2023-04-08
-lastmod: 2024-03-06
+lastmod: 2024-05-17
 slug: "repertoire-des-soirees-dhumour-a-sherbrooke"
 tags: ["humour", "Sherbrooke", "standup"]
 description: "Liste des soirées d'humour à Sherbrooke, QC."
