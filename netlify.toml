@@ -21,11 +21,6 @@ force = false
 from = "/*.php"
 status = 301
 to = "/admin"
-[[redirects]]
-from = "/arc-sw.js"
-status = 200
-to = "https://arc.io/arc-sw.js"
-
 
 [[headers]]
   for = "/*"

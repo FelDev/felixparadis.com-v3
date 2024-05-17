@@ -1,7 +1,7 @@
 ---
 title: "Arc.io Review - A Way to Monetize Any Website"
 date: 2020-08-18
-lastmod: 2021-04-13
+lastmod: 2024-05-17
 slug: "arc-dot-io-review" 
 tags: ["product review"]
 description: "Generating money from any kind of website without charging your users or showing them ads is an enticing promise. Arc promises that \"it never impacts the user experience\" and anyone can join the network..."
@@ -15,6 +15,18 @@ previewImageFallback: "banner.jpg"
     fallbackSrc="banner.jpg"
     alt="Arc's logo"
 >}}
+
+## 🚨 IMPORTANT UPDATE
+
+Arc.io shut down in 2024.
+
+👉 Note that a similar [decentralized CDN project called Saturn](https://saturn.tech/) now exists and I have a feeling some members of the Arc.io team are behind it.
+
+{{< image_bundle_auto
+  src="arc_down.png"
+  alt="To all members of the Arc community: Arc has reached the end of its journey. Over time, our core team has moved on to other projects, and we have made the decision to end support for this project and related services We are aware some of you have partnered with Arc for several years now, and we want to thank you for your support of this venture Sincerely yours, Team Arc."
+>}}
+
 ## What's [Arc.io](https://arc.io/) ?
 
 In their own words, "Arc is a peer-to-peer Content Delivery Network". Basically, a tiny portion of your users' bandwidth and CPU will be used to power Arc's CDN. Arc promises that "it never impacts the user experience" and anyone can join the network, whether you have a single or a million monthly visitors.
