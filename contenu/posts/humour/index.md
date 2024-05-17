@@ -25,6 +25,34 @@ Hésite pas à m'écire si il manque de l'information!
 
 L'ordre n'a pas vraiment d'importance.
 
+
+## Les P'tits Mardis Tout-Croches
+
+{{< image_bundle_auto
+  src="mardi_tout_croche.jpg"
+  alt=""
+>}}
+
+Projet de Donavan Langlois & Pat Savard.
+Ça se passe au [Murdoch](https://www.facebook.com/lemurdoch/).
+
+Il y a des soirées de rodage typique et aussi des humoristes plus établis qui viennent faire leurs shows complets.
+Bonne salle & bonne ambiance!
+
+[Page facebook des P'tits Mardis Tout-Croches.](https://www.facebook.com/lesptitsmardistoutcroches)
+
+## Café 440 Comedy Club
+
+{{< image_bundle_auto
+  src="cafe440.jpg"
+  alt=""
+>}}
+
+Projet de Donavan Langlois & Matyof, j'suis pas encore allé 🤷‍♀️
+Tu me diras c'était comment!
+
+[Page facebook du Café 440 Comedy Club.](https://www.facebook.com/profile.php?id=61558615673914)
+
 ## Le Bootlegger Comédie Club  
 
 {{< image_bundle_auto
@@ -32,9 +60,7 @@ L'ordre n'a pas vraiment d'importance.
   alt=""
 >}}
 
-Nouveauté 2024! 
-
-Oli Trotier & Donavan Langlois se s'ont entourés d'humoristes pros pour partir une nouvelle soirée au [Shaker](https://www.facebook.com/profile.php?id=100090139717768).
+Oli Trotier s'est entourés d'humoristes pros pour partir une nouvelle soirée au [Shaker](https://www.facebook.com/profile.php?id=100090139717768).
 
 
 À date les billets sont sold-out plusieurs jours avant le show, restez au courant en suivant [la page facebook du Bootlegger Comédie Club.](https://www.facebook.com/people/Bootlegger-Com%C3%A9die-Club/61556132883033/)
@@ -122,10 +148,11 @@ J'ai parti cette soirée en 2023 avec Donavan Langlois, un des rares humoristes 
 Ça se passait un mardi par mois, au défunt bar Le Magog.
 
 Si jamais ça renaît... la meilleure façon de rester au courant c'est probablement 
-[la page Facebook des Mardicuzzi](https://www.facebook.com/mardicuzzi/upcoming_hosted_events).
+[la page Facebook des P'tits Mardis Tout-Croches](https://www.facebook.com/lesptitsmardistoutcroches).
 
 C'était la seule soirée d'humour à Sherbrooke organisé par du monde de Sherbrooke.
-On étais ben fiers pis c'était ben l'fun. Pis c'est fini!
+On était ben fiers pis c'était ben l'fun. Pis c'est fini! 
+Mais maintenant y en a d'autres.
 
 
 ## En conclusion, les soirées d'humour à Sherbrooke...
