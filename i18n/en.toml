@@ -1,5 +1,5 @@
 [date_format]
-other = "January 2, 2006"
+  other = "January 2, 2006"
 
 [category]
 other = "category"
@@ -34,3 +34,15 @@ other = "Based on"
 
 [hosted_on]
 other = "Hosted on"
+
+[lookin_for_a]
+other = "Looking for a"
+
+[go_to]
+other = "Go to"
+
+[and_use_the_code]
+other = "and use the code"
+
+[for_a_10_percent_discount]
+other = "for a 10% discount!"

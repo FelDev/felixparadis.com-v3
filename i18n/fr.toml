@@ -34,3 +34,15 @@ other = "Basé sur"
 
 [hosted_on]
 other = "Hébergé par"
+
+[lookin_for_a]
+other = "Tu veux une"
+
+[go_to]
+other = "Visite"
+
+[and_use_the_code]
+other = "et utilise le code"
+
+[for_a_10_percent_discount]
+other = "pour un rabais de 10%!"
