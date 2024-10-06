@@ -1,7 +1,7 @@
 ---
 title: "Citations que j'aime"
 date: 2021-10-30
-lastmod: "2023-04-07"
+lastmod: "2024-10-06"
 slug: "citations-que-jaime"
 tags: ["motivation"]
 description: "Une collection of de citations que j'aime et dont j'ai envie de me rappeler."
@@ -55,3 +55,11 @@ Faut pas chercher à ne pas avoir de problème, faut chercher à régler des
 problèmes qui nous passionnent.
 
 \- Mark Manson, dans The Art of not Giving a Fuck
+
+## Les gens nous disent, c'est donc ben compliqué vos affaires pour rester en forme. Oui, mais être malade pis pas en santé, ça aussi c'est compliqué.
+
+\- Jocelyna Dubuc
+
+## Les gens protègent ce qu'ils aiment.
+
+\- Jacques Yves Cousteau
