@@ -93,6 +93,11 @@ I found this quote particularly relevant when doing video editing.
 ## Art should comfort the disturbed and disturb the comfortable 
 \- Cesar A. Cruz
 
+<!-- ##Y Minimum Viable Dream
+\- Kyle Siemens
+https://kornelius.substack.com/p/whats-your-minimum-viable-dream -->
+
+
 <!--
 
 ## Le manque de sens, le temps que je passais toute la journée à travailler, je trouvais que ç'a avait pas vraiment d'utilité sociale.
