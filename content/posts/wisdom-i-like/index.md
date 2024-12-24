@@ -93,10 +93,34 @@ I found this quote particularly relevant when doing video editing.
 ## Art should comfort the disturbed and disturb the comfortable 
 \- Cesar A. Cruz
 
+## The best “energy drink” is 3L of water.
+The best “focus drug” is 8 hours of sleep.
+
+The best “antidepressant” is 45 minutes of exercise.
+
+Let no one tell you otherwise.
+
+\- No idea who said it first
+
+## First you create your habits, then your habits create you
+\- Jim Kwik
+
+
+## Better questions
+| Common question                                       | Better question                                                     |
+|-------------------------------------------------------|---------------------------------------------------------------------|
+| I'm not sure… what should I do?                       | What would I do if I weren't afraid?                                 |
+| How can I make this succeed?                          | What would make this certainly fail? (Charlie Munger, inversion)     |
+| I can't decide — which path is the right path to pick?| Which path makes for the best story?                                 |
+| Long time no talk, what's new?!                       | I remember you were really into ___, how has that been going?       |
+
+\- Shaan Puri ([One minute blog newsletter](https://shaan.beehiiv.com/p/one-minute-blog-13-questions-that-will-change-your-life))
+
 <!-- ##Y Minimum Viable Dream
 \- Kyle Siemens
 https://kornelius.substack.com/p/whats-your-minimum-viable-dream -->
 
+<!-- https://www.facebook.com/permalink.php?story_fbid=pfbid0i8xbp8NTJ6GGnRoPNXinmAKBLfzMTrvNhR5UcGmzZvnAbT9pWuvSWS4y99Q9nY4bl&id=100064821395990 -->
 
 <!--
 
