@@ -109,9 +109,9 @@ Let no one tell you otherwise.
 ## Better questions
 | Common question                                       | Better question                                                     |
 |-------------------------------------------------------|---------------------------------------------------------------------|
-| I'm not sure… what should I do?                       | What would I do if I weren't afraid?                                 |
-| How can I make this succeed?                          | What would make this certainly fail? (Charlie Munger, inversion)     |
-| I can't decide — which path is the right path to pick?| Which path makes for the best story?                                 |
+| I'm not sure… what should I do?                       | What would I do if I weren't afraid?                                |
+| How can I make this succeed?                          | What would make this certainly fail? (Charlie Munger, inversion)    |
+| I can't decide — which path is the right path to pick?| Which path makes for the best story?                                |
 | Long time no talk, what's new?!                       | I remember you were really into ___, how has that been going?       |
 
 \- Shaan Puri ([One minute blog newsletter](https://shaan.beehiiv.com/p/one-minute-blog-13-questions-that-will-change-your-life))
