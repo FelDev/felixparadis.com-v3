@@ -12,7 +12,7 @@ previewImageFallback: "banner.jpg"
 
 {{< image_bundle_auto
   src="banner.jpg"
-  alt="A commercial center map with a big \"YOU ARE HERE\" marker."
+  alt="Un vélo chargé sur une route de terre."
 >}}
 
 À l'été 2016 j'ai traversé le Québec d'est en ouest à vélo. 
