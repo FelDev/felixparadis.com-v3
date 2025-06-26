@@ -116,27 +116,56 @@ Let no one tell you otherwise.
 
 \- Shaan Puri ([One minute blog newsletter](https://shaan.beehiiv.com/p/one-minute-blog-13-questions-that-will-change-your-life))
 
-<!-- ##Y Minimum Viable Dream
+
+## Do what makes mornings exciting and nights peaceful
+\- Shane Parrish
+
+
+
+<!-- 
+
+
+On parenting:
+## It feels like I'm running a day care center with someone I used to date.
+- A YouTube comment, somewhere 
+
+
+https://emptystrings.com/#
+
+https://www.youtube.com/watch?v=NhuIU_kXJDE
+
+
+## Wealth = Haves - Desires
+## Happiness = Reality - Expectations
+
+
+##Y Minimum Viable Dream
 \- Kyle Siemens
-https://kornelius.substack.com/p/whats-your-minimum-viable-dream -->
+https://kornelius.substack.com/p/whats-your-minimum-viable-dream 
 
-<!-- https://www.facebook.com/permalink.php?story_fbid=pfbid0i8xbp8NTJ6GGnRoPNXinmAKBLfzMTrvNhR5UcGmzZvnAbT9pWuvSWS4y99Q9nY4bl&id=100064821395990 -->
 
-<!--
+https://www.facebook.com/permalink.php?story_fbid=pfbid0i8xbp8NTJ6GGnRoPNXinmAKBLfzMTrvNhR5UcGmzZvnAbT9pWuvSWS4y99Q9nY4bl&id=100064821395990 
 
-## Le manque de sens, le temps que je passais toute la journée à travailler, je trouvais que ç'a avait pas vraiment d'utilité sociale.
-> C'est pas que je m'ennuyais [...] intellectuellement c'était intéressant.
-\- Bon Pote
+
+## Your brain will invent fake problems for you if you don't go out and find real ones
+\- https://x.com/DylanoA4/status/1902357203857616932?utm_source=shaan.beehiiv.com&utm_medium=newsletter&utm_campaign=5-tweet-tuesday-march-25-2025
+
 
 ## The main thing that I learned about conspiracy theory is that conspiracy theorists actually believe in a conspiracy because that is more comforting. The truth of the world is that it is chaotic. The truth is, that it is not the Jewish banking conspiracy or the grey aliens or the 12 foot reptiloids from another dimension that are in control. The truth is more frightening, nobody is in control. The world is rudderless.
 
 \- Alan Moore, snake wizard
 
+
 What a gift you are making to yourself by doing what you truly want to be doing, instead of deferring that moment into the future.
 \- Maxime Dupré
+
 
 Cringe Mountain
 \- le concept de Shaan Puri
 
+
+## Look at your habits of which it consists: are they the product of numberless little acts of cowardice and laziness, or of your bravery and inventive reason?
+
+\- Friedrich Nietzsche
 
 -->

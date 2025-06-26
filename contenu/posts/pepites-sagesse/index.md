@@ -63,3 +63,12 @@ problèmes qui nous passionnent.
 ## Les gens protègent ce qu'ils aiment.
 
 \- Jacques Yves Cousteau
+
+
+<!-- 
+
+## Le manque de sens, le temps que je passais toute la journée à travailler, je trouvais que ç'a avait pas vraiment d'utilité sociale.
+> C'est pas que je m'ennuyais [...] intellectuellement c'était intéressant.
+\- Bon Pote 
+
+-->
