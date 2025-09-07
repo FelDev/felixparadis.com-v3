@@ -168,4 +168,17 @@ Cringe Mountain
 
 \- Friedrich Nietzsche
 
+
+--- 
+Nothing upsets me more than poor decision-making meetings.
+
+You only need 3 questions:
+
+a) what information do we need to make the decision?
+b) do we have the information?
+c) what's the decision?
+
+Be prepared with (a) and (b). The meeting's only concern is (c).
+---
+
 -->
