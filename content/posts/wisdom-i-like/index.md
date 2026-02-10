@@ -1,7 +1,7 @@
 ---
 title: "Nuggets of Wisdom I Like"
 date: 2020-08-03
-lastmod: "2023-04-07"
+lastmod: "2026-02-10"
 slug: "nuggets-of-wisdom-i-like"
 tags: ["motivation"]
 description: "A collection of short quotes I particularly like and wish to remember."
@@ -120,14 +120,25 @@ Let no one tell you otherwise.
 ## Do what makes mornings exciting and nights peaceful
 \- Shane Parrish
 
+## Talk, loudly and frequently and in detail, about the future you want.
+You can’t manifest what you don’t share.
 
-
-<!-- 
+\- Madeline Ashby
 
 
 On parenting:
 ## It feels like I'm running a day care center with someone I used to date.
 - A YouTube comment, somewhere 
+
+## You pity the moth confusing the lamp for the moon
+yet here you are, confusing a screen for the world.
+
+\- Jay Alto
+
+<!-- 
+
+
+
 
 
 https://emptystrings.com/#

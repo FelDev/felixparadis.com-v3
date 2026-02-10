@@ -1,7 +1,7 @@
 ---
 title: "Citations que j'aime"
 date: 2021-10-30
-lastmod: "2024-10-06"
+lastmod: "2026-02-10"
 slug: "citations-que-jaime"
 tags: ["motivation"]
 description: "Une collection of de citations que j'aime et dont j'ai envie de me rappeler."
@@ -64,6 +64,8 @@ problèmes qui nous passionnent.
 
 \- Jacques Yves Cousteau
 
+## C’est normal de choisir d’aller à contre-courant de ce qui est contre-nature.
+\- Léa-Claude Yoga
 
 <!-- 
 
